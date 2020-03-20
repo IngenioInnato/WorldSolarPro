@@ -1,0 +1,83 @@
+/* @media (max-width: 575.98px) {   }
+@media (max-width: 991.98px) {  }
+@media (max-width: 1199.98px) {  }
+@media (min-width: 1200px) {  } */
+
+#S1, #S2, #S3, #S4, #S5{
+  display: flex;
+}
+/* Sección 1 SLOGAN */
+#S1{
+  justify-content: center;
+  align-items: center;
+  background: url('../img/site/portada/panel-movement.gif') center no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+#S1 > .display-1{
+  margin: 0;
+  padding: 0 2rem;
+  text-align: center;
+  text-shadow: var(--black) 5px 5px 10px;
+}
+/* ================ */
+/* Sección 2 SUCURSALES */
+#S2{
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.S2__header{
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.S2__item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 30%;
+  height: 300px;
+  background-size: cover;
+  cursor: pointer;
+  transition: transform 0.8s ease;
+}
+.S2__item > h3{
+  color: var(--white);
+  padding: 0;
+  margin: ' ';
+}
+.S2__item:hover{
+  transform: scale(1.05);
+}
+.S2__item:nth-child(2) {
+  background: url('../img/site/portada/florida.jpg') center no-repeat;
+}
+.S2__item:nth-child(3) {
+  background: url('../img/site/portada/puerto-rico.jpg') center no-repeat;
+}
+.S2__item:nth-child(4) {
+  background: url('../img/site/portada/illinois.jpg') center no-repeat;
+}
+@media (max-width: 991.98px) { 
+  #S2 {
+    flex-direction: column;
+  }
+}
+/* ==================== */
+
+/* Sección 4 Formulario */
+#S4{
+  justify-content: center;
+  align-items: center;
+  background: url('../img/site/portada/panel-solar.jpg') center no-repeat;
+  background-size: cover;
+
+}
+.S4__form{
+  flex: 0 0 80%;
+  padding: 3rem;
+}
+/* ==================== */

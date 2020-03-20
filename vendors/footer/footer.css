@@ -1,0 +1,54 @@
+footer{
+  display: grid;
+  gap: 2vw;
+  padding: 2vw;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-areas: "logo logo  logo logo"
+                       "info sigue menu mas"
+                       "politicas politicas politicas politicas"
+                       "ingenio ingenio ingenio ingenio";
+}
+.logo{
+  grid-area: logo;
+}
+.info{
+  grid-area: info;
+}
+.sigue{
+  grid-area: sigue;
+}
+.sigue > a, .menu > a{
+  width: fit-content;
+}
+.mas{
+  grid-area: mas;
+}
+.politicas{
+  grid-area: politicas;
+}
+.ingenio{
+  grid-area: ingenio;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+footer p, footer h5, footer a{
+  color: var(--white) !important;
+}
+footer input{
+  display: block;
+}
+footer input{
+  margin-bottom: 1vw;
+}
+@media (max-width: 1199.98px) { 
+  footer{
+    grid-template-columns: 1fr;
+    grid-template-areas: "logo" "info" "sigue" "menu" "mas" "politicas" "ingenio";
+    text-align: center;
+ }
+ .sigue > a, .menu > a {
+   width: 100%;
+   text-align: center;
+ }
+}

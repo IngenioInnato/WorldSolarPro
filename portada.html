@@ -13,8 +13,10 @@
   <!-- End of  Zendesk Widget script -->
 
   <!-- Vendors -->
+  
   <link rel="stylesheet" href="./vendors/identidad/identidad.css">
 
+  <link rel="stylesheet" href="./vendors/loader/loader.css">
   <link rel="stylesheet" href="./vendors/bootstrap/bootstrap.css">
   <link rel="stylesheet" href="./vendors/carousel/carousel.css">
   <link rel="stylesheet" href="./vendors/form/form.css">
@@ -59,7 +61,12 @@
 </head>
 
 <body>
-
+  <!-- Loader Sección -->
+  <section id="loader">
+    <div class="loader__icon"></div>
+    <img class="img-fluid loader__img" src="./resources/img/logo/isotipo.png" alt="Isotipo World Solar Pro">
+  </section>
+  <!-- ============== -->
   <!-- Sección 1 SLOGAN -->
   <section id="S1" class="slogan">
     <img class="S1__logo img-fluid" src="./resources/img/logo/logo-light.png" alt="Logo">
@@ -147,7 +154,8 @@
     </div>
   </section>
       <!-- ===================== -->
-      <script src="./resources/data/lang/portada.js"></script>
+    <script src="./vendors/loader/loader.js"></script>
+    <script src="./resources/data/lang/portada.js"></script>
     <script src="./vendors/form/form.js"></script>
     <script src="./vendors/carousel/carousel.js"></script>
     <script src="./vendors/to-animation/to-animation.js"></script>

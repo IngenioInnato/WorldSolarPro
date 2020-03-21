@@ -30,7 +30,7 @@ body {
 	border: none;
 	border-radius: 0;
 	background: var(--white);
-	color: var(--gray);
+	color: var(--darkgray);
 	font-weight: bold;
 	font-family: var(--font-family);
 	-webkit-appearance: none; /* for box shadows to show on iOS */
@@ -42,11 +42,11 @@ body {
 	display: inline-block;
 	padding: 0 1em;
 	width: 40%;
-	color: var(--gray);
+	color: var(--darkgray);
 	font-weight: bold;
 	font-size: 70.25%;
 	-webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: darkgrayscale;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -110,7 +110,7 @@ body {
 .input--filled .input__label--wsp::before {
   border-width: 5px;
   padding-top: 0.5vw;
-	border-color: var(--gray);
+	border-color: var(--darkgray);
 	border-top-width: 1.4vw;
 }
 .input__field--wsp:focus + .input__label--wsp .input__label-content--wsp,

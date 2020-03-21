@@ -59,6 +59,12 @@
 .control__next{
   right: 0;
 }
+@media (max-width: 767.98px) { 
+  .carousel__control{
+    width: 2rem;
+    height: 3rem;
+  }
+}
 .carousel__indicator {
   display: flex;
   justify-content: center;
@@ -82,6 +88,22 @@
   cursor: pointer;
 }
 
+.chvron-left, .chvron-rigth{
+  width: 100%;
+  height: 100%;
+}
+.chvron-left {
+  background: url('../../resources/img/icons/chevron-left-solid.svg') center no-repeat;
+}
+
+.chvron-rigth {
+  background: url('../../resources/img/icons/chevron-right-solid.svg') center no-repeat;
+}
+
+.control__prev:hover,.control__next:hover{
+  transform: scale(1.1);
+}
+
 .indicator__container > .active {
   color: var(--blue);
   opacity: 0.8;
@@ -91,4 +113,3 @@
     width: 25rem;
   }
 }
-

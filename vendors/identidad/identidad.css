@@ -145,7 +145,12 @@ html, body, div, section,span, p, blockquote, pre, a, b, u, i, center, dl, dt, d
   background-color: transparent;
   border: 1px solid var(--orange);
 }
-
+.bg-darkgray{
+  background-color: var(--darkgray);
+}
+.bg-gray{
+  background-color: var(--gray);
+}
 /* @media (max-width: 575.98px) { 
 
 }

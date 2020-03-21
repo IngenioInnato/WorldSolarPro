@@ -1,4 +1,5 @@
 /* @media (max-width: 575.98px) {   }
+@media (max-width: 767.98px) {  }
 @media (max-width: 991.98px) {  }
 @media (max-width: 1199.98px) {  }
 @media (min-width: 1200px) {  } */
@@ -8,11 +9,12 @@
 }
 /* Sección 1 SLOGAN */
 #S1{
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: url('../img/site/portada/panel-movement.gif') center no-repeat;
   background-size: cover;
-  height: 70vh;
+  padding: 2rem;
 }
 #S1 > .display-1{
   margin: 0;
@@ -25,13 +27,13 @@
 #S2{
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 2rem;
 }
 
 .S2__header{
   flex: 0 0 100%;
   flex-wrap: wrap;
   padding: 2rem;
+  background-color: var(0,0,0,0.8);
 }
 
 .S2__item{
@@ -39,18 +41,20 @@
   justify-content: center;
   align-items: center;
   flex: 0 0 30%;
-  height: 300px;
-  background-size: cover;
-  cursor: pointer;
-  transition: transform 0.8s ease;
-}
-.S2__item > h3{
-  color: var(--white);
+  height: 50vh;
   padding: 0;
-  margin: ' ';
+  transition: margin 1s ease;
 }
 .S2__item:hover{
-  transform: scale(1.05);
+  margin: -10px 0 0 0;
+  opacity: 1;
+  text-decoration: none ;
+}
+
+.S2__item  h3{
+  color: var(--white);
+  margin: 0;
+  padding: 0;
 }
 .S2__item:nth-child(2) {
   background: url('../img/site/portada/florida.jpg') center no-repeat;
@@ -65,11 +69,17 @@
   #S2 {
     flex-direction: column;
   }
+
+  .S2__item{
+    flex: 0 0 100%;
+    min-height: 40vh;
+  }
 }
 /* ==================== */
 
 /* Sección 4 Formulario */
 #S4{
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background: url('../img/site/portada/panel-solar.jpg') center no-repeat;
@@ -81,3 +91,26 @@
   padding: 3rem;
 }
 /* ==================== */
+
+/* Seccion 5 Testimonios */
+#S5{
+  flex-wrap: wrap;
+}
+.control__prev{
+  left: 2rem;
+} 
+.control__next{
+  right: 2rem;
+}
+.control__prev, .control__next {
+  transition: transform 0.5s ease;
+}
+@media (max-width: 991.98px) { 
+  .control__prev{
+    left: 0rem;
+  } 
+  .control__next{
+    right: 0rem;
+  }
+ }
+/* =========== */

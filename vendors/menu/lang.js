@@ -1,23 +1,15 @@
-var menuLang = [
+var MenuLang = [
   {
     'es': 'Inicio',
     'en': 'Home'
   },
-  // {
-  //   'es': 'Portada',
-  //   'en': 'Cover'
-  // },
   {
-    'es': 'Proceso',
-    'en': 'Process',
+    'es': 'Conócenos',
+    'en': 'know us'
   },
   {
-    'es': 'Beneficios',
-    'en': 'Benefits'
-  },
-  {
-    'es': 'Equipos',
-    'en': 'Equipment'
+    'es': 'Planes Y Servicios',
+    'en': 'Plans and Services'
   },
   {
     'es': 'Financiamientos',
@@ -26,7 +18,11 @@ var menuLang = [
   {
     'es': 'Contacto',
     'en': 'Contact'
-  }
+  },
+  {
+    'es': 'Empleo',
+    'en': 'Carrer'
+  } 
 ];
 
 // var nav = document.querySelector('nav')

@@ -40,12 +40,12 @@ const FooterLang = [
     'en': 'Home'
   },
   {
-    'es': 'Planes Y Servicios',
-    'en': 'Plans and Services'
-  },
-  {
     'es': 'Conócenos',
     'en': 'know us'
+  },
+  {
+    'es': 'Planes Y Servicios',
+    'en': 'Plans and Services'
   },
   {
     'es': 'Financiamientos',

@@ -1,0 +1,97 @@
+  /* Header */
+  .carousel--header .carousel__item {
+    border: none;
+    height: 90vh;
+  }
+  
+  .carousel--header .carousel__item:nth-child(2) {
+    background: url('../img/site/inicio/banner-header/1.jpg') center no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel--header .carousel__item:nth-child(3){
+    background: url('../img/site/inicio/banner-header/2.jpg') center no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel--header .carousel__item:nth-child(4){
+    background: url('../img/site/inicio/banner-header/3.jpg') center no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel--header .carousel__item:nth-child(5){
+    background: url('../img/site/inicio/banner-header/4.jpg') center no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel--header .carousel__item:nth-child(6){
+    background: url('../img/site/inicio/banner-header/5.jpg') center no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel--header .carousel__item:nth-child(7){
+    background: url('../img/site/inicio/banner-header/6.jpg') center no-repeat;
+    background-size: cover;
+  }
+  .carousel--header h1{
+    color:var(--white);
+    width: 80%;
+
+  }
+  @media (max-width: 991.98px) { 
+    .carousel--header .carousel__item > h1{
+      width: initial;
+    }
+  }
+  /* ====== */  
+  /* Sección 1 Carousel de Equpos */
+  #S1 .control__prev{
+    left: 2rem;
+  }
+  #S1 .control__next{
+    right: 2rem;
+  }
+  /* ============================ */
+
+/* Sección 3 Icon Text*/
+#S3, #S4 {
+  display: flex;
+}
+#S3 > div{
+  flex: 0 0 20%;
+}
+#S3 img{
+  margin-bottom: 2rem;
+  width: 7rem;
+  height: 7rem;
+}
+#S3 .iconText__item, #S3 p{
+  text-align: center;
+}
+#S3 p{
+  font-size: var(--font-h5);
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  color: var(--black);
+}
+@media (max-width: 991.98px) {  
+  #S3{
+    flex-direction: column;
+  }
+}
+/* =================== */
+
+/* Sección 4 Estadísticas */
+#S4 {
+  justify-content: center;
+}
+.S4__item {
+  flex: 0 0 23%;
+}
+
+@media (max-width: 991.98px) {  
+  #S4{
+    flex-direction: column;
+  }
+}

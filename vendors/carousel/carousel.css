@@ -100,7 +100,10 @@
   background: url('../../resources/img/icons/chevron-right-solid.svg') center no-repeat;
 }
 
-.control__prev:hover,.control__next:hover{
+.control__prev, .control__next{
+  transition: transform 0.6s ease;
+}
+.control__prev:hover, .control__next:hover{
   transform: scale(1.1);
 }
 

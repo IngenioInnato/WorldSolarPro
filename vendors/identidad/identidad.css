@@ -106,10 +106,10 @@ p, .p, a{
 }
 a {
   text-decoration: none;
+  transition: color 0.5s ease;
 }
 a:hover{
-  opacity: 0.6;
-  transition-duration: 0.5s;
+  color: darkgray !important;
 }
 html, body, div, section,span, p, blockquote, pre, a, b, u, i, center, dl, dt, dd, ol, ul, li, button {
     font-size:          var(--font-p);
@@ -141,9 +141,11 @@ html, body, div, section,span, p, blockquote, pre, a, b, u, i, center, dl, dt, d
 }
 
 .btn-wsp:hover{
+  color: var(--darkgray);
   cursor: pointer;
   background-color: transparent;
   border: 1px solid var(--orange);
+  text-decoration: none;
 }
 .bg-darkgray{
   background-color: var(--darkgray);

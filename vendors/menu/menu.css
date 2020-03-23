@@ -51,13 +51,13 @@ nav {
   height: 8vh;
 }
 .fb {
-  background: url(../img/icon/fb.svg) center no-repeat;
+  background: url(../../resources/img/icons/rrss/fb.svg) center no-repeat;
 }
 .ig {
-  background: url(../img/icon/ig.svg) center no-repeat;
+  background: url(../../resources/img/icons/rrss/ig.svg) center no-repeat;
 }
 .tw {
-  background: url(../img/icon/tw.svg) center no-repeat;
+  background: url(../../resources/img/icons/rrss/tw.svg) center no-repeat;
 }
 
 .nav-item-8{
@@ -77,10 +77,10 @@ nav {
 }
 
 .flag-en{
-  background: url(../img/icon/flag-usa-solid.svg) center no-repeat;
+  background: url(../../resources/img/icons/flag/usa.svg) center no-repeat;
 }
 .flag-es{
-  background: url(../img/icon/flag-pr-solid.svg) center no-repeat;
+  background: url(../../resources/img/icons/flag/pr.svg) center no-repeat;
 }
 .flag:hover{
   transform: scale(1.1);

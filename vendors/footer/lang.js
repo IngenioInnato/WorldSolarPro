@@ -48,16 +48,12 @@ const FooterLang = [
     'en': 'Plans and Services'
   },
   {
-    'es': 'Financiamientos',
-    'en': 'Financing'
+    'es': 'Empleo',
+    'en': 'Carrer'
   },
   {
     'es': 'Contacto',
     'en': 'Contact'
-  },
-  {
-    'es': 'Empleo',
-    'en': 'Carrer'
   },
   {
     'es': 'MÁS INFORMACIÓN',

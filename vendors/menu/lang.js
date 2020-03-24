@@ -5,24 +5,20 @@ var MenuLang = [
   },
   {
     'es': 'Conócenos',
-    'en': 'know us'
+    'en': 'Know us'
   },
   {
     'es': 'Planes Y Servicios',
     'en': 'Plans and Services'
   },
   {
-    'es': 'Financiamientos',
-    'en': 'Financing'
+    'es': 'Empleo',
+    'en': 'Carrer'
   },
   {
     'es': 'Contacto',
     'en': 'Contact'
-  },
-  {
-    'es': 'Empleo',
-    'en': 'Carrer'
-  } 
+  }
 ];
 
 // var nav = document.querySelector('nav')

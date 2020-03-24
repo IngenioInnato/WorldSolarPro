@@ -139,8 +139,7 @@ else{
   html.setAttribute('lang', 'en');
 }
 
-let 
-btnFlag = document.querySelector('#flag');
+let btnFlag = document.querySelector('#flag');
 btnFlag.addEventListener('click',function(){   
   var status = btnFlag.dataset.lang;
   btn = btnFlag.querySelector('.flag')

@@ -26,8 +26,8 @@ addLang(TitleText);
 // Seccion 1 Slogan
 const S1Text = [
   {
-    'es': 'LET THE SUN PAY THE BILL',
-    'en': 'LET THE SUN PAY THE BILL',
+    'es': 'LET THE SUN PAY YOUR BILLS',
+    'en': 'LET THE SUN PAY YOUR BILLS',
   }
 ];
 addLang(S1Text);

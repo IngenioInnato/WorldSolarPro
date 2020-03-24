@@ -43,8 +43,7 @@ var observerSection = new IntersectionObserver(entries => {
 });
 observerSection.observe(header);
 
-observerSection.observe(header);
-var observeFooter = new IntersectionObserver(entries =>{
+var observeFooter = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     (entry.isIntersecting)? navigation.style.zIndex = -1 : navigation.style.zIndex = 9999;
   });

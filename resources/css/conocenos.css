@@ -1,0 +1,103 @@
+  #S1, #S2, #S3, #S4, #S5, #S6{
+    display: flex;
+  }  
+  /* Header */
+  .carousel--header .carousel__item {
+    border: none;
+    height: 90vh;
+  }
+  
+  .carousel--header .carousel__item:nth-child(2) {
+    background: url('../img/site/conocenos/oficinas/illinois-banner.jpg') center no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel--header .carousel__item:nth-child(3){
+    background: url('../img/site/conocenos/oficinas/orlando-banner.jpg') center no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel--header .carousel__item:nth-child(4){
+    background: url('../img/site/conocenos/oficinas/puerto-rico-banner.jpg') center no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel--header h1{
+    color:var(--white);
+    width: 80%;
+
+  }
+  @media (max-width: 991.98px) { 
+    .carousel--header .carousel__item > h1{
+      width: initial;
+    }
+  }
+  /* ====== */
+
+  /* Sección 2 Quienes somos */
+#S2 {
+  justify-content: space-around;
+  align-items: center;
+}
+#S2 > div{
+  flex: 0 0 45%;
+}
+#S2 .carousel__item{
+  height: 100%;
+}
+.carousel--quienes-somos .control__next{
+  right: 52.5%;
+}
+.carousel--quienes-somos .control__prev{
+  left: auto;
+}
+@media (max-width: 991.98px) {  
+  .carousel--quienes-somos .control__next{
+    right: 0;
+  }
+  #S2{
+    flex-direction: column;
+  }
+  #S2 > div:nth-child(1){
+    margin-bottom: 2rem;
+  }
+}
+/* ======================= */
+#S3 {
+  justify-content: center;
+}
+.S3__item, .S4__item, .S5__item, .S6__item{
+  flex: 0 0 45%;
+  align-self: center;
+  padding: 2rem;
+}
+.S3__item > img, .S4__item > img, .S5__item > img {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 991.98px) {  
+  #S3,#S4,#S5,#S6 {
+    flex-direction: column;
+  }
+}
+
+/* Sección 4 */
+.carousel--aliados .control__prev{
+  left: 47.8%;
+}
+
+.carousel--aliados .control__next{
+  right: 12.8%;
+}
+.carousel--aliados .carousel__item > img{
+  max-width: 100%;
+}
+
+@media (max-width: 991.98px) { 
+  .carousel--aliados .control__prev{
+    left: 2rem;
+  }
+  
+  .carousel--aliados .control__next{
+    right: 2rem;
+  }
+ }

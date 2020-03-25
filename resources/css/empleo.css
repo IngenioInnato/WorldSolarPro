@@ -39,6 +39,9 @@ header .carousel__item:nth-child(5){
 /* ====== */
 
 /* Sección 2 Formulrio */
+.text-shadow{
+  text-shadow: 10px 10px 10px var(--black);
+}
 #S2{
   flex-wrap: wrap;
   justify-content: center;
@@ -49,4 +52,18 @@ header .carousel__item:nth-child(5){
 .S2__form{
   flex: 0 0 80%;
   padding: 3rem;
+}
+/* Sección 3 CV */
+#S3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.S3__item{
+  flex: 0 0 45%;
+}
+
+.S3__item:nth-child(2){
+  text-align: center;
 }

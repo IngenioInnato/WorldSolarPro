@@ -60,6 +60,10 @@ addLang(S2Text);
 // Sección 3 Información
 const S3Text = [
   {
+    'es': 'Siempre nos encontramos evaluando personal nuevo para nuestra empresa, la cual ya se encuentra en los mercados de Puerto Rico y en los estados de Florida e Illinois. Por tal razón, si reside en cualquiera de estas jurisdicciones o en las cercanías de, por favor someta su resume actualizado con todas sus experiencias de trabajo, incluyendo las certificaciones relacionadas a la industria solar, como por ejemplo de electricista, eficiencia energética, ingeniería, diseño y de instalador solar.',
+    'en': 'We are always considering new personnel for our company, which is already operating in the markets of Puerto Rico and the states of Florida and Illinois. For this reason, if you reside within or nearby any of these jurisdictions, please submit your updated resume with all of your past job experiences, including solar industry-related certifications such as electrician, energy efficiency, engineering, design and solar installer for example.'
+  },
+  {
     'es': 'Envia tu CV a:',
     'en': 'Send us your resume to:'
   },

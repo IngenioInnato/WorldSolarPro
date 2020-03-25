@@ -22,9 +22,9 @@ var menuLogo = navigation.querySelector('.nav-item-1 img');
 var menuFlag = navigation.querySelector('.nav-item-8 .flag');
 var footer = document.querySelector('footer');
 var options = {
-  root: document.querySelector('#scrollArea'),
-  rootMargin: '-100px',
-  threshold: 1.0
+  // root: document.querySelector('#scrollArea'),
+  rootMargin: '-10px',
+  // threshold: 1.0
 }
 var observerSection = new IntersectionObserver(entries => {
   entries.forEach(entry => {
@@ -40,12 +40,16 @@ var observerSection = new IntersectionObserver(entries => {
       }
     }
   })
-});
+},options);
 observerSection.observe(header);
-
+optionsFooter = [
+  {
+    threshold: 1.0
+  }
+]
 var observeFooter = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     (entry.isIntersecting)? navigation.style.zIndex = -1 : navigation.style.zIndex = 9999;
   });
-});
+},{ threshold:0.5});
 observeFooter.observe(footer);

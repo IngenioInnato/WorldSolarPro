@@ -25,16 +25,16 @@ addLang(MenuLang);
 // Header
 const HeaderText = [
   {
-    'es': 'LET THE SUN PAY YOUR BILL',
-    'en': 'LET THE SUN PAY YOUR BILL'
+    'es': 'LET THE SUN PAY YOUR BILLS',
+    'en': 'LET THE SUN PAY YOUR BILLS'
   }
 ];
 addLang(HeaderText);
 // Sección dos formulario
 const S2Text = [
   {
-    'es': '¡Forma Parte de Nuestro Equipo!',
-    'en': 'Join Our Team !'
+    'es': '¡Contáctanos!',
+    'en': 'Contact us!'
   },
   {
     'es': 'Nombre',

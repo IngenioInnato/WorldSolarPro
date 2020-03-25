@@ -99,7 +99,7 @@ h6, .h6{
     text-transform:     uppercase;
 }
 p, .p, a{
-  font-size: var(--font-h6);
+  font-size: var(--font-h5);
   font-weight: bold;
   color: var(--darkgray);
   padding-bottom:     calc(var(--font-h5) + 0.2vw);

@@ -1,0 +1,46 @@
+#S1, #S2{
+  display: flex;
+}
+/* HEADER */
+header .carousel__item:nth-child(2){
+  max-width: 100%;
+  max-height: 100%;
+  background: url('../img/site/empleo/equipo/francisco.jpg') center no-repeat;
+  background-size: contain;
+  height: 70vh;
+}
+header .carousel__item:nth-child(3){
+  max-width: 100%;
+  max-height: 100%;
+  background: url('../img/site/empleo/equipo/1.jpg') center no-repeat;
+  background-size: contain;
+  height: 70vh;
+}
+header .carousel__item:nth-child(4){
+  max-width: 100%;
+  max-height: 100%;
+  background: url('../img/site/empleo/equipo/norma.jpg') center no-repeat;
+  background-size: contain;
+  height: 70vh;
+}
+header .carousel__item:nth-child(5){
+  max-width: 100%;
+  max-height: 100%;
+  background: url('../img/site/empleo/equipo/2.jpg') center no-repeat;
+  background-size: contain;
+  height: 70vh;
+}
+/* ====== */
+
+/* Sección 2 Formulrio */
+#S2{
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: url('../img/site/portada/panel-solar.jpg') center no-repeat;
+  background-size: cover;
+}
+.S2__form{
+  flex: 0 0 80%;
+  padding: 3rem;
+}

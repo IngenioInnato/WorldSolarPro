@@ -154,11 +154,8 @@ html, body, div, section,span, blockquote, pre, a, b, u, i, center, dl, dt, dd, 
 .bg-gray{
   background-color: var(--gray);
 }
-/* @media (max-width: 575.98px) { 
-
-}
-@media (max-width: 991.98px) { 
-
+/* @media (max-width: 575.98px) { }
+@media (max-width: 991.98px) { }
 @media (max-width: 1199.98px) {  }
 @media (min-width: 1200S2x) {  } */
 

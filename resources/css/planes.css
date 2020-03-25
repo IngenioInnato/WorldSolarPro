@@ -1,0 +1,64 @@
+header, #S1, #S2, #S3, #S4, #S5 {
+  display: flex;
+}
+@media (max-width: 991.98px) { 
+  header,#S1, #S2, #S3, #S4 {
+    flex-direction: column;
+  }
+}
+/* HEADER */
+header{
+  justify-content: space-around;
+  align-items: center;
+}
+.header__item:nth-child(2){
+  display: grid;
+  border: var(--darkgray);
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+}
+
+.header__item{
+  flex: 0 0 40%;
+}
+.header__item > img {
+  border: solid 1px var(--darkgray);
+  max-width: 100%;
+}
+/* ====== */
+/* Sección 1 Nuestros Productos */
+#S1{
+  background: url('../img/site/planes/banner-section-1.jpg') center no-repeat;
+  background-size: cover;
+}
+#S1 > div > h3{
+  color: var(--white);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+/* ============================ */
+/* Sección 2 Financiamiento */
+#S2, #S3{
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/* ======================== */
+#S4{
+  justify-content: center;
+}
+.S4__item{
+  flex: 0 0 40%;
+}
+#S5{
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#S5 > img{
+  width: auto;
+}
+#S5 > a {
+  width: auto;
+  height: auto;
+} 

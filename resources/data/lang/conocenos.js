@@ -55,7 +55,7 @@ addLang(S2Text);
 // Sección 3 Proyecto Residenciales
 const S3Text = [
   {
-    'es': 'Sobre 2,500 proyectos residenciales y comerciales certificados y completados entre los diversos mercados', 
+    'es': 'Sobre 2,500 proyectos residenciales y comerciales certificados y completados entre los diversos mercados.', 
     'en': 'Over 2,500 certified and completed residential and commercial projects in very diverse markets.'
   }
 ];

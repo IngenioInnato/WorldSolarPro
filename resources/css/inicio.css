@@ -36,7 +36,7 @@
   .carousel--header h1{
     color:var(--white);
     width: 80%;
-
+    text-shadow: 5px 5px 5px var(--black);
   }
   @media (max-width: 991.98px) { 
     .carousel--header .carousel__item > h1{
@@ -85,7 +85,10 @@
 /* Sección 4 Estadísticas */
 #S4 {
   justify-content: center;
+  background: url('../img/site/inicio/banner-card.jpg') center no-repeat;
+  background-size: cover;
 }
+
 .S4__item {
   flex: 0 0 23%;
 }

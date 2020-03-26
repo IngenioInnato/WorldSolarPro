@@ -13,8 +13,9 @@
   }
   
   .carousel--header .carousel__item:nth-child(3){
-    background: url('../img/site/conocenos/oficinas/orlando-banner.jpg') center no-repeat;
+    background: url('../img/site/conocenos/oficinas/orlando-banner.jpg')  no-repeat;
     background-size: cover;
+    background-position-y: 20%;
   }
   
   .carousel--header .carousel__item:nth-child(4){
@@ -25,7 +26,7 @@
   .carousel--header h1{
     color:var(--white);
     width: 80%;
-
+    text-shadow: 5px 5px 5px var(--black);
   }
   @media (max-width: 991.98px) { 
     .carousel--header .carousel__item > h1{

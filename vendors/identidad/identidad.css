@@ -53,6 +53,7 @@ html, body{
 h1, .h1{
     font-size:          var(--font-h1);
     color:              var(--black);
+    font-weight:        bold !important;
     line-height:        calc(var(--font-h1) + 0.2vw);
     padding-bottom:     calc(var(--font-h1) + 0.2vw);
     font-weight:        bold;
@@ -61,6 +62,7 @@ h1, .h1{
 h2, .h2{
     font-size:          var(--font-h2);
     color:              var(--black);
+    font-weight:        bold !important;
     padding-bottom:     calc(var(--font-h2) + 0.2vw);
     line-height:        calc(var(--font-h2) + 0.2vw);
     font-weight:        bold;
@@ -69,6 +71,7 @@ h2, .h2{
 h3, .h3{ 
     font-size:          var(--font-h3);
     color:              var(--black);
+    font-weight:        bold !important;
     padding-bottom:     calc(var(--font-h3) + 0.2vw);
     line-height:        calc(var(--font-h3) + 0.2vw);
     font-weight:        bold;
@@ -77,6 +80,7 @@ h3, .h3{
 h4, .h4{ 
     font-size:          var(--font-h4);
     color:              var(--black);
+    font-weight:        bold !important;
     padding-bottom:     calc(var(--font-h4) + 0.2vw);
     line-height:        calc(var(--font-h4) + 0.2vw);
     font-weight:        bold;
@@ -85,6 +89,7 @@ h4, .h4{
 h5, .h5{ 
     font-size:          var(--font-h5);
     color:              var(--black);
+    font-weight:        bold !important;
     padding-bottom:     calc(var(--font-h5) + 0.2vw);
     line-height:        calc(var(--font-h5) + 0.2vw);
     font-weight:        bold;
@@ -93,6 +98,7 @@ h5, .h5{
 h6, .h6{ 
     font-size:          var(--font-h6);
     color:              var(--black);
+    font-weight:        bold !important;
     padding-bottom:     calc(var(--font-h6) + 0.2vw);
     line-height:        calc(var(--font-h6) + 0.2vw);
     font-weight:        bold;
@@ -172,4 +178,8 @@ html, body, div, section,span, blockquote, pre, a, b, u, i, center, dl, dt, dd, 
 *::-webkit-scrollbar-thumb {
   background: transparent;
   border: none;
+}
+
+.text-shadow{
+  text-shadow: 5px 5px 5px var(--black) !important;
 }

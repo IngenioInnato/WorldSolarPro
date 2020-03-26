@@ -1,8 +1,10 @@
-.nav-item-2 > a{
-  color: var(--black);
+header{
+  background: url(../img/site/planes/banner-header.jpg) top no-repeat;
+  background-size: cover;
+  height: 90vh;
 }
-.flag {
-  filter: invert(100);
+header h1{
+  text-shadow: 5px 5px 5px var(--black); 
 }
 header, #S1, #S2, #S3, #S4, #S5 {
   display: flex;
@@ -39,7 +41,7 @@ header{
 }
 #S1 > div > h3{
   color: var(--white);
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 /* ============================ */
 /* Sección 2 Financiamiento */
@@ -53,7 +55,16 @@ header{
   justify-content: center;
 }
 .S4__item{
-  flex: 0 0 40%;
+  flex: 0 0 50%;
+  height: 50vh;
+}
+.panel-solar-1{
+  background: url(../img/site/planes/panel-solar/1.jpg) center no-repeat;
+  background-size: cover;
+}
+.panel-solar-2{
+  background: url(../img/site/planes/panel-solar/2.jpg) center no-repeat;
+  background-size: cover;
 }
 #S5{
   justify-content: center;

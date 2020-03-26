@@ -16,7 +16,7 @@
   background-size: cover;
   padding: 2rem;
 }
-#S1 > .display-1{
+#S1 > .display-3{
   margin: 0;
   padding: 0 2rem;
   text-align: center;
@@ -85,9 +85,16 @@
   background: url('../img/site/portada/panel-solar.jpg') center no-repeat;
   background-size: cover;
 }
+#S4 h1{
+  text-shadow: 5px 5px 5px var(--black);
+}
 .S4__form{
   flex: 0 0 80%;
   padding: 3rem;
+}
+#S4 .btn-wsp:hover{
+  color: var(--white) !important;
+  text-shadow: 5px 5px 5px var(--black);
 }
 /* ==================== */
 

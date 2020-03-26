@@ -57,7 +57,7 @@ addLang(S2Text);
 const S3Text = [
   {
     'es': '¡Estás a punto de tomar la mejor decisión!',
-    'en': 'You are about to make best decision!'
+    'en': 'You are about to make best decision ever!'
   },
   {
     'es': '¡Ahorre dinero, salve el planeta!',
@@ -74,7 +74,7 @@ const S4Text = [
   },
   {
     'es': 'Nombre y Apellido*',
-    'en': 'Name and Last name*'
+    'en': 'Name and last name*'
   },
   {
     'es': 'Email*',
@@ -82,7 +82,7 @@ const S4Text = [
   },
   {
     'es': 'Número telefónico(con código de área)*',
-    'en': 'Telephone number (with area code)'
+    'en': 'Telephone number (with area code)*'
   },
   {
     'es': 'Dirección*',
@@ -142,8 +142,10 @@ var textItem = document.querySelectorAll('[name="text"]');
 
 
 if(userLang == 'es'){
-  textItem.forEach((el, i) => el.innerHTML = lang[i].es);
-  html.setAttribute('lang', 'es');
+  // textItem.forEach((el, i) => el.innerHTML = lang[i].es);
+  // html.setAttribute('lang', 'es');
+  textItem.forEach((el, i) => el.innerHTML = lang[i].en);
+  html.setAttribute('lang', 'en');
 }
 else if (userLang == 'en'){
   textItem.forEach((el, i) => el.innerHTML = lang[i].en);

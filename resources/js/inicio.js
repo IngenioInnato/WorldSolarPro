@@ -12,6 +12,9 @@ var counterValue = [2500, 1000, 10, 3];
 var observeS4 = new IntersectionObserver(entries => {
   entries.forEach((entry, i) => {
     if(entry.isIntersecting){
+      links.forEach(el => el.style.color = 'var(--white)'); 
+      menuLogo.src = './resources/img/logo/logo-light.png';
+      menuFlag.style.filter = 'invert(0)';
       for(var i = 1; i <= 4; i++){
         var counter = `.counter-${i}`;
         var setNumbers;
@@ -19,7 +22,11 @@ var observeS4 = new IntersectionObserver(entries => {
         (i == 2) ?  setNumbers = new Counter(counter, 500, counterValue[i - 1], '1000'):
         setNumbers = new Counter(counter, 0, counterValue[i - 1], '1000');
       }
+    } else{
+      links.forEach(el => el.style.color = 'var(--black)');
+      menuLogo.src = './resources/img/logo/logo-dark.png';
+      menuFlag.style.filter = 'invert(1)';
     }
   });
-})
+}, {rootMargin: '-10px'})
 observeS4.observe(S4);

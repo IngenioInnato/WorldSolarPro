@@ -5,7 +5,7 @@ var MenuLang = [
   },
   {
     'es': 'Conócenos',
-    'en': 'Know us'
+    'en': 'About us'
   },
   {
     'es': 'Planes Y Servicios',
@@ -13,7 +13,7 @@ var MenuLang = [
   },
   {
     'es': 'Empleo',
-    'en': 'Carrer'
+    'en': 'Career'
   },
   {
     'es': 'Contacto',

@@ -33,10 +33,12 @@ var observerSection = new IntersectionObserver(entries => {
         links.forEach(el => el.style.color = 'var(--white)'); 
         menuLogo.src = './resources/img/logo/logo-light.png';
         menuFlag.style.filter = 'invert(0)';
+        navigation.style.background = 'transparent'
       } else {
         links.forEach(el => el.style.color = 'var(--black)');
         menuLogo.src = './resources/img/logo/logo-dark.png';
         menuFlag.style.filter = 'invert(1)';
+        navigation.style.background = 'var(--white)'
       }
     }
   })

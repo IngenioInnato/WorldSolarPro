@@ -116,7 +116,7 @@ a {
   transition: color 0.5s ease;
 }
 a:hover{
-  color: var(--darkgray) !important;
+  color: var(--orange);
 }
 html, body, div, section,span, blockquote, pre, a, b, u, i, center, dl, dt, dd, ol, ul, li, button {
     font-size:          var(--font-p);
@@ -182,4 +182,10 @@ html, body, div, section,span, blockquote, pre, a, b, u, i, center, dl, dt, dd, 
 
 .text-shadow{
   text-shadow: 5px 5px 5px var(--black) !important;
+}
+
+.Arrange-sizeFit {
+  font-family: 'RoosW01Display', serif !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
 }

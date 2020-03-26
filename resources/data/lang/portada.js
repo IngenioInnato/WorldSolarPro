@@ -70,7 +70,7 @@ addLang(S3Text);
 const S4Text = [
   {
     'es': '¿Cómo saber si usted cualifica?',
-    'en': 'How do you know if you qualify?'
+    'en': 'How do you know if you qualify for the solar tax credit?'
   },
   {
     'es': 'Nombre y Apellido*',

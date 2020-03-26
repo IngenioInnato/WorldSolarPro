@@ -21,7 +21,36 @@ addLang(TitleText);
 
 // Menu
 addLang(MenuLang);
+// Header
+const HeaderText = [
+  {
+    'es': 'Fundador y CEO',
+    'en': 'Founder and CEO'
+  },
+  {
+    'es': 'Gerente de Operaciones',
+    'en': 'Operational Manager'
+  },
+  {
+    'es': 'Directora de Ventas de Florida, US',
+    'en': 'Florida Sales Director'
+  },
+  {
+    'es': 'DIRECTOR DE VENTAS de Florida, US',
+    'en': 'Florida Sales Director'
+  },
+  {
+    'es': 'DIRECTORA DE VENTAS de ILLINOIS, US',
+    'en': 'ILLINOIS Sales Director'
+  },
+  {
+    'es': 'DIRECTOR DE VENTAS de ILLINOIS, US',
+    'en': 'Illinois Sales Director'
+  },
+];
+addLang(HeaderText)
 
+// Sección 2
 const S1Text = [
   {
     'es': 'Siempre nos encontramos evaluando personal nuevo para nuestra empresa, la cual ya se encuentra en los mercados de Puerto Rico y en los estados de Florida e Illinois. Por tal razón, si reside en cualquiera de estas jurisdicciones o en las cercanías de, por favor someta su resume actualizado con todas sus experiencias de trabajo, incluyendo las certificaciones relacionadas a la industria solar, como por ejemplo de electricista, eficiencia energética, ingeniería, diseño y de instalador solar.',
@@ -79,6 +108,10 @@ const S3Text = [
     'es': 'Puerto Rico: reclutamiento@worldsolarpro.com',
     'en': 'Puerto Rico: reclutamiento@worldsolarpro.com'
   },
+  {
+    'es': 'Thank you so much and we will be contacting you soon!',
+    'en': 'Thank you so much and we will be contacting you soon!'
+  }
 ];
 addLang(S3Text);
 

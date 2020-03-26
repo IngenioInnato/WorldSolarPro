@@ -72,7 +72,7 @@
   align-self: center;
   padding: 2rem;
 }
-.S3__item > img, .S4__item > img, .S5__item > img {
+.S3__item > img, .S4__item > img, .S5__item > img, .S6__item > img {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 991.98px) {  

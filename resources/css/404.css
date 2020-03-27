@@ -1,0 +1,14 @@
+nav {
+  background: var(--white);
+}
+
+.nav-item-2>a {
+  color: var(--black);
+}
+
+header {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}

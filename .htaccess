@@ -254,3 +254,11 @@ RewriteCond %{HTTP_USER_AGENT} ^Zeus.*Webster [OR]
 RewriteCond %{HTTP_USER_AGENT} ^Zeus
 RewriteRule ^.* - [F,L]
 # END Denegar acceso a robots maliciosos, extractores de webs y navegadores offline
+
+Redirect /home /inicio
+Redirect /about-us /conocenos
+Redirect /plans-and-services /planes
+Redirect /career /empleo
+Redirect /contact /contacto
+Redirect /privacy-policy /politicas
+Redirect /cover /

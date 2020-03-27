@@ -13,8 +13,8 @@ if (userLang.indexOf('-') !== -1) userLang = userLang.split('-')[0];
 if (userLang.indexOf('_') !== -1) userLang = userLang.split('_')[0];
 // ============================
 const TitleText = [{
-  'es': 'EMPLEO | WORLD SOLAR PRO',
-  'en': 'CARRER | WORLD SOLAR PRO'
+  'es': 'PÁGINA NO ENCONTRADA | WORLD SOLAR PRO',
+  'en': 'PAGE NOT FOUND | WORLD SOLAR PRO'
 }];
 // Title
 addLang(TitleText);
@@ -22,9 +22,15 @@ addLang(TitleText);
 // Menu
 addLang(MenuLang);
 // Header
-
-
-// Footer
+var HeadeText = [{
+  'es': 'La página que busca no existe o se ha configurado su dirección.',
+  'en': 'The page you are looking for does not exist or its address has been configured.'
+}, {
+  'es': 'Ir al inicio',
+  'en': 'Go to home'
+}]
+addLang(HeadeText)
+  // Footer
 addLang(FooterLang);
 var html = document.querySelector('html');
 var textItem = document.querySelectorAll('[name="text"]');

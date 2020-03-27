@@ -1,14 +1,19 @@
-nav {
-  background: var(--white);
-}
-
-.nav-item-2>a {
-  color: var(--black);
-}
-
 header {
   display: flex;
   height: 100vh;
   justify-content: center;
   align-items: center;
+  background: url('../img/site/contacto/banner-contacto.jpg');
+  background-size: cover;
+  color: var(--white) !important;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.btn-wsp {
+  width: inherit;
+}
+
+h4 {
+  color: var(--white);
 }

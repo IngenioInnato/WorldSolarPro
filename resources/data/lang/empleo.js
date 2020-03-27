@@ -1,65 +1,61 @@
 var lang = [];
 // Añadir idioma
-function addLang(el){
-  el.forEach(elm => lang.push(elm)); return true;
+function addLang(el) {
+  el.forEach(elm => lang.push(elm));
+  return true;
 }
 // =============
 // Obtener idioma del navegador
-let idioma = window.navigator.languages ? window.navigator.languages[0] : null;idioma = idioma || window.navigator.language || window.navigator.browserLanguage || window.navigator.userLanguage;
+let idioma = window.navigator.languages ? window.navigator.languages[0] : null;
+idioma = idioma || window.navigator.language || window.navigator.browserLanguage || window.navigator.userLanguage;
 let userLang = idioma;
 if (userLang.indexOf('-') !== -1) userLang = userLang.split('-')[0];
 if (userLang.indexOf('_') !== -1) userLang = userLang.split('_')[0];
 // ============================
-const TitleText = [
-  {
-    'es': 'EMPLEO | WORLD SOLAR PRO',
-    'en': 'CARRER | WORLD SOLAR PRO'
-  }
-]; 
+const TitleText = [{
+  'es': 'EMPLEO | WORLD SOLAR PRO',
+  'en': 'CARRER | WORLD SOLAR PRO'
+}];
 // Title
 addLang(TitleText);
 
 // Menu
 addLang(MenuLang);
 // Header
-const HeaderText = [
-  {
-    'es': 'Fundador y CEO',
+const HeaderText = [{
+    'es': 'Fundador <br> y CEO',
     'en': 'Founder and CEO'
   },
   {
-    'es': 'Gerente de Operaciones',
+    'es': 'Gerente <br> de Operaciones',
     'en': 'Operational Manager'
   },
   {
-    'es': 'Directora de Ventas de Florida, US',
+    'es': 'Directora de Ventas <br> de Florida, US',
     'en': 'Florida Sales Director'
   },
   {
-    'es': 'DIRECTOR DE VENTAS de Florida, US',
+    'es': 'DIRECTOR DE VENTAS <br> de Florida, US',
     'en': 'Florida Sales Director'
   },
   {
-    'es': 'DIRECTORA DE VENTAS de ILLINOIS, US',
+    'es': 'DIRECTORA DE VENTAS <br> de ILLINOIS, US',
     'en': 'ILLINOIS Sales Director'
   },
   {
-    'es': 'DIRECTOR DE VENTAS de ILLINOIS, US',
+    'es': 'DIRECTOR DE VENTAS <br> de ILLINOIS, US',
     'en': 'Illinois Sales Director'
   },
 ];
 addLang(HeaderText)
 
 // Sección 2
-const S1Text = [
-  {
-    'es': 'Siempre nos encontramos evaluando personal nuevo para nuestra empresa, la cual ya se encuentra en los mercados de Puerto Rico y en los estados de Florida e Illinois. Por tal razón, si reside en cualquiera de estas jurisdicciones o en las cercanías de, por favor someta su resume actualizado con todas sus experiencias de trabajo, incluyendo las certificaciones relacionadas a la industria solar, como por ejemplo de electricista, eficiencia energética, ingeniería, diseño y de instalador solar.',
-    'en': 'We are always considering new personnel for our company, which is already operating in the markets of Puerto Rico and the states of Florida and Illinois. For this reason, if you reside within or nearby any of these jurisdictions, please submit your updated resume with all of your past job experiences, including solar industry-related certifications such as electrician, energy efficiency, engineering, design and solar installer for example.'
-  }
-];
+const S1Text = [{
+  'es': 'Siempre nos encontramos evaluando personal nuevo para nuestra empresa, la cual ya se encuentra en los mercados de Puerto Rico y en los estados de Florida e Illinois. Por tal razón, si reside en cualquiera de estas jurisdicciones o en las cercanías de, por favor someta su resume actualizado con todas sus experiencias de trabajo, incluyendo las certificaciones relacionadas a la industria solar, como por ejemplo de electricista, eficiencia energética, ingeniería, diseño y de instalador solar.',
+  'en': 'We are always considering new personnel for our company, which is already operating in the markets of Puerto Rico and the states of Florida and Illinois. For this reason, if you reside within or nearby any of these jurisdictions, please submit your updated resume with all of your past job experiences, including solar industry-related certifications such as electrician, energy efficiency, engineering, design and solar installer for example.'
+}];
 
-const S2Text = [
-  {
+const S2Text = [{
     'es': '¡Forma Parte de Nuestro Equipo!',
     'en': 'Join Our Team !'
   },
@@ -87,8 +83,7 @@ const S2Text = [
 addLang(S2Text);
 
 // Sección 3 Información
-const S3Text = [
-  {
+const S3Text = [{
     'es': 'Siempre nos encontramos evaluando personal nuevo para nuestra empresa, la cual ya se encuentra en los mercados de Puerto Rico y en los estados de Florida e Illinois. Por tal razón, si reside en cualquiera de estas jurisdicciones o en las cercanías de, por favor someta su resume actualizado con todas sus experiencias de trabajo, incluyendo las certificaciones relacionadas a la industria solar, como por ejemplo de electricista, eficiencia energética, ingeniería, diseño y de instalador solar.',
     'en': 'We are always considering new personnel for our company, which is already operating in the markets of Puerto Rico and the states of Florida and Illinois. For this reason, if you reside within or nearby any of these jurisdictions, please submit your updated resume with all of your past job experiences, including solar industry-related certifications such as electrician, energy efficiency, engineering, design and solar installer for example.'
   },
@@ -119,31 +114,28 @@ addLang(FooterLang);
 var html = document.querySelector('html');
 var textItem = document.querySelectorAll('[name="text"]');
 
-if(userLang == 'es'){
+if (userLang == 'es') {
   textItem.forEach((el, i) => el.innerHTML = lang[i].es);
   html.setAttribute('lang', 'es');
-}
-else if (userLang == 'en'){
+} else if (userLang == 'en') {
   textItem.forEach((el, i) => el.innerHTML = lang[i].en);
   html.setAttribute('lang', 'en');
-}
-
-else{ 
+} else {
   textItem.forEach((el, i) => el.innerHTML = lang[i].en);
   html.setAttribute('lang', 'en');
 }
 
 let btnFlag = document.querySelector('#flag');
-btnFlag.addEventListener('click',function(){   
+btnFlag.addEventListener('click', function() {
   var status = btnFlag.dataset.lang;
   btn = btnFlag.querySelector('.flag')
-  if(status === 'es'){                                    
+  if (status === 'es') {
     textItem.forEach((el, i) => el.innerHTML = lang[i].en);
     btnFlag.dataset.lang = 'en';
     btn.classList.replace('flag-en', 'flag-es');
     html.setAttribute('lang', 'en');
 
-  } else{
+  } else {
     textItem.forEach((el, i) => el.innerHTML = lang[i].es);
     btnFlag.dataset.lang = 'es';
     btn.classList.replace('flag-es', 'flag-en');

@@ -5,10 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <!-- Start of  Zendesk Widget script -->
-  <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=850ecffa-f90a-4ea3-9f38-f49c8b2c25c8"
-    type="text/javascript"> </script>
+  <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=850ecffa-f90a-4ea3-9f38-f49c8b2c25c8" type="text/javascript">
+  </script>
   <script>
-    window.zESettings = { webWidget: { color: { launcherText: '#FFF', header: '#FFF' } } };
+    window.zESettings = {
+      webWidget: {
+        color: {
+          launcherText: '#FFF',
+          header: '#FFF'
+        }
+      }
+    };
   </script>
   <!-- End of  Zendesk Widget script -->
 
@@ -17,6 +24,7 @@
   <link rel="stylesheet" href="./vendors/identidad/identidad.css">
 
   <link rel="stylesheet" href="./vendors/loader/loader.css">
+  <link rel="stylesheet" href="./vendors/modal/modal.css">
   <link rel="stylesheet" href="./vendors/bootstrap/bootstrap.css">
   <link rel="stylesheet" href="./vendors/carousel/carousel.css">
   <link rel="stylesheet" href="./vendors/form/form.css">
@@ -30,8 +38,7 @@
   <link rel="shortcut icon" href="./resources/img/logo/isotipo.png" type="image/png">
   <meta name="robots" content="index, follow">
   <meta http-equiv="X-UA-Compatible" content="IE=7">
-  <meta name="description"
-    content="Somos una empresa fundada por ingenieros eléctricos y auditores energéticos hace más de una década atrás con el fin de proveer los sistemas solares.">
+  <meta name="description" content="Somos una empresa fundada por ingenieros eléctricos y auditores energéticos hace más de una década atrás con el fin de proveer los sistemas solares.">
   <meta name="keywords" content="World Solar Pro, Paneles Solares, Placas Solares, Energía Solar">
   <meta name="author" content="World Solar Pro">
   <meta name="copyright" content="World Solar Pro" />
@@ -39,8 +46,7 @@
 
   <!--  Essential META Tags -->
   <meta property="og:title" content="World Solar Pro">
-  <meta property="og:description"
-    content="Somos es una empresa fundada por ingenieros eléctricos y auditores energéticos hace más de una década atrás con el fin de proveer los sistemas solares.">
+  <meta property="og:description" content="Somos es una empresa fundada por ingenieros eléctricos y auditores energéticos hace más de una década atrás con el fin de proveer los sistemas solares.">
   <meta property="og:image" content="./resources/img/logo/logo-meta.png">
   <!--  Non-Essential, But Recommended -->
   <meta property="og:site_name" content="World Solar Pro">
@@ -48,19 +54,28 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://worldsolarpro.com">
   <meta property="og:title" content="EMPLEO | WORLD SOLAR PRO">
-  <meta property="og:description"
-    content="Somos una empresa fundada por ingenieros eléctricos y auditores energéticos hace más de una década atrás con el fin de proveer los sistemas solares.">
+  <meta property="og:description" content="Somos una empresa fundada por ingenieros eléctricos y auditores energéticos hace más de una década atrás con el fin de proveer los sistemas solares.">
   <meta property="og:image" content="./resources/img/logo/logo-meta.png">
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://worldsolarpro.com">
   <meta property="twitter:title" content="EMPLEO | WORLD SOLAR PRO">
-  <meta property="twitter:description"
-    content="Somos una empresa fundada por ingenieros eléctricos y auditores energéticos hace más de una década atrás con el fin de proveer los sistemas solares.">
+  <meta property="twitter:description" content="Somos una empresa fundada por ingenieros eléctricos y auditores energéticos hace más de una década atrás con el fin de proveer los sistemas solares.">
   <meta property="twitter:image" content="./resources/img/logo/logo-meta.png">
 </head>
 
 <body>
+  <!-- Modal -->
+  <div class="modal">
+    <div class="modal-content">
+      <!-- <span class="close-button">&#10006;</span> -->
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="modal__video embed-responsive-item" allowfullscreen>
+          </iframe>
+      </div>
+    </div>
+  </div>
+  <!-- ===== -->
   <!-- Loader Sección -->
   <section id="loader">
     <div class="loader__icon"></div>
@@ -103,103 +118,122 @@
       <div class="carousel__control control__prev" data-slide-number="0"><i class="chvron-left"></i></div>
       <div class="carousel__item">
         <div class="persona">
-          .btn-play
+          <div class="btn-play">
+            <button name="play" data-video="https://www.youtube.com/embed/C0DPdy98e4c"></button>
+          </div>
           <h3 class="text-white text-shadow pb-0 mb-0">Francisco<br>Henández</h3>
-          <h5 class="text-white text-shadow pb-3 mb-0" name="text"></h5>
+          <h5 class="persona__description" name="text"></h5>
         </div>
       </div>
       <div class="carousel__item">
         <div class="persona">
+          <div class="btn-play">
+            <button name="play" data-video="https://www.youtube.com/embed/C0DPdy98e4c"></button>
+          </div>
           <h3 class="text-white text-shadow pb-0 mb-0">Elizabeth<br>Sierra</h1>
-          <h5 class="text-white text-shadow pb-3 mb-0" name="text">Gerente de Operaciones</h5>
+            <h5 class="persona__description" name="text">Gerente de Operaciones</h5>
         </div>
       </div>
       <div class="carousel__item">
         <div class="persona">
+          <div class="btn-play">
+            <button name="play" data-video="https://www.youtube.com/embed/C0DPdy98e4c"></button>
+          </div>
           <h3 class="text-white text-shadow pb-0 mb-0">Norma<br>Guzmán</h1>
-            <h5 class="text-white text-shadow pb-3 mb-0" name="text">Gerente de Ventas Orlando,Florida</h5>
+            <h5 class="persona__description" name="text">Gerente de Ventas Orlando,Florida</h5>
+        </div>
+      </div>
+      <div class="carousel__item">
+        <div class="persona">
+          <div class="btn-play">
+            <button name="play" data-video="https://www.youtube.com/embed/C0DPdy98e4c"></button>
           </div>
+          <h3 class="text-white text-shadow pb-0 mb-0">Noash<br>Canino</h3>
+          <h5 class="persona__description" name="text">Director de Ventas Orlando, Florida</h5>
         </div>
-        <div class="carousel__item">
-          <div class="persona">
-            <h3 class="text-white text-shadow pb-0 mb-0">Noash<br>Canino</h3>
-            <h5 class="text-white text-shadow pb-3 mb-0" name="text">Director de Ventas  Orlando, Florida</h5>
+      </div>
+      <div class="carousel__item">
+        <div class="persona">
+          <div class="btn-play">
+            <button name="play" data-video="https://www.youtube.com/embed/C0DPdy98e4c"></button>
           </div>
+          <h3 class="text-white text-shadow pb-0 mb-0">Nancy<br>Maldonado</h3>
+          <h5 class="persona__description" name="text">Director de Ventas Chicago, Illinois</h5>
         </div>
-        <div class="carousel__item">
-          <div class="persona">
-            <h3 class="text-white text-shadow pb-0 mb-0">Nancy<br>Maldonado</h3>
-            <h5 class="text-white text-shadow pb-3 mb-0" name="text">Director de Ventas Chicago, Illinois</h5>
+      </div>
+      <div class="carousel__item">
+        <div class="persona">
+          <div class="btn-play">
+            <button name="play" data-video="https://www.youtube.com/embed/C0DPdy98e4c"></button>
           </div>
+          <h3 class="text-white text-shadow pb-0 mb-0">José<br>Marcano</h1>
+            <h5 class="persona__description" name="text">Gerente de Ventas Chicago,Illinois</h5>
         </div>
-        <div class="carousel__item">
-          <div class="persona">
-              <h3 class="text-white text-shadow pb-0 mb-0">José<br>Marcano</h1>
-              <h5 class="text-white text-shadow pb-3 mb-0" name="text">Gerente de Ventas Chicago,Illinois</h5>
-          </div>
-        </div>
-        <div class="carousel__control control__next" data-slide-number="2"><i class="chvron-rigth"></i></div>
-        </div>
-        <div class="carousel__indicator">
+      </div>
+      <div class="carousel__control control__next" data-slide-number="2"><i class="chvron-rigth"></i></div>
+    </div>
+    <div class="carousel__indicator">
     </div>
   </header>
   <!-- ====== -->
   <!-- Sección 2 Formulario -->
   <section id="S2" class="formulario mt-5 mb-3 d-flex justify-content-center px-3">
-      <h1 name="text" class="text-white text-shadow pt-5 pb-0 mb-0"></h1>
-      <div class="S2__form to-top">
-        <span class="input input--wsp">
+    <h1 name="text" class="text-white text-shadow pt-5 pb-0 mb-0"></h1>
+    <div class="S2__form to-top">
+      <span class="input input--wsp">
           <input class="input__field input__field--wsp" type="text" id="input-1" />
           <label class="input__label input__label--wsp" for="input-1">
             <span class="input__label-content input__label-content--wsp" name="text"></span>
-          </label>
-        </span>
-        <span class="input input--wsp">
+      </label>
+      </span>
+      <span class="input input--wsp">
           <input class="input__field input__field--wsp" type="text" id="input-2" />
           <label class="input__label input__label--wsp" for="input-2">
             <span class="input__label-content input__label-content--wsp" name="text"></span>
-          </label>
-        </span>
-        <span class="input input--wsp">
+      </label>
+      </span>
+      <span class="input input--wsp">
           <input class="input__field input__field--wsp" type="text" id="input-3" />
           <label class="input__label input__label--wsp" for="input-3">
             <span class="input__label-content input__label-content--wsp" name="text"></span>
-          </label>
-        </span>
-        <span class="input input--wsp mb-2">
+      </label>
+      </span>
+      <span class="input input--wsp mb-2">
           <input class="input__field input__field--wsp" type="text" id="input-4" />
           <label class="input__label input__label--wsp" for="input-4">
             <span class="input__label-content input__label-content--wsp" name="text"></span>
-          </label>
-        </span>
-        <a class="btn-wsp w-100 text-center d-block" name="text"></a>
-        <span href="#"></span>
-      </div>
-    </section>
-    <!-- ========== -->
-    <!-- Sección 3 -->
-    <section id="S3" class="px-3 my-3">
-      <div class="S3__item to-left border shadow p-3">
-        <h6 name="text" class="pb-0 mb-0"></h6>
-      </div>
-      <div class="S3__item to-right justify-content-center d-flex">
-        <img class="img-fluid shadow" src="resources/img/site/empleo/manos.jpg" alt="manos">
-      </div>
-    </section>
-    <!-- ========= -->
-    <!-- Sección 4 -->
-    <section id="S4" class="d-flex justify-content-center mt-5 to-top">
-      <div class="text-center">
-        <h1 class="text-center" name="text"></h1>
-        <p name="text"></p>
-        <p name="text"></p>
-        <p name="text" class="pb-0 mb-0"></p>
-      </div>
-    </section>
-    <section id="S5" class="d-flex justify-content-center p-3 mb-3">
-      <div class="border shadow to-top"><h3 class="text-primary text-center p-4 mb-0" name="text"></h3></div>
-    </section>
-    <!-- FOOTER -->
+      </label>
+      </span>
+      <a class="btn-wsp w-100 text-center d-block" name="text"></a>
+      <span href="#"></span>
+    </div>
+  </section>
+  <!-- ========== -->
+  <!-- Sección 3 -->
+  <section id="S3" class="px-3 my-3">
+    <div class="S3__item to-left border shadow p-3">
+      <h6 name="text" class="pb-0 mb-0"></h6>
+    </div>
+    <div class="S3__item to-right justify-content-center d-flex">
+      <img class="img-fluid shadow" src="resources/img/site/empleo/manos.jpg" alt="manos">
+    </div>
+  </section>
+  <!-- ========= -->
+  <!-- Sección 4 -->
+  <section id="S4" class="d-flex justify-content-center mt-5 to-top">
+    <div class="text-center">
+      <h1 class="text-center" name="text"></h1>
+      <p name="text"></p>
+      <p name="text"></p>
+      <p name="text" class="pb-0 mb-0"></p>
+    </div>
+  </section>
+  <section id="S5" class="d-flex justify-content-center p-3 mb-3">
+    <div class="border shadow to-top">
+      <h3 class="text-primary text-center p-4 mb-0" name="text"></h3>
+    </div>
+  </section>
+  <!-- FOOTER -->
   <footer class="to-blue">
     <div class="item-0 logo to-left"><img src="./resources/img/logo/logo-light.png" alt="Logo World Solar Pro"></div>
     <div class="item-1 info to-left">
@@ -212,8 +246,7 @@
       <a href="https://www.facebook.com/WorldSolarProUS/" name="text"><img src="./resources/img/icons/" alt=""> </a>
       <a href="https://www.instagram.com/worldsolarprous/" name="text"><i></i> </a>
       <a href="https://twitter.com/WorldSolarProUS" name="text"><i></i> </a>
-      <a href="https://www.linkedin.com/in/world-solar-pro-us-249822199?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0AzYQDI6S3mRxTT%2B2zGV4Q%3D%3D"
-        name="text"><i></i> </a>
+      <a href="https://www.linkedin.com/in/world-solar-pro-us-249822199?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0AzYQDI6S3mRxTT%2B2zGV4Q%3D%3D" name="text"><i></i> </a>
       <a href="https://g.page/r/Cepfs9m39RPqEAE" name="text"><i></i> </a>
     </div>
     <div class="item-3 menu d-flex flex-column">
@@ -231,26 +264,26 @@
         <input class="input__field input__field--wsp" type="text" id="input-1" />
         <label class="input__label input__label--wsp" for="input-1">
           <span class="input__label-content input__label-content--wsp" name="text"></span>
-        </label>
+      </label>
       </span>
       <span class="input input--wsp">
         <input class="input__field input__field--wsp" type="text" id="input-2" />
         <label class="input__label input__label--wsp" for="input-2">
           <span class="input__label-content input__label-content--wsp" name="text"></span>
-        </label>
+      </label>
       </span>
       <span class="input input--wsp">
         <input class="input__field input__field--wsp" type="text" id="input-3" />
         <label class="input__label input__label--wsp" for="input-3">
           <span class="input__label-content input__label-content--wsp" name="text"></span>
-        </label>
+      </label>
       </span>
       <a class="btn-wsp mb-5" name="text"></a>
       <span href="#" name="text"></span>
     </div>
     <div class="item-5 politicas">
-      <p class="text-center p-0 m-0">| <a name="text" class="cursor-pointer p-0 m-0"></a> | <span name="text"
-          class="p-0 m-0"></span> | <span name="text" class="p-0 m-0"></span></p>
+      <p class="text-center p-0 m-0">|
+        <a name="text" class="cursor-pointer p-0 m-0"></a> | <span name="text" class="p-0 m-0"></span> | <span name="text" class="p-0 m-0"></span></p>
     </div>
     <div class="item-6 ingenio text-center" name="text"></div>
   </footer>
@@ -259,6 +292,7 @@
   <!-- === -->
   <script src="./vendors/loader/loader.js"></script>
 
+  <script src="./vendors/modal/modal.js"></script>
   <script src="./vendors/menu/lang.js"></script>
   <script src="./vendors/footer/lang.js"></script>
   <script src="./resources/data/lang/empleo.js"></script>

@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="./vendors/identidad/identidad.css">
 
   <link rel="stylesheet" href="./vendors/loader/loader.css">
+  <link rel="stylesheet" href="./vendors/modal/modal.css">
   <link rel="stylesheet" href="./vendors/bootstrap/bootstrap.css">
   <link rel="stylesheet" href="./vendors/carousel/carousel.css">
   <link rel="stylesheet" href="./vendors/form/form.css">
@@ -32,7 +33,7 @@
   <link rel="stylesheet" href="./vendors/menu/menu.css">
   <link rel="stylesheet" href="./vendors/footer/footer.css">
   <!-- ======= -->
-  <link rel="stylesheet" href="./resources/css/planes.css">
+  <!-- <link rel="stylesheet" href="./resources/css/politicas.css"> -->
   <title name="text"></title>
   <link rel="shortcut icon" href="./resources/img/logo/isotipo.png" type="image/png">
   <meta name="robots" content="index, follow">
@@ -52,18 +53,40 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://worldsolarpro.com">
-  <meta property="og:title" content="Portada | WORLD SOLAR PRO">
+  <meta property="og:title" content="POLÍTICAS DE PRIVACIDAD | WORLD SOLAR PRO">
   <meta property="og:description" content="Somos una empresa fundada por ingenieros eléctricos y auditores energéticos hace más de una década atrás con el fin de proveer los sistemas solares.">
   <meta property="og:image" content="./resources/img/logo/logo-meta.png">
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://worldsolarpro.com">
-  <meta property="twitter:title" content="Portada | WORLD SOLAR PRO">
+  <meta property="twitter:title" content="POLÍTICAS DE PRIVACIDAD | WORLD SOLAR PRO">
   <meta property="twitter:description" content="Somos una empresa fundada por ingenieros eléctricos y auditores energéticos hace más de una década atrás con el fin de proveer los sistemas solares.">
   <meta property="twitter:image" content="./resources/img/logo/logo-meta.png">
+
+  <style>
+    .nav-item-2>a {
+      color: var(--black);
+    }
+    
+    strong {
+      font-weight: bold;
+      font-size: var(--font-h4);
+    }
+  </style>
 </head>
 
 <body>
+  <!-- Modal -->
+  <div class="modal">
+    <div class="modal-content">
+      <!-- <span class="close-button">&#10006;</span> -->
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="modal__video embed-responsive-item" allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+  <!-- ===== -->
   <!-- Loader Sección -->
   <section id="loader">
     <div class="loader__icon"></div>
@@ -71,9 +94,9 @@
   </section>
   <!-- ===================== -->
   <!-- Nav -->
-  <nav id="nav" class="to-bottom">
+  <nav id="nav" class="to-bottom bg-light">
     <div class="nav-item-1">
-      <a href="./inicio.html  "><img src="./resources/img/logo/logo-light.png" alt="Logo WSP" class="logo"></a>
+      <a href="./inicio.html"><img src="./resources/img/logo/logo-dark.png" alt="Logo WSP" class="logo"></a>
     </div>
     <div class="nav-item-5">
       <div class="menu-toggle hide" id="mobile-menu">
@@ -100,78 +123,12 @@
     </div>
   </nav>
   <!-- === -->
-  <!-- HEADER -->
-  <header class="p-xl-0 p-5">
-    <div class="header__item pt-xl-0 pt-5">
-      <h1 name="text" class="text-light"></h1>
-    </div>
-    <!-- <div class="header__item">
-      <img src="./resources/img/site/planes/instalador/1.jpg" alt="Instaladores 1" class="to-left">
-      <img src="./resources/img/site/planes/instalador/2.jpg" alt="Instaladores 2" class="to-right">
-      <img src="./resources/img/site/planes/instalador/3.jpg" alt="Instaladores 3" class="to-left">
-      <img src="./resources/img/site/planes/instalador/4.jpg" alt="Instaladores 4" class="to-right">
-    </div> -->
-  </header>
-  <!-- ====== -->
-  <!-- Sección 1 Nuestros Productos -->
-  <section id="S1" class="p-3 text-center mb-3 my-3">
-    <div class="border shadow p-3">
-      <h3 name="text" class="text-center"></h3>
-      <a href="#S2"><img src="./resources/img/icons/chevron-down-solid.svg" alt=""></a>
-    </div>
-  </section>
-  <!-- ========== -->
-  <!-- Sección 2 Financiadoras -->
-  <section id="S2" class="px-lg-5 px-3 mb-3">
-    <h2 name="text"></h2>
+  <header></header>
+  <section id="S1" class="d-flex justify-content-center align-items-center flex-column p-5">
+    <h1 name="text" class="mt-xl-0 mt-5"></h1>
     <p name="text"></p>
-    <div class="S2__item carousel--financiadoras">
-      <div class="carousel__slide">
-        <div class="carousel__control control__prev" data-slide-number="0"><i class="chvron-left"></i></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/cabo-rojo-coop.jpg" alt="cabo rojo coop" class="img-fluid"></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/caparra-coop.jpg" alt="caparra coop" class="img-fluid"></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/dividend.jpg" alt="dividend" class="img-fluid"></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/enium.jpg" alt="enium" class="img-fluid"></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/loanpal.jpg" alt="loanpal" class="img-fluid"></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/mosaic.jpg" alt="mosaic" class="img-fluid"></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/pace-funding.jpg" alt="pace funding" class="img-fluid"></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/renew-financial.jpg" alt="renew financial" class="img-fluid"></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/sunlight-financial.jpg" alt="sunlight financial" class="img-fluid"></div>
-        <div class="carousel__control control__next" data-slide-number="2"><i class="chvron-rigth"></i></div>
-      </div>
-      <div class="carousel__indicator"></div>
-    </div>
   </section>
-  <!-- ======================= -->
-  <!-- Sección 3 Productos -->
-  <section id="S3" class="px-lg-5 px-3 mb-3">
-    <h2 name="text"></h2>
-    <div class="S2__item carousel--productos">
-      <div class="carousel__slide">
-        <div class="carousel__control control__prev" data-slide-number="0"><i class="chvron-left"></i></div>
-        <div class="carousel__item"><img src="./resources/img/brands/equipos/fortress-power.jpg" alt="fortress power logo" class="img-fluid"></div>
-        <div class="carousel__item"><img src="./resources/img/brands/equipos/lg-chem.jpg" alt="lg chem logo" class="img-fluid"></div>
-        <div class="carousel__item"><img src="./resources/img/brands/equipos/qcells.jpg" alt="q cells logo" class="img-fluid"></div>
-        <div class="carousel__item"><img src="./resources/img/brands/equipos/peimar.jpg" alt="peimar logo" class="img-fluid"></div>
-        <div class="carousel__item"><img src="./resources/img/brands/equipos/schneider-electric.jpg" alt="schneider electric logo" class="img-fluid"></div>
-        <div class="carousel__item"><img src="./resources/img/brands/equipos/sma.jpg" alt="sma logo" class="img-fluid"></div>
-        <div class="carousel__control control__next" data-slide-number="2"><i class="chvron-rigth"></i></div>
-      </div>
-      <div class="carousel__indicator"></div>
-    </div>
-  </section>
-  <!-- =================== -->
-  <!-- Sección 4 Paneles instalados -->
-  <section id="S4" class="mb-3">
-    <div class="S4__item to-left panel-solar-1"></div>
-    <div class="S4__item to-right panel-solar-2"></div>
-  </section>
-  <!-- ============================ -->
-  <!-- Sección 5 -->
-  <section id="S5">
-    <img src="./resources/img/site/planes/operadora.jpg" alt="operadora" class="img-fluid">
-    <a class="btn-wsp" href="" name="text"></a>
-  </section>
+
   <!-- FOOTER -->
   <footer class="to-blue">
     <div class="item-0 logo to-left"><img src="./resources/img/logo/logo-light.png" alt="Logo World Solar Pro"></div>
@@ -231,16 +188,24 @@
   <!-- === -->
   <script src="./vendors/loader/loader.js"></script>
 
+  <script src="./vendors/modal/modal.js"></script>
   <script src="./vendors/menu/lang.js"></script>
   <script src="./vendors/footer/lang.js"></script>
-  <script src="./resources/data/lang/planes.js"></script>
+  <script src="./resources/data/lang/politicas.js"></script>
 
   <script src="./vendors/number-counter/number-counter.js"></script>
   <script src="./vendors/form/form.js"></script>
   <script src="./vendors/carousel/carousel.js"></script>
   <script src="./vendors/to-animation/to-animation.js"></script>
   <script src="./vendors/menu/menu.js"></script>
-  <script src="./resources/js/planes.js"></script>
+  <script>
+    observerSection.disconnect();
+  </script>
+  <!-- <script src="./resources/js/politicas.js"></script> -->
 </body>
+
+</html>
+
+</html>
 
 </html>

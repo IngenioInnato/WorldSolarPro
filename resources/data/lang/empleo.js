@@ -14,7 +14,7 @@ if (userLang.indexOf('_') !== -1) userLang = userLang.split('_')[0];
 // ============================
 const TitleText = [{
   'es': 'EMPLEO | WORLD SOLAR PRO',
-  'en': 'CARRER | WORLD SOLAR PRO'
+  'en': 'CAREER | WORLD SOLAR PRO'
 }];
 // Title
 addLang(TitleText);

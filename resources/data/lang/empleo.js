@@ -27,8 +27,8 @@ const HeaderText = [{
     'en': 'Founder and CEO'
   },
   {
-    'es': 'Gerente <br> de Operaciones',
-    'en': 'Operational Manager'
+    'es': 'Directora <br> de Operaciones',
+    'en': 'Operational Director'
   },
   {
     'es': 'Directora de Ventas <br> de Florida, US',
@@ -46,6 +46,22 @@ const HeaderText = [{
     'es': 'DIRECTOR DE VENTAS <br> de ILLINOIS, US',
     'en': 'Illinois Sales Director'
   },
+  {
+    'es': 'Consultor<br>Energético',
+    'en': 'Energy<br>Consultant'
+  },
+  {
+    'es': 'Manager<br>WSP',
+    'en': 'WSP<br>Manager'
+  },
+  {
+    'es': 'Team<br>League',
+    'en': 'WSP<br>Manager'
+  },
+  {
+    'es': 'Team<br>League',
+    'en': 'Team<br>League'
+  }
 ];
 addLang(HeaderText)
 

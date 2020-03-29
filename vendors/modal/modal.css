@@ -13,6 +13,8 @@
 }
 
 .modal-content {
+  display: flex;
+  justify-content: center;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -20,8 +22,8 @@
   background-color: var(--darkgray);
   padding: 1rem 1.5rem;
   width: 24rem;
-  width: 60%;
-  height: 70%;
+  width: 70%;
+  height: 90%;
   max-height: auto;
   overflow: auto;
 }

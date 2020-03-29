@@ -11,14 +11,16 @@ function toggleModal() {
 function windowOnClick(event) {
   if (event.target === modal) {
     toggleModal();
+    modalVideo.setAttribute('src', '')
   }
 }
 trigger.forEach(el => {
   el.addEventListener("click", (e) => {
-    e.preventDefault;
     var videoURL = e.target.dataset.video;
+    videoURL += '?&autoplay=1&mute=1';
     modalVideo.setAttribute('src', videoURL);
     toggleModal();
+    e.preventDefault;
   });
 });
 // closeButton.addEventListener("click", toggleModal);

@@ -33,7 +33,7 @@ footer{
   cursor: pointer;
 }
 footer p, footer h5, footer a{
-  color: var(--white) !important;
+  color: var(--white);
 }
 footer input{
   display: block;
@@ -51,4 +51,14 @@ footer input{
    width: 100%;
    text-align: center;
  }
+ footer .item-2 a{
+  justify-content: center;
+}
+}
+footer .item-2 a{
+  display: flex;
+  align-items: center;
+}
+.icon-white{
+  filter: brightness(0) invert(1);
 }

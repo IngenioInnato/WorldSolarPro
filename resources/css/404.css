@@ -5,6 +5,7 @@ header {
   align-items: center;
   background: url('../img/site/contacto/banner-contacto.jpg');
   background-size: cover;
+  background-attachment: fixed;
   color: var(--white) !important;
   flex-wrap: wrap;
   flex-direction: column;

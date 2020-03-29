@@ -1,6 +1,7 @@
 header{
-  background: url(../img/site/planes/banner-header.jpg) top no-repeat;
+  background: url(../img/site/planes/banner-header.jpg) center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 90vh;
 }
 header h1{

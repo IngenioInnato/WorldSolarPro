@@ -1,3 +1,4 @@
+// Activar carouseles
 var carouselHeader = document.querySelector('.carousel--header');
 var carousel = new Carousel(carouselHeader, true, false, [1,1,1,1,1]);
 
@@ -6,7 +7,9 @@ var carousel = new Carousel(carouselEquipos, true, false, [1, 1, 1, 3, 3])
 
 var carouselTestimonios = document.querySelector('.carousel--testimonios');
 var carousel = new Carousel(carouselTestimonios, true, false, [1,1,1,1,1]);
+// ==================
 
+// Contador
 var S4 = document.getElementById('S4');
 var counterValue = [2500, 1000, 10, 3];
 var observeS4 = new IntersectionObserver(entries => {
@@ -24,10 +27,11 @@ var observeS4 = new IntersectionObserver(entries => {
       }
     } 
     // else{
-    //   links.forEach(el => el.style.color = 'var(--black)');
-    //   menuLogo.src = './resources/img/logo/logo-dark.png';
-    //   menuFlag.style.filter = 'invert(1)';
-    // }
-  });
-}, {rootMargin: '-10px'})
-observeS4.observe(S4);
+      //   links.forEach(el => el.style.color = 'var(--black)');
+      //   menuLogo.src = './resources/img/logo/logo-dark.png';
+      //   menuFlag.style.filter = 'invert(1)';
+      // }
+    });
+  }, {rootMargin: '-10px'})
+  observeS4.observe(S4);
+  // ========

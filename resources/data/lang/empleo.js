@@ -56,7 +56,7 @@ const HeaderText = [
     'en': 'WSP Manager'
   },
   {
-    'es': 'Team League',
+    'es': 'Consultor Energético',
     'en': 'Team League'
   },
   {

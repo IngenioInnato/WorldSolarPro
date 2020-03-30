@@ -8,7 +8,7 @@
   display: flex;
 }
 /* Sección 1 SLOGAN */
-#S1{
+#S1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@
   background-size: cover;
   padding: 2rem;
 }
-#S1 .no-webp{
+.no-webp #S1{
   background: url('../img/site/portada/panel-movement.gif') center no-repeat;
 }
 #S1 > .display-3{
@@ -68,13 +68,13 @@
 .S2__item:nth-child(4) {
   background: url('../img/site/portada/illinois.webp') center no-repeat;
 }
-.S2__item .no-webp:nth-child(2) {
+.no-webp .S2__item:nth-child(2) {
   background: url('../img/site/portada/florida.jpg') center no-repeat;
 }
-.S2__item .no-webp:nth-child(3) {
+.no-webp .S2__item:nth-child(3) {
   background: url('../img/site/portada/puerto-rico.jpg') center no-repeat;
 }
-.S2__item .no-webp:nth-child(4) {
+.no-webp .S2__item:nth-child(4) {
   background: url('../img/site/portada/illinois.jpg') center no-repeat;
 }
 @media (max-width: 991.98px) { 
@@ -98,7 +98,7 @@
   background-size: cover;
   background-attachment: fixed;
 }
-#S4 .no-webp{
+.no-webp #S4{
   background: url('../img/site/portada/panel-solar.jpg') center no-repeat;
 }
 #S4 h1{

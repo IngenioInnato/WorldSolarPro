@@ -67,9 +67,12 @@
   <!-- Loader Sección -->
   <section id="loader">
     <div class="loader__icon"></div>
-    <img class="img-fluid loader__img" src="./resources/img/logo/isotipo.png" alt="Isotipo World Solar Pro">
+    <picture class="loader__img">
+      <source class="img-fluid" srcset="./resources/img/logo/isotipo.webp" type="image/webp">
+      <img class="img-fluid" src="./resources/img/logo/isotipo.png" alt="Isotipo World Solar Pro">
+    </picture>
   </section>
-  <!-- ===================== -->
+  <!-- ============== -->
   <!-- Nav -->
   <nav id="nav" class="to-bottom">
     <div class="nav-item-1">
@@ -103,7 +106,8 @@
   <!-- HEADER -->
   <header class="p-xl-0 p-5">
     <div class="header__item pt-xl-0 pt-5">
-      <h1 name="text" class="text-light"></h1>
+      <h1 name="text" class="text-light pb-0 mb-0"></h1>
+      <h2 class="text-light pb-0 mb-0 text-shadow" id="location">Hola</h2>
     </div>
     <!-- <div class="header__item">
       <img src="./resources/img/site/planes/instalador/1.jpg" alt="Instaladores 1" class="to-left">
@@ -114,7 +118,7 @@
   </header>
   <!-- ====== -->
   <!-- Sección 1 Nuestros Productos -->
-  <section id="S1" class="p-3 text-center mb-3 my-3">
+  <section id="S1" class="p-3 text-center mb-3">
     <div class="border shadow p-3">
       <h3 name="text" class="text-center"></h3>
       <a href="#S2"><img src="./resources/img/icons/chevron-down-solid.svg" alt=""></a>
@@ -128,15 +132,72 @@
     <div class="S2__item carousel--financiadoras">
       <div class="carousel__slide">
         <div class="carousel__control control__prev" data-slide-number="0"><i class="chvron-left"></i></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/cabo-rojo-coop.jpg" alt="cabo rojo coop" class="img-fluid"></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/caparra-coop.jpg" alt="caparra coop" class="img-fluid"></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/dividend.jpg" alt="dividend" class="img-fluid"></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/loanpal.jpg" alt="loanpal" class="img-fluid"></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/pace-funding.jpg" alt="pace funding" class="img-fluid"></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/renew-financial.jpg" alt="renew financial" class="img-fluid"></div>
-        <div class="carousel__item flex-column"><img src="./resources/img/site/planes/financiadoras/sunlight-financial.jpg" alt="sunlight financial" class="img-fluid"></div>
+        <div class="carousel__item flex-column f-pr">
+          <picture>
+            <source srcset="./resources/img/brands/financiadoras/gura-coop.webp" type="image/webp" alt="gura coop" class="img-fluid">
+            <img src="./resources/img/brands/financiadoras/gura-coop.jpg" alt="gura coop" class="img-fluid">
+          </picture>  
+        </div>
+        <div class="carousel__item flex-column f-pr">
+          <picture>
+            <source srcset="./resources/img/brands/financiadoras/cabo-rojo-coop.webp" type="image/webp" alt="cabo rojo coop" class="img-fluid">
+            <img src="./resources/img/brands/financiadoras/cabo-rojo-coop.jpg" alt="cabo rojo coop" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item flex-column f-pr">
+          <picture>
+            <source srcset="./resources/img/brands/financiadoras/caparra-coop.webp" type="image/webp" alt="caparra coop" class="img-fluid">
+            <img src="./resources/img/brands/financiadoras/caparra-coop.jpg" alt="caparra coop" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item flex-column f-pr">
+          <picture>
+            <source srcset="./resources/img/brands/financiadoras/pci.webp" type="image/webp" alt="pci" class="img-fluid">
+            <img src="./resources/img/brands/financiadoras/pci.jpg" alt="pci" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item flex-column">
+          <picture>
+            <source srcset="./resources/img/brands/financiadoras/sunnova.webp" type="image/webp" alt="sunnova" class="img-fluid">
+            <img src="./resources/img/brands/financiadoras/sunnova.jpg" alt="sunnova" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item flex-column f-usa">
+          <picture>
+            <source srcset="./resources/img/brands/financiadoras/dividend.webp" type="image/webp" alt="dividend" class="img-fluid">
+            <img src="./resources/img/brands/financiadoras/dividend.jpg" alt="dividend" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item flex-column f-usa">
+          <picture>
+            <source srcset="./resources/img/brands/financiadoras/loanpal.webp" type="image/webp" alt="loanpal" class="img-fluid">
+            <img src="./resources/img/brands/financiadoras/loanpal.jpg" alt="loanpal" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item flex-column f-usa">
+          <picture>
+            <source srcset="./resources/img/brands/financiadoras/pace-funding.webp" type="image/webp" alt="pace funding" class="img-fluid">
+            <img src="./resources/img/brands/financiadoras/pace-funding.jpg" alt="pace funding" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item flex-column f-usa">
+          <picture>
+            <source srcset="./resources/img/brands/financiadoras/renew-financial.webp" type="image/webp" alt="renew financial" class="img-fluid">
+            <img src="./resources/img/brands/financiadoras/renew-financial.jpg" alt="renew financial" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item flex-column f-usa">
+          <picture>
+            <source srcset="./resources/img/brands/financiadoras/sunlight-financial.webp" type="image/webp" alt="sunlight financial" class="img-fluid">
+            <img src="./resources/img/brands/financiadoras/sunlight-financial.jpg" alt="sunlight financial" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item flex-column f-pr">
+        
+          <img src="./resources/img/logo/isotipo.png" alt="isotipo logo" class="img-fluid">
+        </div>
         <div class="carousel__control control__next" data-slide-number="2"><i class="chvron-rigth"></i></div>
-      </div>
+      </div >
       <div class="carousel__indicator"></div>
     </div>
   </section>
@@ -147,12 +208,78 @@
     <div class="S2__item carousel--productos">
       <div class="carousel__slide">
         <div class="carousel__control control__prev" data-slide-number="0"><i class="chvron-left"></i></div>
-        <div class="carousel__item"><img src="./resources/img/brands/equipos/fortress-power.jpg" alt="fortress power logo" class="img-fluid"></div>
-        <div class="carousel__item"><img src="./resources/img/brands/equipos/lg-chem.jpg" alt="lg chem logo" class="img-fluid"></div>
-        <div class="carousel__item"><img src="./resources/img/brands/equipos/qcells.jpg" alt="q cells logo" class="img-fluid"></div>
-        <div class="carousel__item"><img src="./resources/img/brands/equipos/peimar.jpg" alt="peimar logo" class="img-fluid"></div>
-        <div class="carousel__item"><img src="./resources/img/brands/equipos/schneider-electric.jpg" alt="schneider electric logo" class="img-fluid"></div>
-        <div class="carousel__item"><img src="./resources/img/brands/equipos/sma.jpg" alt="sma logo" class="img-fluid"></div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/tesla.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/tesla.jpg" alt="tesla logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/qcells.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/qcells.jpg" alt="q cells logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/lg-chem.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/lg-chem.jpg" alt="lg chem logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/fortress-power.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/fortress-power.jpg" alt="fortress power logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/peimar.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/peimar.jpg" alt="peimar logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/schneider-electric.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/schneider-electric.jpg" alt="schneider electric logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/sma.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/sma.jpg" alt="sma logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/delka-betteries.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/delka-betteries.jpg" alt="delka betteries logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/enphase.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/enphase.jpg" alt="enphase logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/solar-edge.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/solar-edge.jpg" alt="solar edge logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/unirac.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/unirac.jpg" alt="unirac logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/logo/isotipo.webp" type="image/webp" alt="isotipo logo" class="img-fluid">
+            <img src="./resources/img/logo/isotipo.png" alt="isotipo logo" class="img-fluid">
+          </picture>
+        </div>
         <div class="carousel__control control__next" data-slide-number="2"><i class="chvron-rigth"></i></div>
       </div>
       <div class="carousel__indicator"></div>
@@ -166,8 +293,12 @@
   </section>
   <!-- ============================ -->
   <!-- Sección 5 -->
-  <section id="S5">
-    <img src="./resources/img/site/planes/operadora.jpg" alt="operadora" class="img-fluid">
+  <section id="S5" class="mb-3">
+    <picture>
+      <source srcset="./resources/img/site/planes/operadora.webp" type="image/webp" alt="isotipo logo" class="img-fluid">
+      <img src="./resources/img/site/planes/operadora.jpg" alt="operadora" class="img-fluid">
+    </picture>
+
     <a class="btn-wsp" href="" name="text"></a>
   </section>
   <!-- FOOTER -->
@@ -227,6 +358,7 @@
   <!-- ====== -->
 
   <!-- === -->
+  <script src="./vendors/modernizr/modernizr-custom.js"></script>
   <script src="./vendors/url-variable/url-variable.js"></script>
   <script src="./vendors/location/location.js"></script>
   <script src="./vendors/loader/loader.js"></script>

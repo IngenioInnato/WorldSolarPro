@@ -1,8 +1,34 @@
-var carouselFinanciadoras = document.querySelector('.carousel--financiadoras');
-var carousel = new Carousel(carouselFinanciadoras, true, false, [1,1,1,3,3]);
+function createCarousel(){
+  var carouselFinanciadoras = document.querySelector('.carousel--financiadoras');
+  var carousel = new Carousel(carouselFinanciadoras, true, false, [1,1,1,3,3]);
+  return carousel;
+}
 
 var carouelProductos = document.querySelector('.carousel--productos');
 var carousel = new Carousel(carouelProductos,true, false, [1, 1, 1, 3, 3]);
+var usaEl = document.querySelectorAll('.f-usa');
+var prEl = document.querySelectorAll('.f-pr');
+var plansLocation = document.getElementById('location');
+switch (local) {
+  case 'pr':
+    plansLocation.innerHTML = 'Puerto Rico';
+    usaEl.forEach(el => el.remove());
+    var carousel = createCarousel();
+    break;
+    case 'illinois':
+    plansLocation.innerHTML = 'Illinois';
+    prEl.forEach(el => el.remove());
+    var carousel = createCarousel();
+    break;
+  case 'florida':
+    plansLocation.innerHTML = 'Florida';
+    prEl.forEach(el => el.remove());
+    var carousel = createCarousel();
+    break;
+  default:
+    window.location.href = './';
+  break;
+}
 // observerSection.disconnect();
 
 // var observerSection2 = new IntersectionObserver(entries => {

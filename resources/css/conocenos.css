@@ -8,17 +8,33 @@
   }
   
   .carousel--header .carousel__item:nth-child(2) {
-    background: url('../img/site/conocenos/oficinas/illinois-banner.jpg') center no-repeat;
+    background: url('../img/site/conocenos/oficinas/illinois-banner.webp') center no-repeat;
     background-size: cover;
   }
   
   .carousel--header .carousel__item:nth-child(3){
-    background: url('../img/site/conocenos/oficinas/orlando-banner.jpg')  no-repeat;
+    background: url('../img/site/conocenos/oficinas/orlando-banner.webp')  no-repeat;
     background-size: cover;
     background-position-y: 20%;
   }
   
   .carousel--header .carousel__item:nth-child(4){
+    background: url('../img/site/conocenos/oficinas/puerto-rico-banner.webp') center no-repeat;
+    background-size: cover;
+  }
+
+  .carousel--header .no-webp .carousel__item:nth-child(2) {
+    background: url('../img/site/conocenos/oficinas/illinois-banner.jpg') center no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel--header .no-webp .carousel__item:nth-child(3){
+    background: url('../img/site/conocenos/oficinas/orlando-banner.jpg')  no-repeat;
+    background-size: cover;
+    background-position-y: 20%;
+  }
+  
+  .carousel--header .no-webp .carousel__item:nth-child(4){
     background: url('../img/site/conocenos/oficinas/puerto-rico-banner.jpg') center no-repeat;
     background-size: cover;
   }
@@ -72,7 +88,7 @@
   align-self: center;
   padding: 2rem;
 }
-.S3__item > img, .S4__item > img, .S5__item > img, .S6__item > img {
+.S3__item .img-shadow, .S4__item .img-shadow, .S5__item .img-shadow, .S6__item .img-shadow {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 991.98px) {  

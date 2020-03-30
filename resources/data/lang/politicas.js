@@ -48,13 +48,13 @@ var S1Text = [{
   
   La página oficial de Facebook de World Solar Pro se utilizará exclusivamente para propósitos de mercadeo.<br><br>
   
-  Cualquier información adquirida o suministrada que sirva como fuentes para prospectos a través de las páginas sólo serán utilizadas por la empresa.<br><br>
+  Cualquier información adquirida o suministrada que sirva como fuentes para prospectos a través de las páginas solo serán utilizadas por la empresa.<br><br>
   
-  El acto de acosar o “trolear” esta prohibido en las cuentas de las páginas, sub-páginas o cualquier otra herramienta de medios utilizados por la empresa.<br><br>
+  El acto de acosar o “trolear” está prohibido en las cuentas de las páginas, sub-páginas o cualquier otra herramienta de medios utilizados por la empresa.<br><br>
   
-  El uso de lenguaje sugestivo sexual o material explícito esta prohibido en la página electrónica, en las cuentas de redes sociales o en cualquier otro medio utilizado para propósitos de mercadeo.<br><br>
+  El uso de lenguaje sugestivo sexual o material explícito está prohibido en la página electrónica, en las cuentas de redes sociales o en cualquier otro medio utilizado para propósitos de mercadeo.<br><br>
   
-  El uso de lenguaje soez, expresiones denigrantes, agresividad o lenguaje sugestivo con tonos raciales y discriminatorios esta prohibido a través de las plataformas digitales e impresas.<br><br>
+  El uso de lenguaje soez, expresiones denigrantes, agresividad o lenguaje sugestivo con tonos raciales y discriminatorios está prohibido a través de las plataformas digitales e impresas.<br><br>
   
    
   

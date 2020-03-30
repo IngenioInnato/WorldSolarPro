@@ -1,8 +1,11 @@
 header{
-  background: url(../img/site/planes/banner-header.jpg) center no-repeat;
+  background: url(../img/site/planes/banner-header.webp) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 90vh;
+}
+header .no-webp{
+  background: url(../img/site/planes/banner-header.jpg) center no-repeat;
 }
 header h1{
   text-shadow: 5px 5px 5px var(--black); 
@@ -37,8 +40,11 @@ header{
 /* ====== */
 /* Sección 1 Nuestros Productos */
 #S1{
-  background: url('../img/site/planes/banner-section-1.jpg') center no-repeat;
+  background: url('../img/site/planes/banner-section-1.webp') center no-repeat;
   background-size: cover;
+}
+#S1 .no-webp{
+  background: url('../img/site/planes/banner-section-1.jpg') center no-repeat;
 }
 #S1 > div > h3{
   color: var(--white);
@@ -60,10 +66,18 @@ header{
   height: 50vh;
 }
 .panel-solar-1{
-  background: url(../img/site/planes/panel-solar/1.jpg) center no-repeat;
+  background: url(../img/site/planes/panel-solar/1.webp) center no-repeat;
   background-size: cover;
 }
 .panel-solar-2{
+  background: url(../img/site/planes/panel-solar/2.webp) center no-repeat;
+  background-size: cover;
+}
+.panel-solar-1 .no-webp{
+  background: url(../img/site/planes/panel-solar/1.jpg) center no-repeat;
+  background-size: cover;
+}
+.panel-solar-2 .no-webp{
   background: url(../img/site/planes/panel-solar/2.jpg) center no-repeat;
   background-size: cover;
 }

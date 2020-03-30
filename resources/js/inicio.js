@@ -2,7 +2,7 @@
 var carouselHeader = document.querySelector('.carousel--header');
 var carousel = new Carousel(carouselHeader, true, false, [1,1,1,1,1]);
 
-var carouselEquipos = document.querySelector('.carousel--marcas');
+var carouselEquipos = document.querySelector('.carousel--productos');
 var carousel = new Carousel(carouselEquipos, true, false, [1, 1, 1, 3, 3])
 
 var carouselTestimonios = document.querySelector('.carousel--testimonios');

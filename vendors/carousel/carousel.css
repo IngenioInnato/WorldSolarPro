@@ -54,10 +54,10 @@
   cursor: pointer;
 }
 .control__prev{
-  left: 0;
+  left: 1rem;
 }
 .control__next{
-  right: 0;
+  right: 1rem;
 }
 @media (max-width: 767.98px) { 
   .carousel__control{

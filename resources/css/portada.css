@@ -12,9 +12,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('../img/site/portada/panel-movement.gif') center no-repeat;
+  background: url('../img/site/portada/panel-movement.webp') center no-repeat;
   background-size: cover;
   padding: 2rem;
+}
+#S1 .no-webp{
+  background: url('../img/site/portada/panel-movement.gif') center no-repeat;
 }
 #S1 > .display-3{
   margin: 0;
@@ -57,12 +60,21 @@
   padding: 0;
 }
 .S2__item:nth-child(2) {
-  background: url('../img/site/portada/florida.jpg') center no-repeat;
+  background: url('../img/site/portada/florida.webp') center no-repeat;
 }
 .S2__item:nth-child(3) {
-  background: url('../img/site/portada/puerto-rico.jpg') center no-repeat;
+  background: url('../img/site/portada/puerto-rico.webp') center no-repeat;
 }
 .S2__item:nth-child(4) {
+  background: url('../img/site/portada/illinois.webp') center no-repeat;
+}
+.S2__item .no-webp:nth-child(2) {
+  background: url('../img/site/portada/florida.jpg') center no-repeat;
+}
+.S2__item .no-webp:nth-child(3) {
+  background: url('../img/site/portada/puerto-rico.jpg') center no-repeat;
+}
+.S2__item .no-webp:nth-child(4) {
   background: url('../img/site/portada/illinois.jpg') center no-repeat;
 }
 @media (max-width: 991.98px) { 
@@ -82,8 +94,12 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background: url('../img/site/portada/panel-solar.jpg') center no-repeat;
+  background: url('../img/site/portada/panel-solar.webp') center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+}
+#S4 .no-webp{
+  background: url('../img/site/portada/panel-solar.jpg') center no-repeat;
 }
 #S4 h1{
   text-shadow: 5px 5px 5px var(--black);

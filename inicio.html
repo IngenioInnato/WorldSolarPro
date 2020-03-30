@@ -67,9 +67,12 @@
   <!-- Loader Sección -->
   <section id="loader">
     <div class="loader__icon"></div>
-    <img class="img-fluid loader__img" src="./resources/img/logo/isotipo.png" alt="Isotipo World Solar Pro">
+    <picture class="loader__img">
+      <source class="img-fluid" srcset="./resources/img/logo/isotipo.webp" type="image/webp">
+      <img class="img-fluid" src="./resources/img/logo/isotipo.png" alt="Isotipo World Solar Pro">
+    </picture>
   </section>
-  <!-- ===================== -->
+  <!-- ============== -->
   <!-- Nav -->
   <nav id="nav" class="to-bottom">
     <div class="nav-item-1">
@@ -128,24 +131,91 @@
     </div>
   </header>
   <!-- ============== -->
-  <!-- Sección 1 Carousel de Marcas -->
-  <section id="S1" class="carousel--marcas">
-    <div class="carousel__slide">
-      <div class="carousel__control control__prev" data-slide-number="0"><i class="chvron-left"></i></div>
-      <div class="carousel__item"><img src="./resources/img/brands/equipos/fortress-power.jpg" alt="fortress power logo"></div>
-      <div class="carousel__item"><img src="./resources/img/brands/equipos/lg-chem.jpg" alt="lg chem logo"></div>
-      <div class="carousel__item"><img src="./resources/img/brands/equipos/qcells.jpg" alt="q cells logo"></div>
-      <div class="carousel__item"><img src="./resources/img/brands/equipos/peimar.jpg" alt="peimar logo"></div>
-      <div class="carousel__item"><img src="./resources/img/brands/equipos/schneider-electric.jpg" alt="schneider electric logo"></div>
-      <div class="carousel__item"><img src="./resources/img/brands/equipos/sma.jpg" alt="sma logo"></div>
-      <div class="carousel__control control__next" data-slide-number="2"><i class="chvron-rigth"></i></div>
-    </div>
-    <div class="carousel__indicator">
+  <!-- Sección 3 Productos -->
+  <section id="S1" class="px-lg-5 px-3">
+    <div class="S1__item carousel--productos">
+      <div class="carousel__slide">
+        <div class="carousel__control control__prev" data-slide-number="0"><i class="chvron-left"></i></div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/tesla.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/tesla.jpg" alt="tesla logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/qcells.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/qcells.jpg" alt="q cells logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/lg-chem.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/lg-chem.jpg" alt="lg chem logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/fortress-power.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/fortress-power.jpg" alt="fortress power logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/peimar.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/peimar.jpg" alt="peimar logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/schneider-electric.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/schneider-electric.jpg" alt="schneider electric logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/sma.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/sma.jpg" alt="sma logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/delka-betteries.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/delka-betteries.jpg" alt="delka betteries logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/enphase.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/enphase.jpg" alt="enphase logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/solar-edge.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/solar-edge.jpg" alt="solar edge logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/brands/equipos/unirac.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/brands/equipos/unirac.jpg" alt="unirac logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__item">
+          <picture>
+            <source srcset="./resources/img/logo/isotipo.webp" type="image/webp" alt="tesla logo" class="img-fluid">
+            <img src="./resources/img/logo/isotipo.png" alt="isotipo logo" class="img-fluid">
+          </picture>
+        </div>
+        <div class="carousel__control control__next" data-slide-number="2"><i class="chvron-rigth"></i></div>
+      </div>
+      <div class="carousel__indicator"></div>
     </div>
   </section>
-  <!-- ========= -->
+  <!-- =================== -->
   <!-- Seccion 2 Card -->
-  <section id="S2" class="p-5">
+  <section id="S2" class=" pt-3 px-5 pb-5">
     <div class="p-3 m-0 border shadow text-center to-bottom">
       <h3 name="text" class="m-0 p-3"></h3>
       <a href="./contacto" class="btn-wsp mb-5" name="text" style="width: inherit;"></a>
@@ -153,8 +223,8 @@
   </section>
   <!-- ============== -->
   <!-- Sección 3 IconText -->
-  <h1 class="text-center mb-0 pb-0" name="text">Beneficios </h1>
-  <section id="S3" class="iconText mt-5">
+  <h1 class="text-center mb-5" name="text">Beneficios </h1>
+  <section id="S3" class="iconText  ">
     <div class="iconText__item item-1 border p-2 to-top">
       <img src="./resources/img/icons/piggy-bank-solid.svg" alt="icono mapa mundi">
       <p name="text"></p>
@@ -277,6 +347,7 @@
   <!-- ====== -->
 
   <!-- === -->
+  <script src="./vendors/modernizr/modernizr-custom.js"></script>
   <script src="./vendors/url-variable/url-variable.js"></script>
   <script src="./vendors/location/location.js"></script>
   <script src="./vendors/loader/loader.js"></script>

@@ -67,9 +67,12 @@
   <!-- Loader Sección -->
   <section id="loader">
     <div class="loader__icon"></div>
-    <img class="img-fluid loader__img" src="./resources/img/logo/isotipo.png" alt="Isotipo World Solar Pro">
+    <picture class="loader__img">
+      <source class="img-fluid" srcset="./resources/img/logo/isotipo.webp" type="image/webp">
+      <img class="img-fluid" src="./resources/img/logo/isotipo.png" alt="Isotipo World Solar Pro">
+    </picture>
   </section>
-  <!-- ===================== -->
+  <!-- ============== -->
   <!-- Nav -->
   <nav id="nav" class="to-bottom">
     <div class="nav-item-1">
@@ -164,6 +167,7 @@
   <!-- ====== -->
 
   <!-- === -->
+  <script src="./vendors/modernizr/modernizr-custom.js"></script>
   <script src="./vendors/url-variable/url-variable.js"></script>
   <script src="./vendors/location/location.js"></script>
   <script src="./vendors/loader/loader.js"></script>

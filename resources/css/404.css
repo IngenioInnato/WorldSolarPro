@@ -3,14 +3,16 @@ header {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background: url('../img/site/contacto/banner-contacto.jpg');
+  background: url('../img/site/contacto/banner-contacto.webp');
   background-size: cover;
   background-attachment: fixed;
   color: var(--white) !important;
   flex-wrap: wrap;
   flex-direction: column;
 }
-
+header .no-webp{
+  background: url('../img/site/contacto/banner-contacto.jpg');
+}
 .btn-wsp {
   width: inherit;
 }

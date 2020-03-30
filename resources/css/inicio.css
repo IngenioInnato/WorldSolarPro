@@ -5,31 +5,60 @@
   }
   
   .carousel--header .carousel__item:nth-child(2) {
-    background: url('../img/site/inicio/banner-header/1.jpg') center no-repeat;
+    background: url('../img/site/inicio/banner-header/1.webp') center no-repeat;
     background-size: cover;
   }
   
   .carousel--header .carousel__item:nth-child(3){
-    background: url('../img/site/inicio/banner-header/2.jpg') center no-repeat;
+    background: url('../img/site/inicio/banner-header/2.webp') center no-repeat;
     background-size: cover;
   }
   
   .carousel--header .carousel__item:nth-child(4){
-    background: url('../img/site/inicio/banner-header/3.jpg') center no-repeat;
+    background: url('../img/site/inicio/banner-header/3.webp') center no-repeat;
     background-size: cover;
   }
   
   .carousel--header .carousel__item:nth-child(5){
-    background: url('../img/site/inicio/banner-header/4.jpg') center no-repeat;
+    background: url('../img/site/inicio/banner-header/4.webp') center no-repeat;
     background-size: cover;
   }
   
   .carousel--header .carousel__item:nth-child(6){
-    background: url('../img/site/inicio/banner-header/5.jpg') center no-repeat;
+    background: url('../img/site/inicio/banner-header/5.webp') center no-repeat;
     background-size: cover;
   }
   
   .carousel--header .carousel__item:nth-child(7){
+    background: url('../img/site/inicio/banner-header/6.webp') center no-repeat;
+    background-size: cover;
+  }
+  .carousel--header .no-webp .carousel__item:nth-child(2) {
+    background: url('../img/site/inicio/banner-header/1.jpg') center no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel--header .no-webp .carousel__item:nth-child(3){
+    background: url('../img/site/inicio/banner-header/2.jpg') center no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel--header .no-webp .carousel__item:nth-child(4){
+    background: url('../img/site/inicio/banner-header/3.jpg') center no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel--header .no-webp .carousel__item:nth-child(5){
+    background: url('../img/site/inicio/banner-header/4.jpg') center no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel--header .no-webp .carousel__item:nth-child(6){
+    background: url('../img/site/inicio/banner-header/5.jpg') center no-repeat;
+    background-size: cover;
+  }
+  
+  .carousel--header .no-webp .carousel__item:nth-child(7){
     background: url('../img/site/inicio/banner-header/6.jpg') center no-repeat;
     background-size: cover;
   }
@@ -84,6 +113,12 @@
 
 /* Sección 4 Estadísticas */
 #S4 {
+  justify-content: center;
+  background: url('../img/site/inicio/banner-card.webp') center no-repeat;
+  background-size: cover;
+}
+
+#S4 .no-webp{
   justify-content: center;
   background: url('../img/site/inicio/banner-card.jpg') center no-repeat;
   background-size: cover;

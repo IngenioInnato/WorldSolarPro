@@ -43,41 +43,76 @@ header .carousel__item {
 
 /* HEADER */
 
-header .carousel__item:nth-child(2) {
+/* header .carousel__item:nth-child(2) {
   background: url('../img/site/empleo/equipo/francisco.jpg') center top no-repeat;
 }
 
 header .carousel__item:nth-child(3) {
   background: url('../img/site/empleo/equipo/elizabeth.jpg') center top no-repeat;
+} */
+
+header .carousel__item:nth-child(2) {
+  background: url('../img/site/empleo/equipo/norma.webp') center top no-repeat;
+}
+
+header .carousel__item:nth-child(3) {
+  background: url('../img/site/empleo/equipo/noash.webp') center top no-repeat;
 }
 
 header .carousel__item:nth-child(4) {
-  background: url('../img/site/empleo/equipo/norma.jpg') center top no-repeat;
+  background: url('../img/site/empleo/equipo/nancy.webp') center top no-repeat;
 }
 
 header .carousel__item:nth-child(5) {
-  background: url('../img/site/empleo/equipo/noash.jpg') center top no-repeat;
-}
-
-header .carousel__item:nth-child(5) {
-  background: url('../img/site/empleo/equipo/noash.jpg') center top no-repeat;
+  background: url('../img/site/empleo/equipo/jose.webp') center top no-repeat;
 }
 
 header .carousel__item:nth-child(6) {
-  background: url('../img/site/empleo/equipo/nancy.jpg') center top no-repeat;
+  background: url('../img/site/empleo/equipo/diosbeli.webp') center top no-repeat;
 }
 
 header .carousel__item:nth-child(7) {
-  background: url('../img/site/empleo/equipo/jose.jpg') center top no-repeat;
+  background: url('../img/site/empleo/equipo/diogenes.webp') center top no-repeat;
 }
 
-
 header .carousel__item:nth-child(8) {
-  background: url('../img/site/empleo/equipo/diosbeli.jpg') center top no-repeat;
+  background: url('../img/site/empleo/equipo/carlos.webp') center top no-repeat;
 }
 
 header .carousel__item:nth-child(9) {
+  background: url('../img/site/empleo/equipo/erick.webp') center top no-repeat;
+}
+
+header .carousel__item .no-webp:nth-child(2) {
+  background: url('../img/site/empleo/equipo/norma.jpg') center top no-repeat;
+}
+
+header .carousel__item .no-webp:nth-child(3) {
+  background: url('../img/site/empleo/equipo/noash.jpg') center top no-repeat;
+}
+
+header .carousel__item .no-webp:nth-child(4) {
+  background: url('../img/site/empleo/equipo/nancy.jpg') center top no-repeat;
+}
+
+header .carousel__item .no-webp:nth-child(5) {
+  background: url('../img/site/empleo/equipo/jose.jpg') center top no-repeat;
+}
+
+header .carousel__item .no-webp:nth-child(6) {
+  background: url('../img/site/empleo/equipo/diosbeli.jpg') center top no-repeat;
+}
+
+header .carousel__item .no-webp:nth-child(7) {
   background: url('../img/site/empleo/equipo/diogenes.jpg') center top no-repeat;
+}
+
+header .carousel__item .no-webp:nth-child(8) {
+  background: url('../img/site/empleo/equipo/carlos.jpg') center top no-repeat;
+}
+
+header .carousel__item .no-webp:nth-child(9) {
+  background: url('../img/site/empleo/equipo/erick.jpg') center top no-repeat;
 }
 
 
@@ -110,10 +145,13 @@ header .control__next {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background: url('../img/site/portada/panel-solar.jpg') center no-repeat;
+  background: url('../img/site/portada/panel-solar.webp') center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
-
+#S2 .no-webp{
+  background: url('../img/site/portada/panel-solar.jpg') center no-repeat;
+}
 .S2__form {
   flex: 0 0 80%;
   padding: 3rem;
@@ -184,4 +222,8 @@ div button[name="play"]::after {
   #S3  {
     flex-direction: column;
   }
+}
+
+.img-shadow{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }

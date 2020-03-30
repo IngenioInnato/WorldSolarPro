@@ -22,45 +22,46 @@ addLang(TitleText);
 // Menu
 addLang(MenuLang);
 // Header
-const HeaderText = [{
-    'es': 'Fundador <br> y CEO',
-    'en': 'Founder and CEO'
-  },
+const HeaderText = [
+  // {
+  //   'es': 'Fundador <br> y CEO',
+  //   'en': 'Founder and CEO'
+  // },
+  // {
+  //   'es': 'Directora <br> de Operaciones',
+  //   'en': 'Operational Director'
+  // },
   {
-    'es': 'Directora <br> de Operaciones',
-    'en': 'Operational Director'
-  },
-  {
-    'es': 'Directora de Ventas <br> de Florida, US',
+    'es': 'Directora de Ventas de Florida, US',
     'en': 'Florida Sales Director'
   },
   {
-    'es': 'DIRECTOR DE VENTAS <br> de Florida, US',
+    'es': 'DIRECTOR DE VENTAS de Florida, US',
     'en': 'Florida Sales Director'
   },
   {
-    'es': 'DIRECTORA DE VENTAS <br> de ILLINOIS, US',
+    'es': 'DIRECTORA DE VENTAS de ILLINOIS, US',
     'en': 'ILLINOIS Sales Director'
   },
   {
-    'es': 'DIRECTOR DE VENTAS <br> de ILLINOIS, US',
+    'es': 'DIRECTOR DE VENTAS de ILLINOIS, US',
     'en': 'Illinois Sales Director'
   },
   {
-    'es': 'Consultor<br>Energético',
-    'en': 'Energy<br>Consultant'
+    'es': 'Consultor Energético',
+    'en': 'Energy Consultant'
   },
   {
-    'es': 'Manager<br>WSP',
-    'en': 'WSP<br>Manager'
+    'es': 'Manager WSP',
+    'en': 'WSP Manager'
   },
   {
-    'es': 'Team<br>League',
-    'en': 'WSP<br>Manager'
+    'es': 'Team League',
+    'en': 'Team League'
   },
   {
-    'es': 'Team<br>League',
-    'en': 'Team<br>League'
+    'es': 'Team League',
+    'en': 'Team League'
   }
 ];
 addLang(HeaderText)

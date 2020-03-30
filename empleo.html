@@ -79,9 +79,12 @@
   <!-- Loader Sección -->
   <section id="loader">
     <div class="loader__icon"></div>
-    <img class="img-fluid loader__img" src="./resources/img/logo/isotipo.png" alt="Isotipo World Solar Pro">
+    <picture class="loader__img">
+      <source class="img-fluid" srcset="./resources/img/logo/isotipo.webp" type="image/webp">
+      <img class="img-fluid" src="./resources/img/logo/isotipo.png" alt="Isotipo World Solar Pro">
+    </picture>
   </section>
-  <!-- ===================== -->
+  <!-- ============== -->
   <!-- Nav -->
   <nav id="nav" class="to-bottom">
     <div class="nav-item-1">
@@ -116,28 +119,28 @@
   <header class="carousel--header">
     <div class="carousel__slide pt-5">
       <div class="carousel__control control__prev" data-slide-number="0"><i class="chvron-left"></i></div>
-      <div class="carousel__item">
+      <!-- <div class="carousel__item">
         <div class="persona">
-          <!-- <div class="btn-play">
+          <div class="btn-play">
             <button name="play" data-video="https://www.youtube.com/embed/C0DPdy98e4c"></button>
-          </div> -->
+          </div>
           <h3 class="text-white text-shadow pb-0 mb-0">Francisco<br>Henández</h3>
           <h5 class="persona__description" name="text"></h5>
         </div>
       </div>
       <div class="carousel__item">
         <div class="persona">
-          <!-- <div class="btn-play">
+          <div class="btn-play">
             <button name="play" data-video="https://www.youtube.com/embed/C0DPdy98e4c"></button>
-          </div> -->
+          </div>
           <h3 class="text-white text-shadow pb-0 mb-0">Elizabeth<br>Sierra</h1>
             <h5 class="persona__description" name="text">Gerente de Operaciones</h5>
         </div>
-      </div>
+      </div> -->
       <div class="carousel__item">
         <div class="persona">
           <div class="btn-play">
-            <button name="play" data-video="https://www.youtube.com/embed/MY-bJ-t8Bqg "></button>
+            <button name="play" data-video="https://www.youtube.com/embed/MY-bJ-t8Bqg"></button>
           </div>
           <h3 class="text-white text-shadow pb-0 mb-0">Norma<br>Guzmán</h1>
             <h5 class="persona__description" name="text">Gerente de Ventas Orlando,Florida</h5>
@@ -191,18 +194,18 @@
       <div class="carousel__item">
         <div class="persona">
           <div class="btn-play">
-            <button name="play" data-video="https://www.youtube.com/embed/9vqjlysVigw"></button>
+            <button name="play" data-video="https://www.youtube.com/embed/Z4cqnqDbXTU"></button>
           </div>
-          <h3 class="text-white text-shadow pb-0 mb-0">Erick<br>Davila</h1>
+          <h3 class="text-white text-shadow pb-0 mb-0">Carlos<br>Jimenez</h1>
             <h5 class="persona__description" name="text">Gerente de Ventas Chicago,Illinois</h5>
         </div>
       </div>
       <div class="carousel__item">
         <div class="persona">
           <div class="btn-play">
-            <button name="play" data-video="https://www.youtube.com/embed/Z4cqnqDbXTU"></button>
+            <button name="play" data-video="https://www.youtube.com/embed/9vqjlysVigw"></button>
           </div>
-          <h3 class="text-white text-shadow pb-0 mb-0">Carlos<br>Jimenez</h1>
+          <h3 class="text-white text-shadow pb-0 mb-0">Erick<br>Davila</h1>
             <h5 class="persona__description" name="text">Gerente de Ventas Chicago,Illinois</h5>
         </div>
       </div>
@@ -251,7 +254,10 @@
       <h6 name="text" class="pb-0 mb-0"></h6>
     </div>
     <div class="S3__item to-right justify-content-center d-flex">
-      <img class="img-fluid shadow" src="resources/img/site/empleo/manos.jpg" alt="manos">
+      <picture>
+        <source class="img-fluid img-shadow" srcset="resources/img/site/empleo/manos.webp" type="image/webp">
+        <img class="img-fluid img-shadow" src="resources/img/site/empleo/manos.jpg" alt="manos">
+      </picture>
     </div>
   </section>
   <!-- ========= -->
@@ -326,6 +332,7 @@
   <!-- ====== --> 
 
   <!-- === -->
+  <script src="./vendors/modernizr/modernizr-custom.js"></script>
   <script src="./vendors/url-variable/url-variable.js"></script>
   <script src="./vendors/location/location.js"></script>
   <script src="./vendors/loader/loader.js"></script>

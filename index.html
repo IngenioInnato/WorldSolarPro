@@ -62,14 +62,20 @@
 
 <body>
   <!-- Loader Sección -->
-  <section id="loader">
+  <!-- <section id="loader">
     <div class="loader__icon"></div>
-    <img class="img-fluid loader__img" src="./resources/img/logo/isotipo.png" alt="Isotipo World Solar Pro">
-  </section>
+    <picture class="loader__img">
+      <source class="img-fluid" srcset="./resources/img/logo/isotipo.webp" type="image/webp">
+        <img class="img-fluid" src="./resources/img/logo/isotipo.png" alt="Isotipo World Solar Pro">
+    </picture>
+  </section> -->
   <!-- ============== -->
   <!-- Sección 1 SLOGAN -->
   <section id="S1" class="slogan">
-    <img class="S1__logo img-fluid" src="./resources/img/logo/logo-light.png" alt="Logo">
+    <picture>
+      <source class="img-fluid" srcset="./resources/img/logo/logo-light.webp" type="image/webp">
+      <img class="S1__logo img-fluid" src="./resources/img/logo/logo-light.png" alt="Logo">
+    </picture>
     <h1 class="display-3 text-light font-bold" name="text"></h1>
   </section>
   <!-- ================ -->
@@ -153,7 +159,7 @@
     </div>
   </section>
     <!-- ===================== -->
-    
+  <script src="./vendors/modernizr/modernizr-custom.js"></script>
   <script src="./vendors/loader/loader.js"></script>
   <script src="./resources/data/lang/portada.js"></script>
   <script src="./vendors/form/form.js"></script>

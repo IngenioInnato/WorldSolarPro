@@ -24,8 +24,8 @@ addLang(MenuLang);
 
 // Header
 const HeaderText = [{
-  'es': 'PLANES Y SERVICIOS Puerto Rico / Illinois / Orlando',
-  'en': 'PLANS AND SERVICES Puerto Rico / Illinois / Orlando'
+  'es': 'PLANES Y SERVICIOS',
+  'en': 'PLANS AND SERVICES'
 }];
 addLang(HeaderText);
 // Sección 1 Nuestros Productos

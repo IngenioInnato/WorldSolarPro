@@ -132,7 +132,7 @@ ServerSignature Off
 
 # BEGIN CACHE
   # cache de imágenes y contenido flash un mes
-<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf)$">
+<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|webp)$">
 Header set Cache-Control "max-age=31536000"
 </FilesMatch>
 
@@ -147,7 +147,7 @@ Header set Cache-Control "max-age=31536000"
 </FilesMatch>
 
   # usamos esto para activar cache mínima durante tareas de desarrollo en el sitio
-<FilesMatch "\.(flv|gif|jpg|jpeg|png|ico|js|css|pdf|swf|html|htm|txt)$">
+<FilesMatch "\.(flv|gif|jpg|jpeg|png|ico|js|css|pdf|swf|html|htm|txt|webp)$">
 Header set Cache-Control "max-age=31536000"
 </FilesMatch>
 

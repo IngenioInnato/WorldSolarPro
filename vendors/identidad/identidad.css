@@ -12,13 +12,13 @@
 }
 /* <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet"> */
 :root{
-    --blue:             hsl(202, 100%, 32%);
-    --orange:           hsl(29, 94%, 57%);
-    --green:            hsl(72, 64%, 52%);
-    --gray:             hsl(0, 0%, 70%);
-    --darkgray:         hsl(0, 0%, 30%);
-    --black:            hsl(0,0%,0%);
-    --white:            hsl(0, 0%, 100%);
+    --blue:             #0067A3;/* hsl(202, 100%, 32%) */
+    --orange:           #F88E2A; /* hsl(29, 94%, 57%) */
+    --green:            #B4D336; /* hsl(72, 64%, 52%) */
+    --gray:             #B3B3B3; /* hsl(0, 0%, 70%) */
+    --darkgray:         #4D4D4D;/* hsl(0, 0%, 30%) */
+    --black:            #000000; /* hsl(0,0%,0%) */
+    --white:            #ffffff; /* hsl(0, 0%, 100%) */
 
     --font-family:      'RoosW01Display', serif;
     --font-display:      calc(2.2rem + 0.2vw);

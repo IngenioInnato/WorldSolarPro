@@ -10,8 +10,13 @@ header {
   flex-wrap: wrap;
   flex-direction: column;
 }
-header .no-webp{
+.no-webp header{
   background: url('../img/site/contacto/banner-contacto.jpg');
+  background-size: cover;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 .btn-wsp {
   width: inherit;

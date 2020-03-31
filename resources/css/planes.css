@@ -4,7 +4,7 @@ header{
   background-attachment: fixed;
   height: 90vh;
 }
-header .no-webp{
+.no-webp header{
   background: url(../img/site/planes/banner-header.jpg) center no-repeat;
 }
 header h1{

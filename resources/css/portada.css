@@ -18,6 +18,9 @@
 }
 .no-webp #S1{
   background: url('../img/site/portada/panel-movement.gif') center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 #S1 > .display-3{
   margin: 0;
@@ -97,9 +100,15 @@
   background: url('../img/site/portada/panel-solar.webp') center no-repeat;
   background-size: cover;
   background-attachment: fixed;
+
 }
 .no-webp #S4{
   background: url('../img/site/portada/panel-solar.jpg') center no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 #S4 h1{
   text-shadow: 5px 5px 5px var(--black);

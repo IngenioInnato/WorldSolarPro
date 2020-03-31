@@ -102,10 +102,12 @@
 
 /* Sección 3 Icon Text*/
 #S3, #S4 {
+  display: -webkit-box;
   display: flex;
 }
 #S3 > div{
-  flex: 0 0 20%;
+  -webkit-box-flex: 0;
+          flex: 0 0 20%;
 }
 #S3 img{
   margin-bottom: 2rem;
@@ -124,20 +126,24 @@
 }
 @media (max-width: 991.98px) {  
   #S3{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
 }
 /* =================== */
 
 /* Sección 4 Estadísticas */
 #S4 {
-  justify-content: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   background: url('../img/site/inicio/banner-card.webp') center no-repeat;
   background-size: cover;
 }
 
 .no-webp #S4{
-  justify-content: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   background: url('../img/site/inicio/banner-card.jpg') center no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
@@ -146,11 +152,14 @@
 }
 
 .S4__item {
-  flex: 0 0 23%;
+  -webkit-box-flex: 0;
+          flex: 0 0 23%;
 }
 
 @media (max-width: 991.98px) {  
   #S4{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
 }

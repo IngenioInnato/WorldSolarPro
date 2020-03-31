@@ -114,6 +114,7 @@ p, .p, a{
 }
 a {
   text-decoration: none !important;
+  -webkit-transition: color 0.5s ease;
   transition: color 0.5s ease;
 }
 a:hover{
@@ -135,6 +136,7 @@ html, body, div, section,span, blockquote, pre, a, b, u, i, center, dl, dt, dd, 
 }
 
 .btn-wsp {
+  display: -webkit-inline-box;
   display: inline-flex;
   margin: 0 0 0.5rem 0 !important;
   width: 100%;
@@ -147,6 +149,7 @@ html, body, div, section,span, blockquote, pre, a, b, u, i, center, dl, dt, dd, 
   font-family: var(--font-family);
   font-weight: bold;
   font-size: var(--font-h5);
+  -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
 }
 

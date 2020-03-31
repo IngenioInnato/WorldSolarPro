@@ -7,18 +7,25 @@
   background-color: rgba(83, 96, 109, 0.7);
   opacity: 0;
   visibility: hidden;
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: visibility 0s linear 1s, opacity 1s 0s, -webkit-transform 1s;
+  transition: visibility 0s linear 1s, opacity 1s 0s, -webkit-transform 1s;
   transition: visibility 0s linear 1s, opacity 1s 0s, transform 1s;
+  transition: visibility 0s linear 1s, opacity 1s 0s, transform 1s, -webkit-transform 1s;
   z-index: 10000;
 }
 
 .modal-content {
+  display: -webkit-box;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-color: var(--darkgray);
   padding: 1rem 1.5rem;
   width: 24rem;
@@ -50,8 +57,12 @@
 .show-modal {
   opacity: 1;
   visibility: visible;
-  transform: scale(1.0);
+  -webkit-transform: scale(1.0);
+          transform: scale(1.0);
+  -webkit-transition: visibility 0s linear 0s, opacity 1s 0s, -webkit-transform 1s;
+  transition: visibility 0s linear 0s, opacity 1s 0s, -webkit-transform 1s;
   transition: visibility 0s linear 0s, opacity 1s 0s, transform 1s;
+  transition: visibility 0s linear 0s, opacity 1s 0s, transform 1s, -webkit-transform 1s;
 }
 
 

@@ -30,17 +30,25 @@
   width: 100%;
 }
 .carousel__slide{
+  display: -webkit-box;
   display: flex;
   overflow: hidden;
 }
 .carousel__item{
+  display: -webkit-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
   height: 250px;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
 }
 .carousel__control{
+  display: -webkit-box;
   display: flex;
   background-color: rgba(0,0,0,0.7);
   position: absolute;
@@ -66,10 +74,13 @@
   }
 }
 .carousel__indicator {
+  display: -webkit-box;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+          justify-content: center;
 }
 .indicator__container{
+  display: -webkit-box;
   display: flex;
   justify-content: space-around;
   margin: 1rem 0;
@@ -77,9 +88,12 @@
   width: 15rem;
 }
 .indicator__container > li{
+  display: -webkit-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
   background-color: var(--gray);
   color: var(--white);
   border-radius: 1.5rem;
@@ -101,10 +115,14 @@
 }
 
 .control__prev, .control__next{
+  -webkit-transition: -webkit-transform 0.6s ease;
+  transition: -webkit-transform 0.6s ease;
   transition: transform 0.6s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
 }
 .control__prev:hover, .control__next:hover{
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .indicator__container > .active {

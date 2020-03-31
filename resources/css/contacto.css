@@ -1,9 +1,12 @@
 header{
+  display: -webkit-box;
   display: flex;
   background: url('../img/site/contacto/banner-contacto.webp') center no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
   height: 60vh;
 }
@@ -15,7 +18,9 @@ header h1{
 }
 #S2{
   flex-wrap: wrap;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
   background: url('../img/site/portada/panel-solar.webp') center no-repeat;
   background-size: cover;
@@ -25,6 +30,7 @@ header h1{
   background: url('../img/site/portada/panel-solar.jpg') center no-repeat;
 }
 .S2__form{
-  flex: 0 0 80%;
+  -webkit-box-flex: 0;
+          flex: 0 0 80%;
   padding: 3rem;
 }

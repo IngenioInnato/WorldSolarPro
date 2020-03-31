@@ -5,13 +5,18 @@
 @media (min-width: 1200px) {  } */
 
 #S1, #S2, #S3, #S4, #S5{
+  display: -webkit-box;
   display: flex;
 }
 /* Sección 1 SLOGAN */
 #S1 {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
   background: url('../img/site/portada/panel-movement.webp') center no-repeat;
   background-size: cover;
   padding: 2rem;
@@ -37,19 +42,25 @@
 }
 
 .S2__header{
-  flex: 0 0 100%;
+  -webkit-box-flex: 0;
+          flex: 0 0 100%;
   flex-wrap: wrap;
   padding: 2rem;
   background-color: var(0,0,0,0.8);
 }
 
 .S2__item{
+  display: -webkit-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 0 0 30%;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-flex: 0;
+          flex: 0 0 30%;
   height: 50vh;
   padding: 0;
+  -webkit-transition: margin 1s ease;
   transition: margin 1s ease;
 }
 .S2__item:hover{
@@ -83,11 +94,14 @@
 }
 @media (max-width: 991.98px) { 
   #S2 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
 
   .S2__item{
-    flex: 0 0 100%;
+    -webkit-box-flex: 0;
+            flex: 0 0 100%;
     min-height: 40vh;
   }
 }
@@ -96,8 +110,10 @@
 /* Sección 4 Formulario */
 #S4{
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
   background: url('../img/site/portada/panel-solar.webp') center no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -115,7 +131,8 @@
   text-shadow: 5px 5px 5px var(--black);
 }
 .S4__form{
-  flex: 0 0 80%;
+  -webkit-box-flex: 0;
+          flex: 0 0 80%;
   padding: 3rem;
 }
 #S4 .btn-wsp:hover{
@@ -135,7 +152,10 @@
   right: 2rem;
 }
 .control__prev, .control__next {
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 @media (max-width: 991.98px) { 
   .control__prev{

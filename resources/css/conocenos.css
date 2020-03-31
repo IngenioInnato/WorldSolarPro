@@ -1,4 +1,5 @@
   #S1, #S2, #S3, #S4, #S5, #S6{
+    display: -webkit-box;
     display: flex;
   }  
   /* Header */
@@ -62,10 +63,12 @@
   /* Sección 2 Quienes somos */
 #S2 {
   justify-content: space-around;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 #S2 > div{
-  flex: 0 0 45%;
+  -webkit-box-flex: 0;
+          flex: 0 0 45%;
 }
 #S2 .carousel__item{
   height: 100%;
@@ -81,7 +84,9 @@
     right: 0;
   }
   #S2{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
   #S2 > div:nth-child(1){
     margin-bottom: 2rem;
@@ -89,10 +94,12 @@
 }
 /* ======================= */
 #S3 {
-  justify-content: center;
+  -webkit-box-pack: center;
+          justify-content: center;
 }
 .S3__item, .S4__item, .S5__item, .S6__item{
-  flex: 0 0 45%;
+  -webkit-box-flex: 0;
+          flex: 0 0 45%;
   align-self: center;
   padding: 2rem;
 }
@@ -101,7 +108,9 @@
 }
 @media (max-width: 991.98px) {  
   #S3,#S4,#S5,#S6 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
 }
 

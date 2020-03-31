@@ -1,14 +1,19 @@
 header {
+  display: -webkit-box;
   display: flex;
   height: 100vh;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
   background: url('../img/site/contacto/banner-contacto.webp');
   background-size: cover;
   background-attachment: fixed;
   color: var(--white) !important;
   flex-wrap: wrap;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
 }
 .no-webp header{
   background: url('../img/site/contacto/banner-contacto.jpg');

@@ -7,19 +7,23 @@ nav {
 }
 
 .flag {
-  filter: invert(100);
+  -webkit-filter: invert(100);
+          filter: invert(100);
 }
 
 header,
 #S1,
 #S2 {
+  display: -webkit-box;
   display: flex;
 }
 
 header .carousel__item {
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-end;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+          align-items: flex-end;
   text-align: center;
   padding: 0 2rem;
   background-size: cover !important;
@@ -149,8 +153,10 @@ header .control__next {
 
 #S2 {
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
   background: url('../img/site/portada/panel-solar.webp') center no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -164,7 +170,8 @@ header .control__next {
   -o-background-size: cover;
 }
 .S2__form {
-  flex: 0 0 80%;
+  -webkit-box-flex: 0;
+          flex: 0 0 80%;
   padding: 3rem;
 }
 
@@ -172,13 +179,16 @@ header .control__next {
 /* Sección 3 CV */
 
 #S3 {
+  display: -webkit-box;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 .S3__item {
-  flex: 0 0 45%;
+  -webkit-box-flex: 0;
+          flex: 0 0 45%;
 }
 
 .S3__item:nth-child(2) {
@@ -189,8 +199,12 @@ header .control__next {
 /* Botón de play */
 
 .btn-play {
+  display: -webkit-inline-box;
   display: inline-flex;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
 }
 
 div button[name="play"] {
@@ -222,7 +236,8 @@ div button[name="play"]::after {
 }
 
 .btn-play:hover {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 
@@ -231,7 +246,9 @@ div button[name="play"]::after {
 /* Sección 4 */
 @media (max-width: 1199.98px) {
   #S3  {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
 }
 

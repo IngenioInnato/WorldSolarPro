@@ -18,6 +18,8 @@ footer{
   grid-area: sigue;
 }
 .sigue > a, .menu > a{
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 .mas{
@@ -52,13 +54,17 @@ footer input{
    text-align: center;
  }
  footer .item-2 a{
-  justify-content: center;
+  -webkit-box-pack: center;
+          justify-content: center;
 }
 }
 footer .item-2 a{
+  display: -webkit-box;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 .icon-white{
-  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
 }

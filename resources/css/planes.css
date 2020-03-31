@@ -15,17 +15,21 @@ header h1{
   text-shadow: 5px 5px 5px var(--black); 
 }
 header, #S1, #S2, #S3, #S4, #S5 {
+  display: -webkit-box;
   display: flex;
 }
 @media (max-width: 991.98px) { 
   header,#S1, #S2, #S3, #S4 {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
   }
 }
 /* HEADER */
 header{
   justify-content: space-around;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 .header__item:nth-child(2){
   display: grid;
@@ -35,7 +39,8 @@ header{
 }
 
 .header__item{
-  flex: 0 0 40%;
+  -webkit-box-flex: 0;
+          flex: 0 0 40%;
 }
 .header__item > img {
   border: solid 1px var(--darkgray);
@@ -67,10 +72,12 @@ header{
 }
 /* ======================== */
 #S4{
-  justify-content: center;
+  -webkit-box-pack: center;
+          justify-content: center;
 }
 .S4__item{
-  flex: 0 0 50%;
+  -webkit-box-flex: 0;
+          flex: 0 0 50%;
   height: 50vh;
 }
 .panel-solar-1{
@@ -96,10 +103,14 @@ header{
   -o-background-size: cover;
 }
 #S5{
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
   flex-wrap: wrap;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
 }
 #S5 > img{
   width: auto;

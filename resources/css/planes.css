@@ -6,6 +6,10 @@ header{
 }
 .no-webp header{
   background: url(../img/site/planes/banner-header.jpg) center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 header h1{
   text-shadow: 5px 5px 5px var(--black); 
@@ -45,6 +49,10 @@ header{
 }
 .no-webp #S1{
   background: url('../img/site/planes/banner-section-1.jpg') center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 #S1 > div > h3{
   color: var(--white);

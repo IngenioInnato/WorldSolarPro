@@ -28,9 +28,9 @@ header .carousel__item {
   height: 70vh;
   background-size: cover;
   background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
 }
   
 @media (max-width: 991.98px) {

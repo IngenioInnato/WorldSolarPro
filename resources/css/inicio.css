@@ -33,34 +33,52 @@
     background: url('../img/site/inicio/banner-header/6.webp') center no-repeat;
     background-size: cover;
   }
-  .carousel--header .no-webp .carousel__item:nth-child(2) {
+  .no-webp .carousel--header .carousel__item:nth-child(2) {
     background: url('../img/site/inicio/banner-header/1.jpg') center no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
   
-  .carousel--header .no-webp .carousel__item:nth-child(3){
+  .no-webp .carousel--header .carousel__item:nth-child(3){
     background: url('../img/site/inicio/banner-header/2.jpg') center no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
   
-  .carousel--header .no-webp .carousel__item:nth-child(4){
+  .no-webp .carousel--header .carousel__item:nth-child(4){
     background: url('../img/site/inicio/banner-header/3.jpg') center no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
   
-  .carousel--header .no-webp .carousel__item:nth-child(5){
+  .no-webp .carousel--header .carousel__item:nth-child(5){
     background: url('../img/site/inicio/banner-header/4.jpg') center no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
   
-  .carousel--header .no-webp .carousel__item:nth-child(6){
+  .no-webp .carousel--header .carousel__item:nth-child(6){
     background: url('../img/site/inicio/banner-header/5.jpg') center no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
   
-  .carousel--header .no-webp .carousel__item:nth-child(7){
+  .no-webp .carousel--header .carousel__item:nth-child(7){
     background: url('../img/site/inicio/banner-header/6.jpg') center no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
   .carousel--header h1{
     color:var(--white);
@@ -118,10 +136,13 @@
   background-size: cover;
 }
 
-#S4 .no-webp{
+.no-webp #S4{
   justify-content: center;
   background: url('../img/site/inicio/banner-card.jpg') center no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .S4__item {

@@ -43,7 +43,7 @@ header{
   background: url('../img/site/planes/banner-section-1.webp') center no-repeat;
   background-size: cover;
 }
-#S1 .no-webp{
+.no-webp #S1{
   background: url('../img/site/planes/banner-section-1.jpg') center no-repeat;
 }
 #S1 > div > h3{
@@ -73,13 +73,19 @@ header{
   background: url(../img/site/planes/panel-solar/2.webp) center no-repeat;
   background-size: cover;
 }
-.panel-solar-1 .no-webp{
+.no-webp .panel-solar-1 {
   background: url(../img/site/planes/panel-solar/1.jpg) center no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
-.panel-solar-2 .no-webp{
+.no-webp .panel-solar-2 {
   background: url(../img/site/planes/panel-solar/2.jpg) center no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 #S5{
   justify-content: center;

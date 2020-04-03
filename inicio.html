@@ -243,7 +243,7 @@
   <section id="S2" class=" pt-3 px-5 pb-5">
     <div class="p-3 m-0 border shadow text-center to-bottom">
       <h3 name="text" class="m-0 p-3"></h3>
-      <a href="./contacto" class="btn-wsp mb-5" name="text" style="width: inherit;"></a>
+      <a href="./contacto.html" class="btn-wsp mb-5" name="text" style="width: inherit;"></a>
     </div>
   </section>
   <!-- ============== -->
@@ -342,26 +342,28 @@
     <div class="item-4 mas to-right">
       <h5 name="text"></h5>
       <p name="text"></p>
-      <span class="input input--wsp">
-          <input class="input__field input__field--wsp" type="text" id="f-1" />
-          <label class="input__label input__label--wsp" for="f-1">
-            <span class="input__label-content input__label-content--wsp" name="text"></span>
-      </label>
-      </span>
-      <span class="input input--wsp">
-          <input class="input__field input__field--wsp" type="text" id="f-2" />
-          <label class="input__label input__label--wsp" for="f-2">
-            <span class="input__label-content input__label-content--wsp" name="text"></span>
-      </label>
-      </span>
-      <span class="input input--wsp">
-          <input class="input__field input__field--wsp" type="text" id="f-3" />
-          <label class="input__label input__label--wsp" for="f-3">
-            <span class="input__label-content input__label-content--wsp" name="text"></span>
-      </label>
-      </span>
-      <a class="btn-wsp mb-5" name="text" id="send-f"></a>
-      <span href="#" name="text"></span>
+      <form class="footer__form">
+        <span class="input input--wsp">
+            <input class="input__field input__field--wsp" type="text" id="f-1" maxlength="80" required />
+            <label class="input__label input__label--wsp" for="f-1">
+              <span class="input__label-content input__label-content--wsp" name="text"></span>
+        </label>
+        </span>
+        <span class="input input--wsp">
+            <input class="input__field input__field--wsp" type="email" id="f-2" maxlength="100" required/>
+            <label class="input__label input__label--wsp" for="f-2">
+              <span class="input__label-content input__label-content--wsp" name="text"></span>
+        </label>
+        </span>
+        <span class="input input--wsp">
+            <input class="input__field input__field--wsp" type="tel" id="f-3" required/>
+            <label class="input__label input__label--wsp" for="f-3">
+              <span class="input__label-content input__label-content--wsp" name="text"></span>
+        </label>
+        </span>
+        <input type="submit" class="btn-wsp w-100 text-center d-block text-uppercase" name="text" id="send-f">
+        <span name="text"></span>
+      </form>
     </div>
     <div class="item-5 politicas">
       <p class="text-center p-0 m-0">|
@@ -382,6 +384,7 @@
   <script src="./resources/data/lang/inicio.js"></script>
 
   <script src="./vendors/number-counter/number-counter.js"></script>
+  <script src="./vendors/footer/footer.js"></script>
   <script src="./vendors/form/form.js"></script>
   <script src="./vendors/carousel/carousel.js"></script>
   <script src="./vendors/to-animation/to-animation.js"></script>

@@ -35,3 +35,7 @@ var observeS4 = new IntersectionObserver(entries => {
   }, {rootMargin: '-10px'})
   observeS4.observe(S4);
   // ========
+  // Boton Sección 2
+var botonS2 = document.querySelector('#S2 .btn-wsp');
+var atribute = botonS2.getAttribute("href") + '?location=' + local;
+botonS2.setAttribute('href', atribute);

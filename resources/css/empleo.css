@@ -172,10 +172,12 @@ header .control__next {
 .S2__form {
   -webkit-box-flex: 0;
           flex: 0 0 80%;
-  padding: 3rem;
+  padding: 0 3rem 3rem 3rem;
 }
 
-
+.S2__form .btn-wsp:hover{
+  color: var(--white);
+}
 /* Sección 3 CV */
 
 #S3 {

@@ -139,34 +139,40 @@
   <!-- Sección 2 Formulario -->
   <section id="S2" class="formulario d-flex justify-content-center px-3">
     <h1 name="text" class="text-white pt-5 mb-0 pb-0 text-shadow"></h1>
-    <div class="S2__form to-top">
+    <form class="S2__form to-top">
       <span class="input input--wsp">
-        <input class="input__field input__field--wsp" type="text" id="input-1" />
-        <label class="input__label input__label--wsp" for="input-1">
+        <input class="input__field input__field--wsp" type="text" id="c-1" maxlength="80" required/>
+        <label class="input__label input__label--wsp" for="c-1">
           <span class="input__label-content input__label-content--wsp" name="text"></span>
-      </label>
+        </label>
       </span>
       <span class="input input--wsp">
-        <input class="input__field input__field--wsp" type="text" id="input-2" />
-        <label class="input__label input__label--wsp" for="input-2">
+        <input class="input__field input__field--wsp" type="text" id="c-2" maxlength="80" required/>
+        <label class="input__label input__label--wsp" for="c-2">
           <span class="input__label-content input__label-content--wsp" name="text"></span>
-      </label>
+        </label>
       </span>
       <span class="input input--wsp">
-        <input class="input__field input__field--wsp" type="text" id="input-3" />
-        <label class="input__label input__label--wsp" for="input-3">
+        <input class="input__field input__field--wsp" type="email" id="c-3" maxlength="80" required/>
+        <label class="input__label input__label--wsp" for="c-3">
           <span class="input__label-content input__label-content--wsp" name="text"></span>
-      </label>
+        </label>
+      </span>
+      <span class="input input--wsp">
+        <input class="input__field input__field--wsp" type="text" id="c-4" maxlength="80" required/>
+        <label class="input__label input__label--wsp" for="c-4">
+          <span class="input__label-content input__label-content--wsp" name="text"></span>
+        </label>
       </span>
       <span class="input input--wsp mb-2">
-        <input class="input__field input__field--wsp" type="text" id="input-4" />
-        <label class="input__label input__label--wsp" for="input-4">
+        <input class="input__field input__field--wsp" type="tel" id="c-5" maxlength="80" required/>
+        <label class="input__label input__label--wsp" for="c-5">
           <span class="input__label-content input__label-content--wsp" name="text"></span>
-      </label>
+        </label>
       </span>
-      <a class="btn-wsp w-100 text-center d-block" name="text"></a>
+      <input class="btn-wsp w-100 text-center d-block" name="text" type="submit"/>
       <span href="#"></span>
-    </div>
+    </form>
   </section>
   <!-- ========== -->
   <!-- FOOTER -->
@@ -196,26 +202,28 @@
     <div class="item-4 mas to-right">
       <h5 name="text"></h5>
       <p name="text"></p>
-      <span class="input input--wsp">
-          <input class="input__field input__field--wsp" type="text" id="f-1" />
-          <label class="input__label input__label--wsp" for="f-1">
-            <span class="input__label-content input__label-content--wsp" name="text"></span>
-      </label>
-      </span>
-      <span class="input input--wsp">
-          <input class="input__field input__field--wsp" type="text" id="f-2" />
-          <label class="input__label input__label--wsp" for="f-2">
-            <span class="input__label-content input__label-content--wsp" name="text"></span>
-      </label>
-      </span>
-      <span class="input input--wsp">
-          <input class="input__field input__field--wsp" type="text" id="f-3" />
-          <label class="input__label input__label--wsp" for="f-3">
-            <span class="input__label-content input__label-content--wsp" name="text"></span>
-      </label>
-      </span>
-      <a class="btn-wsp mb-5" name="text" id="send-f"></a>
-      <span href="#" name="text"></span>
+      <form class="footer__form">
+        <span class="input input--wsp">
+            <input class="input__field input__field--wsp" type="text" id="f-1" maxlength="80" required />
+            <label class="input__label input__label--wsp" for="f-1">
+              <span class="input__label-content input__label-content--wsp" name="text"></span>
+        </label>
+        </span>
+        <span class="input input--wsp">
+            <input class="input__field input__field--wsp" type="email" id="f-2" maxlength="100" required/>
+            <label class="input__label input__label--wsp" for="f-2">
+              <span class="input__label-content input__label-content--wsp" name="text"></span>
+        </label>
+        </span>
+        <span class="input input--wsp">
+            <input class="input__field input__field--wsp" type="tel" id="f-3" required/>
+            <label class="input__label input__label--wsp" for="f-3">
+              <span class="input__label-content input__label-content--wsp" name="text"></span>
+        </label>
+        </span>
+        <input type="submit" class="btn-wsp w-100 text-center d-block text-uppercase" name="text" id="send-f">
+        <span name="text"></span>
+      </form>
     </div>
     <div class="item-5 politicas">
       <p class="text-center p-0 m-0">|
@@ -234,6 +242,7 @@
   <script src="./resources/data/lang/contacto.js"></script>
 
   <script src="./vendors/number-counter/number-counter.js"></script>
+  <script src="./vendors/footer/footer.js"></script>
   <script src="./vendors/form/form.js"></script>
   <script src="./vendors/carousel/carousel.js"></script>
   <script src="./vendors/to-animation/to-animation.js"></script>

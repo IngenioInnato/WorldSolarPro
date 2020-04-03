@@ -34,3 +34,7 @@ header h1{
           flex: 0 0 80%;
   padding: 3rem;
 }
+
+.S2__form .btn-wsp{
+  color:var(--white);
+}

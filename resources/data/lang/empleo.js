@@ -85,6 +85,10 @@ const S2Text = [{
     'en': 'Last Name'
   },
   {
+    'es': 'Email',
+    'en': 'Email'
+  },
+  {
     'es': 'Ciudad',
     'en': 'City'
   },

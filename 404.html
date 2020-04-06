@@ -93,7 +93,7 @@
   <section id="loader">
     <div class="loader__icon"></div>
     <picture class="loader__img">
-      <source class="img-fluid" srcset="./resources/img/logo/isotipo.webp" type="image/webp">
+      <source class="img-fluid" srcset="./resources/img/logo/isotipo.webp" type="image/webp" alt="Isotipo World Solar Pro">
       <img class="img-fluid" src="./resources/img/logo/isotipo.png" alt="Isotipo World Solar Pro">
     </picture>
   </section>
@@ -101,7 +101,7 @@
   <!-- Nav -->
   <nav id="nav" class="to-bottom">
     <div class="nav-item-1">
-      <a href="./inicio.html"><img src="./resources/img/logo/logo-dark.png" alt="Logo WSP" class="logo"></a>
+      <a href="./inicio.html"><img src="./resources/img/logo/logo-light.png" alt="Logo WSP" class="logo"></a>
     </div>
     <div class="nav-item-5">
       <div class="menu-toggle hide" id="mobile-menu">
@@ -129,15 +129,20 @@
   </nav>
   <!-- === -->
   <!-- HEADER -->
-  <header class="p-5">
+  <header class="p-lg-5">
     <h1 class="display-1 text-shadow text-light">OOPS!</h1>
     <h4 class="text-center" name="text"></h4>
-    <a class="btn-wsp" href="./inicio.html" name="text"></a>
+    <a class="btn-wsp" href="./" name="text"></a>
   </header>
   <!-- ====== -->
   <!-- FOOTER -->
   <footer class="to-blue">
-    <div class="item-0 logo to-left"><img src="./resources/img/logo/logo-light.png" alt="Logo World Solar Pro"></div>
+    <div class="item-0 logo to-left">
+      <picture>
+        <source srcset="./resources/img/logo/logo-light.webp" alt="Logo World Solar Pro" class="img-fluid">
+        <img src="./resources/img/logo/logo-light.png" alt="Logo World Solar Pro" class="img-fluid">
+      </picture>
+    </div>
     <div class="item-1 info to-left">
       <p name="text"></p>
       <p class="last-sub-item" name="text">
@@ -192,8 +197,6 @@
     <div class="item-6 ingenio text-center" name="text"></div>
   </footer>
   <!-- ====== -->
-
-  <!-- === -->
   <script src="./vendors/modernizr/modernizr-custom.js"></script>
   <script src="./vendors/url-variable/url-variable.js"></script>
   <script src="./vendors/location/location.js"></script>

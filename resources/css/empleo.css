@@ -5,7 +5,9 @@ nav {
 .nav-item-2>a {
   color: var(--black);
 }
-
+.menu-toggle .bar{
+  background-color: var(--black);
+}
 .flag {
   -webkit-filter: invert(100);
           filter: invert(100);
@@ -172,7 +174,6 @@ header .control__next {
 .S2__form {
   -webkit-box-flex: 0;
           flex: 0 0 80%;
-  padding: 0 3rem 3rem 3rem;
 }
 
 .S2__form .btn-wsp:hover{

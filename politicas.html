@@ -100,6 +100,9 @@
     .flag {
       filter: brightness(0);
     }
+    .menu-toggle .bar{
+      background-color: var(--black);
+    }
   </style>
 </head>
 
@@ -159,14 +162,19 @@
   </nav>
   <!-- === -->
   <header></header>
-  <section id="S1" class="d-flex justify-content-center align-items-center flex-column p-5">
+  <section id="S1" class="d-flex justify-content-center align-items-center flex-column py-5 px-lg-5 px-1">
     <h1 name="text" class="mt-xl-0 mt-5"></h1>
     <p name="text"></p>
   </section>
 
   <!-- FOOTER -->
   <footer class="to-blue">
-    <div class="item-0 logo to-left"><img src="./resources/img/logo/logo-light.png" alt="Logo World Solar Pro"></div>
+    <div class="item-0 logo to-left">
+      <picture>
+        <source srcset="./resources/img/logo/logo-light.webp" alt="Logo World Solar Pro" class="img-fluid">
+        <img src="./resources/img/logo/logo-light.png" alt="Logo World Solar Pro" class="img-fluid">
+      </picture>
+    </div>
     <div class="item-1 info to-left">
       <p name="text"></p>
       <p class="last-sub-item" name="text">

@@ -132,13 +132,13 @@
   <header class="px-lg-5 px-3">
     <h1 name="text" class="text-center text-light pb-0 mb-0"></h1>
   </header>
-  <section id="S1" class="d-flex justify-content-center my-3  ">
+  <section id="S1" class="d-flex justify-content-center my-3">
     <iframe src="https://www.google.com/maps/d/u/0/embed?mid=11VJGA7V4yxPyPzPZJguQDl0rm4H8m1g5" width="80%" height="480"></iframe>
   </section>
   <!-- ====== -->
   <!-- Sección 2 Formulario -->
-  <section id="S2" class="formulario d-flex justify-content-center px-3">
-    <h1 name="text" class="text-white pt-5 mb-0 pb-0 text-shadow"></h1>
+  <section id="S2" class="formulario d-flex justify-content-center px-lg-3 px-0 py-3">
+    <h1 name="text" class="text-white mb-0 pb-lg-3 pb-2 text-shadow"></h1>
     <form class="S2__form to-top">
       <span class="input input--wsp">
         <input class="input__field input__field--wsp" type="text" id="c-1" maxlength="80" required/>
@@ -177,7 +177,12 @@
   <!-- ========== -->
   <!-- FOOTER -->
   <footer class="to-blue">
-    <div class="item-0 logo to-left"><img src="./resources/img/logo/logo-light.png" alt="Logo World Solar Pro"></div>
+    <div class="item-0 logo to-left">
+      <picture>
+        <source srcset="./resources/img/logo/logo-light.webp" alt="Logo World Solar Pro" class="img-fluid">
+        <img src="./resources/img/logo/logo-light.png" alt="Logo World Solar Pro" class="img-fluid">
+      </picture>
+    </div>
     <div class="item-1 info to-left">
       <p name="text"></p>
       <p class="last-sub-item" name="text">

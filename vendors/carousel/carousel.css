@@ -133,4 +133,10 @@
   .indicator__container{
     width: 25rem;
   }
+  .control__prev{
+    left: 0;
+  }
+  .control__next{
+    right: 0;
+  }
 }

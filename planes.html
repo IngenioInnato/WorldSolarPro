@@ -329,7 +329,12 @@
   </section>
   <!-- FOOTER -->
   <footer class="to-blue">
-    <div class="item-0 logo to-left"><img src="./resources/img/logo/logo-light.png" alt="Logo World Solar Pro"></div>
+    <div class="item-0 logo to-left">
+      <picture>
+        <source srcset="./resources/img/logo/logo-light.webp" alt="Logo World Solar Pro" class="img-fluid">
+        <img src="./resources/img/logo/logo-light.png" alt="Logo World Solar Pro" class="img-fluid">
+      </picture>
+    </div>
     <div class="item-1 info to-left">
       <p name="text"></p>
       <p class="last-sub-item" name="text">
@@ -384,8 +389,6 @@
     <div class="item-6 ingenio text-center" name="text"></div>
   </footer>
   <!-- ====== -->
-
-  <!-- === -->
   <script src="./vendors/modernizr/modernizr-custom.js"></script>
   <script src="./vendors/url-variable/url-variable.js"></script>
   <script src="./vendors/location/location.js"></script>

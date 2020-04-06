@@ -137,7 +137,7 @@ nav {
 
 /* Mobile Devices - Phones/Tablets */
 
-@media only screen and (max-width: 1199.98px) { 
+@media (max-width: 1199.98px) { 
   nav { 
     display: grid;
     width: 100%;
@@ -155,6 +155,9 @@ nav {
     grid-area: logo;
     min-width: 200px
   }   
+  .logo{
+    width: 50%;
+  }
   .menu-toggle, .bar {
     display: block;
     cursor: pointer;
@@ -199,5 +202,14 @@ nav {
     -webkit-transform: translateX(0);
             transform: translateX(0);
     height: 60vh;
+  }
+  .fb, .ig, .tw, .flag{
+    width: 10vw;
+    height: 8vh;
+  }
+}
+@media (max-width: 991.98px) {  
+  .logo {
+    width: 85%;
   }
 }

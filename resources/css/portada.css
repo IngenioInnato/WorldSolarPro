@@ -133,7 +133,6 @@
 .S4__form{
   -webkit-box-flex: 0;
           flex: 0 0 80%;
-  padding: 3rem;
 }
 #S4 .btn-wsp:hover{
   color: var(--white) !important;

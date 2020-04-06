@@ -86,17 +86,16 @@ header .carousel__item:nth-child(7) {
   background: url('../img/site/empleo/equipo/diogenes.webp') center top no-repeat;
 }
 
-header .carousel__item:nth-child(8) {
+/* header .carousel__item:nth-child(8) {
   background: url('../img/site/empleo/equipo/carlos.webp') center top no-repeat;
-}
+} */
 
-header .carousel__item:nth-child(9) {
+header .carousel__item:nth-child(8) {
   background: url('../img/site/empleo/equipo/erick.webp') center top no-repeat;
 }
 
 header .no-webp .carousel__item:nth-child(2) {
   background: url('../img/site/empleo/equipo/norma.jpg') center top no-repeat;
-  
 }
 
 header .no-webp .carousel__item:nth-child(3) {

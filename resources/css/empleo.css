@@ -62,27 +62,27 @@ header .carousel__item:nth-child(3) {
   background: url('../img/site/empleo/equipo/elizabeth.jpg') center top no-repeat;
 } */
 
-header .carousel__item:nth-child(2) {
+.carousel__item:nth-child(2) {
   background: url('../img/site/empleo/equipo/norma.webp') center top no-repeat;
 }
 
-header .carousel__item:nth-child(3) {
+.carousel__item:nth-child(3) {
   background: url('../img/site/empleo/equipo/noash.webp') center top no-repeat;
 }
 
-header .carousel__item:nth-child(4) {
+.carousel__item:nth-child(4) {
   background: url('../img/site/empleo/equipo/nancy.webp') center top no-repeat;
 }
 
-header .carousel__item:nth-child(5) {
+.carousel__item:nth-child(5) {
   background: url('../img/site/empleo/equipo/jose.webp') center top no-repeat;
 }
 
-header .carousel__item:nth-child(6) {
+.carousel__item:nth-child(6) {
   background: url('../img/site/empleo/equipo/diosbeli.webp') center top no-repeat;
 }
 
-header .carousel__item:nth-child(7) {
+.carousel__item:nth-child(7) {
   background: url('../img/site/empleo/equipo/diogenes.webp') center top no-repeat;
 }
 
@@ -94,35 +94,35 @@ header .carousel__item:nth-child(8) {
   background: url('../img/site/empleo/equipo/erick.webp') center top no-repeat;
 }
 
-header .no-webp .carousel__item:nth-child(2) {
+.no-webp .carousel__item:nth-child(2) {
   background: url('../img/site/empleo/equipo/norma.jpg') center top no-repeat;
 }
 
-header .no-webp .carousel__item:nth-child(3) {
+.no-webp .carousel__item:nth-child(3) {
   background: url('../img/site/empleo/equipo/noash.jpg') center top no-repeat;
 }
 
-header .no-webp .carousel__item:nth-child(4) {
+.no-webp .carousel__item:nth-child(4) {
   background: url('../img/site/empleo/equipo/nancy.jpg') center top no-repeat;
 }
 
-header .no-webp .carousel__item:nth-child(5) {
+.no-webp .carousel__item:nth-child(5) {
   background: url('../img/site/empleo/equipo/jose.jpg') center top no-repeat;
 }
 
-header .no-webp .carousel__item:nth-child(6) {
+.no-webp .carousel__item:nth-child(6) {
   background: url('../img/site/empleo/equipo/diosbeli.jpg') center top no-repeat;
 }
 
-header .no-webp .carousel__item:nth-child(7) {
+.no-webp .carousel__item:nth-child(7) {
   background: url('../img/site/empleo/equipo/diogenes.jpg') center top no-repeat;
 }
 
-header .no-webp .carousel__item:nth-child(8) {
+/* .no-webp .carousel__item:nth-child(8) {
   background: url('../img/site/empleo/equipo/carlos.jpg') center top no-repeat;
-}
+} */
 
-header .no-webp .carousel__item:nth-child(9) {
+.no-webp .carousel__item:nth-child(8) {
   background: url('../img/site/empleo/equipo/erick.jpg') center top no-repeat;
 }
 

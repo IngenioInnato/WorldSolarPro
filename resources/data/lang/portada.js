@@ -17,8 +17,8 @@ if (userLang.indexOf('_') !== -1) userLang = userLang.split('_')[0];
 // Título
 const TitleText = [
   {
-    'es': 'PORTADA | WORLD SOLAR PRO',
-    'en': 'COVER | WORLD SOLAR PRO'
+    'es': 'PORTADA | WORLD SOLAR PRO US',
+    'en': 'COVER | WORLD SOLAR PRO US'
   }
 ];  
 addLang(TitleText);

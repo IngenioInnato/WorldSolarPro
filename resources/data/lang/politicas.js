@@ -13,8 +13,8 @@ if (userLang.indexOf('-') !== -1) userLang = userLang.split('-')[0];
 if (userLang.indexOf('_') !== -1) userLang = userLang.split('_')[0];
 // ============================
 const TitleText = [{
-  'es': 'POLÍTICAS DE PRIVACIDAD | WORLD SOLAR PRO',
-  'en': 'PRIVACY POLICY | WORLD SOLAR PRO'
+  'es': 'POLÍTICAS DE PRIVACIDAD | WORLD SOLAR PRO US',
+  'en': 'PRIVACY POLICY | WORLD SOLAR PRO US'
 }];
 // Title
 addLang(TitleText);

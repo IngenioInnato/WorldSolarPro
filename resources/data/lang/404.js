@@ -13,8 +13,8 @@ if (userLang.indexOf('-') !== -1) userLang = userLang.split('-')[0];
 if (userLang.indexOf('_') !== -1) userLang = userLang.split('_')[0];
 // ============================
 const TitleText = [{
-  'es': 'PÁGINA NO ENCONTRADA | WORLD SOLAR PRO',
-  'en': 'PAGE NOT FOUND | WORLD SOLAR PRO'
+  'es': 'PÁGINA NO ENCONTRADA | WORLD SOLAR PRO US',
+  'en': 'PAGE NOT FOUND | WORLD SOLAR PRO US'
 }];
 // Title
 addLang(TitleText);

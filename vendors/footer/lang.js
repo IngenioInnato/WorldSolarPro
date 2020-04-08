@@ -88,7 +88,7 @@ const FooterLang = [
     'en': 'Privacy Policy '
   },
   {
-    'es': 'World Solar Pro',
+    'es': 'WORLD SOLAR PRO US',
     'en': 'World Solar Pro '
   },
   {

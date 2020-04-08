@@ -10,7 +10,7 @@ header{
   align-items: center;
   height: 60vh;
 }
-.no-webp header .no-webp{
+.no-webp header{
   background: url('../img/site/contacto/banner-contacto.jpg') center no-repeat;
 }
 header h1{
@@ -26,7 +26,7 @@ header h1{
   background-size: cover;
   background-attachment: fixed;
 }
-#S2 .no-webp{
+.no-webp #S2{
   background: url('../img/site/portada/panel-solar.jpg') center no-repeat;
 }
 .S2__form{

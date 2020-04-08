@@ -13,8 +13,8 @@ if (userLang.indexOf('-') !== -1) userLang = userLang.split('-')[0];
 if (userLang.indexOf('_') !== -1) userLang = userLang.split('_')[0];
 // ============================
 const TitleText = [{
-  'es': 'PLANES Y SERVICIOS | WORLD SOLAR PRO',
-  'en': 'PLANS AND SERVICES | WORLD SOLAR PRO'
+  'es': 'PLANES Y SERVICIOS | WORLD SOLAR PRO US',
+  'en': 'PLANS AND SERVICES | WORLD SOLAR PRO US'
 }];
 // Title
 addLang(TitleText);

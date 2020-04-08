@@ -8,7 +8,6 @@ FileETag none
 
 RewriteEngine On
 RewriteBase /
-RewriteRule ^.*$ index.php [END]
 
 Options -Indexes -MultiViews +FollowSymLinks
 
@@ -35,6 +34,7 @@ Options -Indexes -MultiViews +FollowSymLinks
 
 ExpiresByType image/x-icon "access plus 1 month"
 ExpiresByType image/svg+xml "access plus 1 month"
+
 
 # MIME TYPES
 <IfModule mod_mime.c>
@@ -120,15 +120,18 @@ deny from all
 </Files>
 # END Asegurar el archivo htaccess
 
+
 # BEGIN Ahorrar ancho de banda en servidores con PHP activo
 <ifmodule mod_php4.c>
 php_value zlib.output_compression 16386
 </ifmodule>
 # END Ahorrar ancho de banda en servidores con PHP activo
 
+
 # BEGIN Desactivar la firma del servidor
 ServerSignature Off
 # END Desactivar la firma del servidor
+
 
 # BEGIN CACHE
   # cache de imágenes y contenido flash un mes
@@ -175,6 +178,7 @@ RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$  [R,L]
 #END Forzar SSL Conexion segura
 
+
 # BEGIN Proteger contra inyecciones sql
 Options +FollowSymLinks
 RewriteEngine On
@@ -183,6 +187,7 @@ RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
 RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
 RewriteRule ^(.*)$ index.php [F,L]
 # END Proteger contra inyecciones sql
+
 
 # BEGIN 6G Protection 
 <IfModule mod_rewrite.c>

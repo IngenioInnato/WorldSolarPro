@@ -137,8 +137,8 @@
 #S4 {
   -webkit-box-pack: center;
           justify-content: center;
-  background: url('../img/site/inicio/banner-card.webp') center no-repeat;
-  background-size: cover;
+  /* background: url('../img/site/inicio/banner-card.webp') center no-repeat; */
+  /* background-size: cover; */
 }
 
 .no-webp #S4{

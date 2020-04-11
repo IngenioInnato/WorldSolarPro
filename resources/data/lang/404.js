@@ -35,10 +35,13 @@ var textItem = document.querySelectorAll('[name="text"]');
 if (userLang == 'es') {
   textItem.forEach((el, i) => el.innerHTML = lang[i].es);
   html.setAttribute('lang', 'es');
+  zE(() => $zopim(() => $zopim.livechat.setLanguage('es'))); //Zopim
 } else if (userLang == 'en') {
   textItem.forEach((el, i) => el.innerHTML = lang[i].en);
   html.setAttribute('lang', 'en');
+  zE(() => $zopim(() => $zopim.livechat.setLanguage('en'))); //Zopim
 } else {
   textItem.forEach((el, i) => el.innerHTML = lang[i].en);
   html.setAttribute('lang', 'en');
+  zE(() => $zopim(() => $zopim.livechat.setLanguage('en'))); //Zopim
 }

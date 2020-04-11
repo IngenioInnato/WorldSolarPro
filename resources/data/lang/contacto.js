@@ -70,15 +70,18 @@ var textItem = document.querySelectorAll('[name="text"]');
 if(userLang == 'es'){
   textItem.forEach((el, i) => el.innerHTML = lang[i].es);
   html.setAttribute('lang', 'es');
+  zE(() => $zopim(() => $zopim.livechat.setLanguage('es'))); //Zopim
 }
 else if (userLang == 'en'){
   textItem.forEach((el, i) => el.innerHTML = lang[i].en);
   html.setAttribute('lang', 'en');
+  zE(() => $zopim(() => $zopim.livechat.setLanguage('en'))); //Zopim
 }
 
 else{ 
   textItem.forEach((el, i) => el.innerHTML = lang[i].en);
   html.setAttribute('lang', 'en');
+  zE(() => $zopim(() => $zopim.livechat.setLanguage('en'))); //Zopim
 }
 
 let btnFlag = document.querySelector('#flag');
@@ -90,11 +93,12 @@ btnFlag.addEventListener('click',function(){
     btnFlag.dataset.lang = 'en';
     btn.classList.replace('flag-en', 'flag-es');
     html.setAttribute('lang', 'en');
-
+    zE(() => $zopim(() => $zopim.livechat.setLanguage('en'))); //Zopim
   } else{
     textItem.forEach((el, i) => el.innerHTML = lang[i].es);
     btnFlag.dataset.lang = 'es';
     btn.classList.replace('flag-es', 'flag-en');
     html.setAttribute('lang', 'es');
+    zE(() => $zopim(() => $zopim.livechat.setLanguage('es'))); //Zopim
   }
 });

@@ -1,8 +1,9 @@
 class Carousel{
-  constructor(html, bControl = true, bIndicator = true , nSlideItem = [1, 2, 3, 4, 5], breakPoint = [0, 576, 768, 992, 1200]){
+  constructor(html, bControl = true, bIndicator = true , nSlideItem = [1, 2, 3, 4, 5], breakPoint = [0, 576, 768, 992, 1200], bNIndicator = true){
     this._html = html;
     this._bControl = bControl; // Boolean Control
     this._bIndicator = bIndicator;
+    this._bNIndicator = bNIndicator;
     this._breakPoint = breakPoint;
     this._viewportItem = nSlideItem;
     this._slide = this._html.querySelector('.carousel__slide');
@@ -103,7 +104,7 @@ class Carousel{
       li.classList.add('indicator__item',`indicator__item-${i}`);
       // li.setAttribute('onclick',`indicatorMove(this)`);
       li.setAttribute('data-slide-number', i)
-      li.innerHTML = i; 
+      if(this._bNIndicator) li.innerHTML = i; 
       if(i === 1) li.classList.add('active');
       ul.appendChild(li);
     }
@@ -183,6 +184,7 @@ class Carousel{
     if(caseOne){
       var transform = -((this._nSlide - 1)* this._itemPerSlide * 100);
       var transform = `translateX(${transform}%)`
+      console.log(transform)
       this.slideTranslate(transform);
       this._control[0].dataset.slideNumber = this._nSlide - 1;
       this._control[1].dataset.slideNumber = this._nSlide + 1;

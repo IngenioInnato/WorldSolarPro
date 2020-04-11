@@ -13,7 +13,7 @@ function getData(){
   };
   return data;
 }
-function send(){
+function getCoverData(){
   var data = getData();
   var string = (`Nombre: ${data.name} | Email: ${data.email} | Número telefónico: ${data.number} | Dirección: ${data.address} | País: ${data.country} | Factura de luz: ${data.average}`);
   return string;
@@ -31,7 +31,12 @@ form.addEventListener('submit', e => {
   // }).then(
   //   message => alert(message)
   // );
-  console.log(send());
-  
-  form.innerHTML = '<h2 class="text-light text-center p-3 bg-orange">GRACIAS POR ENVIAR SU MENSAJE<h2>';
+  e.preventDefault();
+  var data = getCoverData();
+  console.log(data);
+  if( btnFlag.dataset.lang == 'es'){
+    footerForm.innerHTML = '<h2 class="text-light text-center p-3 bg-orange">GRACIAS POR ENVIAR SU MENSAJE<h2>';
+  } else{
+    footerForm.innerHTML = '<h2 class="text-light text-center p-3 bg-orange">THANKS FOR SUBMIT<h2>';
+  }
 });

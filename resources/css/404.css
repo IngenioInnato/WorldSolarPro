@@ -25,6 +25,7 @@ header {
 }
 .btn-wsp {
   width: inherit;
+  color: var(--white) !important;
 }
 
 h4 {

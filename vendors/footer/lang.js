@@ -41,7 +41,7 @@ const FooterLang = [
   },
   {
     'es': 'Conócenos',
-    'en': 'know us'
+    'en': 'Know us'
   },
   {
     'es': 'Planes Y Servicios',

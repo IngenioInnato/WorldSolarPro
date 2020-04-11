@@ -19,19 +19,16 @@ const TitleText = [{
 // Title
 addLang(TitleText);
 
-// Menu
-addLang(MenuLang);
 // Header
 var HeadeText = [{
   'es': 'La página que busca no existe o se ha configurado su dirección.',
   'en': 'The page you are looking for does not exist or its address has been configured.'
 }, {
-  'es': 'Ir al inicio',
-  'en': 'Go to home'
+  'es': 'Ir a portada',
+  'en': 'Go to cover'
 }]
-addLang(HeadeText)
-  // Footer
-addLang(FooterLang);
+addLang(HeadeText);
+
 var html = document.querySelector('html');
 var textItem = document.querySelectorAll('[name="text"]');
 
@@ -45,21 +42,3 @@ if (userLang == 'es') {
   textItem.forEach((el, i) => el.innerHTML = lang[i].en);
   html.setAttribute('lang', 'en');
 }
-
-let btnFlag = document.querySelector('#flag');
-btnFlag.addEventListener('click', function() {
-  var status = btnFlag.dataset.lang;
-  btn = btnFlag.querySelector('.flag')
-  if (status === 'es') {
-    textItem.forEach((el, i) => el.innerHTML = lang[i].en);
-    btnFlag.dataset.lang = 'en';
-    btn.classList.replace('flag-en', 'flag-es');
-    html.setAttribute('lang', 'en');
-
-  } else {
-    textItem.forEach((el, i) => el.innerHTML = lang[i].es);
-    btnFlag.dataset.lang = 'es';
-    btn.classList.replace('flag-es', 'flag-en');
-    html.setAttribute('lang', 'es');
-  }
-});

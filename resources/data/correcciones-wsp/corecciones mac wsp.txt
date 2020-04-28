@@ -1,0 +1,16 @@
+Inicio
+- Menú sigue con las letras blancas
+- El contdown no está funcionando
+- En el footer no se ve el logo de wsp
+
+Career
+No se ven las fotos de los empleados vendedores en el carousel de esta página
+
+Contacto 
+Imagen de header no se esta viendo
+Imagen de sección 4 no se está viendo
+
+404
+
+Politicas
+No se ve el título 

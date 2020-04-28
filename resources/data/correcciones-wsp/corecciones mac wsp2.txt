@@ -1,0 +1,20 @@
+#Portada
+Truculencia de colocar una imagen debajo de un gif mientras se carga
+
+#Inicio 
+- Problema con menú al llegar al footer y luego regresar al header, se queda con el z-index en negativo
+
+- Carrer
+
+Colocar imagen en contain que están muy pegadas
+
+Contacto
+- La imágen no está abarcando el largo completa	
+- Sección 3 problema con flexbox
+
+
+Know Us en el footer
+
+
+404
+- Menú no se ve

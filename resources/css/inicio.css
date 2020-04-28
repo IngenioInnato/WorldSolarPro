@@ -98,6 +98,14 @@
   #S1 .control__next{
     right: 2rem;
   }
+  @media (max-width: 767.98px){
+    #S1 .control__prev{
+      left: 0rem;
+    }
+    #S1 .control__next{
+      right: 0rem;
+    }
+  }
   /* ============================ */
 
 /* Sección 3 Icon Text*/

@@ -1,0 +1,20 @@
+- Inicio
+Cambiar foto en seccion de comercios ys certifiacados
+
+- Planes
+Cambiar a número de teléfono a donde llamar en donde está el número de llamar ahora
+
+- En RRSS
+Colocar link de las rrss de la zona y no el general, no tiene una cuenta en general
+
+
+LOGO EN HEADER
+Cambiar que al darle click al logo ir a la página de portada
+
+
+- Testimonios
+Añadir testimonios para cada región
+
+- Nextsolar Magazine
+Añadir modulo de venta para las revistas
+Hacer correción

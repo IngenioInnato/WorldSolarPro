@@ -98,7 +98,9 @@ const S6Text = [
   {
     'es': 'Testimonios',
     'en': 'Testimonies'
-  },
+  }
+];
+var proofPR = [
   {
     'es': 'Estoy muy contenta con mi sistema solar con baterías nuevo, pero más me agrada que mis instaladores me mantienen al tanto del mantenimiento que tengo que hacerle para que los equipos me duren más.',
     'en': 'I’m extremely happy with my new solar system with batteries, although I’m much more grateful for my installers because they keep me up to date in terms of the maintenance that is needed for my equipment to last.'
@@ -112,18 +114,77 @@ const S6Text = [
     'en': 'Getting to know all of the equipment necessary to make my solar installation a reality and having the support of my technician/consultant, who helped me out in filing all of the paper work necessary to receive my tax break in full made the process much less rigorous.'
   },
   {
-    'es': '– Rupert Weber, Libertyville, IL',
-    'en': '– Rupert Weber, Libertyville, IL'
+    'es': '– Rupert Weber, Guaynabo, PR',
+    'en': '– Rupert Weber, Guaynabo, PR'
   },
   {
     'es': 'El proceso con World Solar fue sumamente sencillo, identificamos justo la cantidad de energía que necesitaba de acuerdo a mi auditoría solar y luego pasamos a la fase de identificar cuáles eran los equipos que más me convenían de acuerdo a sus garantías.',
     'en': 'The process with World Solar Pro was extremely simple, as we identified just the right amount of energy that I needed according to my solar audit, subsequently going to the phase of identifying the most convenient equipment according to their warranty packages.'
   },
   {
-    'es': '- José Reyes, Orlando FL',
-    'en': '- José Reyes, Orlando FL'
+    'es': '- José Reyes, Río Piedras, PR',
+    'en': '- José Reyes, Río Piedras, PR'
   }
 ];
+
+var proofIL = [
+  {
+    'es': 'Estoy muy contenta con mi equipo solar. Ahorro energía y a la vez cuido al planeta.',
+    'en': 'Since  I got  my solar equipment 6 months ago . I save energy and at the same time I take care of the planet.'
+  },
+  {
+    'es': '– Cameron Clermont, Palatine, IL',
+    'en': '– Cameron Clermont, Palatine, IL'
+  },
+  {
+    'es': 'Desde que alquilé mi equipo solar puedo usar mis equipos eléctricos sin temor a que la factura de luz incremente.',
+    'en': 'Since I  switched  to solar energy  I can use my home devices  without fear that the electricity bill will increase.'
+  },
+  {
+    'es': '– Max Stollman, Prospect Heights, IL',
+    'en': '– Max Stollman, Prospect Heights, IL'
+  },
+  {
+    'es': 'Gracias a mi amigo Eddie, decidí alquilar mis paneles solares. Ahora dejé de tener miedo a los apagones.',
+    'en': 'Thanks to my friend Eddie I decided to rent my solar panels. Now I stopped being afraid of blackouts.'
+  },
+  {
+    'es': '– Raymond Acevedo, Taylorville,IL',
+    'en': '- Raymond Acevedo, Taylorville,IL'
+  }
+];
+
+var proofFL = [
+  {
+    'es': 'Estoy muy contento con mi calentador de agua solar.Desde que lo instalé las duchas son mas largas y mi factura de luz no aumenta.',
+    'en': 'I am very happy with my solar water heater. Since I installed it the showers are longer and my electricity bill does not increase.'
+  },
+  {
+    'es': '- Adrián Enciso, Orlando, FL',
+    'en': '- Adrián Enciso, Orlando, FL'
+  },
+  {
+    'es': 'Me gusta mucho mi equipo solar porque puedo tener el aire acondicionado encendido sin temor al consumo de electricidad.',
+    'en': 'I really like my solar equipment because I can have the air conditioning on without fear of electricity consumption.'
+  },
+  {
+    'es': '- Fernando Rodríguez, Poinciana, FL',
+    'en': '- Fernando Rodríguez, Poinciana, FL'
+  },
+  {
+    'es': 'Desde que instalé mi attic fan la casa se siente mucho mas ventilada en estos meses de tanto calor.',
+    'en': 'Since I installed my attic fan, the house feels much more ventilated in these hot months.'
+  },
+  {
+    'es': '- Jhoanna Lugo, Kissimmee, FL',
+    'en': '- Jhoanna Lugo, Kissimmee, FL'
+  }
+];
+switch (local) {
+  case 'pr': proofPR.forEach(elm => S6Text.push(elm));break;
+  case 'illinois': proofIL.forEach(elm => S6Text.push(elm));break;
+  case 'florida': proofFL.forEach(elm => S6Text.push(elm));break;
+}
 addLang(S6Text);
 addLang(FooterLang);
 var html = document.querySelector('html');
@@ -164,3 +225,25 @@ btnFlag.addEventListener('click',function(){
     zE(() => $zopim(() => $zopim.livechat.setLanguage('es'))); //Zopim
   }
 });
+// RRSS
+var rrss = document.querySelectorAll('[data-rrss]');
+rrss.forEach(el => {
+  switch (el.dataset.rrss) {
+    case 'fb':
+      (local === 'pr')? el.setAttribute('href','https://www.facebook.com/WorldSolarProHome/'): el.setAttribute('href','https://www.facebook.com/WorldSolarProUS/');
+      break;
+    case 'ig':
+      (local === 'pr')? el.setAttribute('href','https://instagram.com/worldsolarprohome?igshid=1sgy9fdy3x2kw'): el.setAttribute('href','https://instagram.com/worldsolarprous?igshid=wcgfywzevupo');      
+      break;
+    case 'tw':
+      (local === 'pr')? el.setAttribute('href','https://twitter.com/WorldSolarProH?s=09'): el.setAttribute('href','https://twitter.com/WorldSolarProUS?s=09');      
+      break;
+    case 'link':
+      
+      break;
+    case 'g':
+      
+      break;
+  }
+});
+// ====

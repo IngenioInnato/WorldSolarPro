@@ -157,7 +157,7 @@ var proofIL = [
 var proofFL = [
   {
     'es': 'Estoy muy contento con mi calentador de agua solar.Desde que lo instalé las duchas son mas largas y mi factura de luz no aumenta.',
-    'en': 'I am very happy with my solar water heater. Since I installed it the showers are longer and my electricity bill does not increase.'
+    'en': 'I am so happy with my solar water heater. Since I went solar I can take longer showers and my electricity bill actually goes down.'
   },
   {
     'es': '- Adrián Enciso, Orlando, FL',
@@ -165,7 +165,7 @@ var proofFL = [
   },
   {
     'es': 'Me gusta mucho mi equipo solar porque puedo tener el aire acondicionado encendido sin temor al consumo de electricidad.',
-    'en': 'I really like my solar equipment because I can have the air conditioning on without fear of electricity consumption.'
+    'en': 'I love my solar equipment. I feel fresh with my air conditioning on without fear of electricity consumption.'
   },
   {
     'es': '- Fernando Rodríguez, Poinciana, FL',
@@ -173,7 +173,7 @@ var proofFL = [
   },
   {
     'es': 'Desde que instalé mi attic fan la casa se siente mucho mas ventilada en estos meses de tanto calor.',
-    'en': 'Since I installed my attic fan, the house feels much more ventilated in these hot months.'
+    'en': 'Since I installed my attic fan, the house feels much cooler in the hottest months of the year.'
   },
   {
     'es': '- Jhoanna Lugo, Kissimmee, FL',
@@ -242,7 +242,7 @@ rrss.forEach(el => {
       
       break;
     case 'g':
-      
+      (local === 'pr')? el.setAttribute('href','https://goo.gl/maps/7MC54HYEce6XWab46'): el.setAttribute('href','https://g.page/r/Cepfs9m39RPqEAE');      
       break;
   }
 });

@@ -139,35 +139,22 @@ addLang(S6Text);
 // var btnFlag = document.getElementById('flag'); 
 var html = document.querySelector('html');
 var textItem = document.querySelectorAll('[name="text"]');
-// Local Storage
-function idiomaCache(){
-  if (typeof(Storage) !== "undefined") {
-    localStorage.setItem("lang", userLang);
-    console.log(localStorage.getItem('lang'));
-  } else {
-    console.log('local storage cache dont work')
-  }
-  return true;
-}
-// =============
+
 
 if(userLang == 'es'){
   // textItem.forEach((el, i) => el.innerHTML = lang[i].es);
   // html.setAttribute('lang', 'es');
   textItem.forEach((el, i) => el.innerHTML = lang[i].en);
   html.setAttribute('lang', 'en');
-  var cacheIdioma = idiomaCache();
 }
 else if (userLang == 'en'){
   textItem.forEach((el, i) => el.innerHTML = lang[i].en);
   html.setAttribute('lang', 'en');
-  var cacheIdioma = idiomaCache();
 }
 
 else{ 
   textItem.forEach((el, i) => el.innerHTML = lang[i].en);
   html.setAttribute('lang', 'en');
-  var language = idiomaCache();
 }
 
 // btnFlag.addEventListener('click',function(){   

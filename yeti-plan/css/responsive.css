@@ -1,0 +1,42 @@
+@media (max-width: 1199.98px) {
+  #S1,
+  #S2,
+  #S3,
+  #S4,
+  #S5,
+  #S6,
+  #S7,
+  #S8 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  #S2 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5rem 0;
+  }
+  #tab {
+    display: grid;
+    grid-template-areas: "header" "body";
+    gap: 3rem;
+  }
+  .tab__body,
+  #contador {
+    flex-direction: column;
+  }
+  .contador__item{
+    margin-bottom: 3rem;
+  }
+  .contador__item:last-child{
+    margin-bottom:0 ;
+  }
+  #S5{
+    grid-template-areas: "titulo" "col-1" "col-2" "col-3";
+
+  }
+  #S8{
+    grid-template-areas: "titulo" "telefono" "ventilador" "televisor" "nevera"
+  }
+}

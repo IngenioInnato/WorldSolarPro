@@ -6,36 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <!-- Start of  Zendesk Widget script -->
   <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=850ecffa-f90a-4ea3-9f38-f49c8b2c25c8" type="text/javascript"></script>
-  <script>window.zESettings={webWidget:{color:{launcherText:"#FFF",header:"#FFF"}}};</script>
+  <script>
+    window.zESettings = {
+      webWidget: {
+        color: {
+          launcherText: "#FFF",
+          header: "#FFF"
+        }
+      }
+    };
+  </script>
   <!-- End of  Zendesk Widget script -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163302356-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163302356-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-163302356-1');
-</script>
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '338792673638644');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-163302356-1');
+  </script>
+  <!-- Facebook Pixel Code -->
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '338792673638644');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=338792673638644&ev=PageView&noscript=1"
 /></noscript>
-<!-- End Facebook Pixel Code -->
+  <!-- End Facebook Pixel Code -->
   <!-- Vendors -->
-<!-- 
+  <!-- 
   <link rel="stylesheet" href="./vendors/identidad/identidad.css">
 
   <link rel="stylesheet" href="./vendors/loader/loader.css">
@@ -90,7 +112,7 @@
   </section>
   <!-- ============== -->
   <!-- Nav -->
-  <nav id="nav" >
+  <nav id="nav">
     <div class="nav-item-1">
       <a href="./"><img src="./resources/img/logo/logo-light.png" alt="Logo WSP" class="logo"></a>
     </div>
@@ -309,7 +331,7 @@
   <!-- FOOTER -->
   <footer class="to-blue">
     <div class="item-0 logo to-left">
-<img src="./resources/img/logo/logo-light.png" alt="Logo WORLD SOLAR PRO US" class="img-fluid">
+      <img src="./resources/img/logo/logo-light.png" alt="Logo WORLD SOLAR PRO US" class="img-fluid">
     </div>
     <div class="item-1 info to-left">
       <p name="text"></p>
@@ -318,7 +340,7 @@
     </div>
     <div class="item-2 sigue d-flex flex-column">
       <h5 name="text"></h5>
-      <a href="https://www.facebook.com/WorldSolarProUS/" ><img src="./resources/img/icons/rrss/fb.svg" alt="" class="icon-white mr-1"> <span name="text"></span></a>
+      <a href="https://www.facebook.com/WorldSolarProUS/"><img src="./resources/img/icons/rrss/fb.svg" alt="" class="icon-white mr-1"> <span name="text"></span></a>
       <a href="https://www.instagram.com/worldsolarprous/"><img src="./resources/img/icons/rrss/ig.svg" alt="" class="icon-white mr-1"> <span name="text"></span></a>
       <a href="https://twitter.com/WorldSolarProUS"><img src="./resources/img/icons/rrss/tw.svg" alt="" class="icon-white mr-1"> <span name="text"></span></a>
       <a href="https://www.linkedin.com/in/world-solar-pro-us-249822199?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0AzYQDI6S3mRxTT%2B2zGV4Q%3D%3D"><img src="./resources/img/icons/rrss/link.svg" alt="" class="icon-white mr-1"> <span name="text"></span></a>
@@ -384,7 +406,7 @@
   <script src="./vendors/to-animation/to-animation.js"></script>
   <script src="./vendors/menu/menu.js"></script>
   <script src="./resources/js/inicio.js"></script> -->
-  
+
   <script src="./resources/js/bundle-inicio.js"></script>
 </body>
 

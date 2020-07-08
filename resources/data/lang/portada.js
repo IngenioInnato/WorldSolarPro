@@ -28,6 +28,14 @@ const S1Text = [
   {
     'es': 'LET THE SUN PAY YOUR BILLS',
     'en': 'LET THE SUN PAY YOUR BILLS',
+  },
+  {
+    'es': 'Oportunidad',
+    'en': 'Opportunity',
+  },
+  {
+    'es': 'Iniciar sesión',
+    'en': 'Log in',
   }
 ];
 addLang(S1Text);

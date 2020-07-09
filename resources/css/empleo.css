@@ -5,12 +5,14 @@ nav {
 .nav-item-2>a {
   color: var(--black);
 }
-.menu-toggle .bar{
+
+.menu-toggle .bar {
   background-color: var(--black);
 }
+
 .flag {
   -webkit-filter: invert(100);
-          filter: invert(100);
+  filter: invert(100);
 }
 
 header,
@@ -23,9 +25,9 @@ header,
 header .carousel__item {
   flex-wrap: wrap;
   -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   -webkit-box-align: end;
-          align-items: flex-end;
+  align-items: flex-end;
   text-align: center;
   padding: 0 2rem;
   background-size: cover !important;
@@ -38,7 +40,7 @@ header .carousel__item {
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
 }
-  
+
 @media (max-width: 991.98px) {
   header .carousel__item {
     background-size: contain !important;
@@ -53,6 +55,7 @@ header .carousel__item {
 
 
 /* HEADER */
+
 
 /* header .carousel__item:nth-child(2) {
   background: url('../img/site/empleo/equipo/francisco.jpg') center top no-repeat;
@@ -86,12 +89,17 @@ header .carousel__item:nth-child(3) {
   background: url('../img/site/empleo/equipo/diogenes.webp') center top no-repeat;
 }
 
+
 /* header .carousel__item:nth-child(8) {
   background: url('../img/site/empleo/equipo/carlos.webp') center top no-repeat;
 } */
 
 header .carousel__item:nth-child(8) {
   background: url('../img/site/empleo/equipo/erick.webp') center top no-repeat;
+}
+
+header .carousel__item:nth-child(9) {
+  background: url('../img/site/empleo/equipo/bryan.webp') center top no-repeat;
 }
 
 .no-webp .carousel__item:nth-child(2) {
@@ -118,12 +126,17 @@ header .carousel__item:nth-child(8) {
   background: url('../img/site/empleo/equipo/diogenes.jpg') center top no-repeat;
 }
 
+
 /* .no-webp .carousel__item:nth-child(8) {
   background: url('../img/site/empleo/equipo/carlos.jpg') center top no-repeat;
 } */
 
 .no-webp .carousel__item:nth-child(8) {
   background: url('../img/site/empleo/equipo/erick.jpg') center top no-repeat;
+}
+
+.no-webp .carousel__item:nth-child(9) {
+  background: url('../img/site/empleo/equipo/bryan.jpg') center top no-repeat;
 }
 
 
@@ -155,14 +168,15 @@ header .control__next {
 #S2 {
   flex-wrap: wrap;
   -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   background: url('../img/site/portada/panel-solar.webp') center no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-.no-webp #S2{
+
+.no-webp #S2 {
   background: url('../img/site/portada/panel-solar.jpg') center no-repeat;
   background-size: cover;
   background-attachment: scroll;
@@ -170,14 +184,17 @@ header .control__next {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+
 .S2__form {
   -webkit-box-flex: 0;
-          flex: 0 0 80%;
+  flex: 0 0 80%;
 }
 
-.S2__form .btn-wsp:hover{
+.S2__form .btn-wsp:hover {
   color: var(--white);
 }
+
+
 /* Sección 3 CV */
 
 #S3 {
@@ -185,12 +202,12 @@ header .control__next {
   display: flex;
   justify-content: space-around;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .S3__item {
   -webkit-box-flex: 0;
-          flex: 0 0 45%;
+  flex: 0 0 45%;
 }
 
 .S3__item:nth-child(2) {
@@ -239,21 +256,23 @@ div button[name="play"]::after {
 
 .btn-play:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 
 /* ============== */
 
+
 /* Sección 4 */
+
 @media (max-width: 1199.98px) {
-  #S3  {
+  #S3 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-            flex-direction: column;
+    flex-direction: column;
   }
 }
 
-.img-shadow{
+.img-shadow {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }

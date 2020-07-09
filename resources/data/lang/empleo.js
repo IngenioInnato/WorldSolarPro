@@ -62,7 +62,11 @@ const HeaderText = [
   {
     'es': 'Team League',
     'en': 'Team League'
-  }
+  },
+  {
+    'es': 'GERENTE DE VENTAS SAN JUAN, PR',
+    'en': 'PR SALES DIRECTOR'
+  },
 ];
 addLang(HeaderText)
 

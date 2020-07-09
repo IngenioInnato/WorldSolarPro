@@ -1,7 +1,7 @@
 nav {
   display: grid;
   position: fixed;
-  padding: 0 4rem ;
+  padding: 0 1rem ;
   width: 100%;
   grid-template-columns: 2fr 7fr 1fr 1fr;
   grid-template-rows: 15vh;
@@ -52,7 +52,7 @@ nav {
   box-shadow: 0 0 5px  var(--black);
 }
 .nav-item-2 > a{
-  font-size: calc(var(--font-p) - 0.2vw);
+  font-size: calc(1rem - 0.2vw);
 }
 /*Icons*/
 .nav-item-3, .nav-item-2{

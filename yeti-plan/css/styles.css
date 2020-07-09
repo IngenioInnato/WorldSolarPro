@@ -153,7 +153,6 @@ form button:hover {
   background: url(../img/velas.jpg) no-repeat center center / cover;
   padding: 5rem 3rem;
 }
-
 #S2 h2 {
   text-shadow: 5px 0 15px #000;
   color: var(--white);
@@ -275,10 +274,7 @@ footer {
 
 /* ====== */
 
-a:focus,
-button:focus,
-div:focus,
-input:focus,
-form:focus {
+
+a:focus,button:focus,div:focus,input:focus,form:focus{
   outline: none;
 }

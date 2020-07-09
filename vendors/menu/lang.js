@@ -18,6 +18,14 @@ var MenuLang = [
   {
     'es': 'Contacto',
     'en': 'Contact'
+  },
+  {
+    'es': 'Oportunidad',
+    'en': 'Opportunity'
+  },
+  {
+    'es': 'Iniciar sesión',
+    'en': 'Log In'
   }
 ];
 

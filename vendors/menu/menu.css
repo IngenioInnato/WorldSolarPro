@@ -52,7 +52,7 @@ nav {
   box-shadow: 0 0 5px  var(--black);
 }
 .nav-item-2 > a{
-  font-size: calc(1rem - 0.2vw);
+  font-size: calc(0.85rem - 0.2vw);
 }
 /*Icons*/
 .nav-item-3, .nav-item-2{

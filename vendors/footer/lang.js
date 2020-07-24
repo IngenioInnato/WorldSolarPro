@@ -1,7 +1,7 @@
 const FooterLang = [
   {
-    'es': '481 Calle Ing. Fernando Calder Ortiz, San Juan, 00918, Puerto Rico.<br>• (787)-961-5550.<br>• (787)-961-5553.<br><br>3400 W. Stonegate Blvd. #103-3130 Airlington Heights, IL 60005.<br>• (833)-786-6398.<br><br>20 North  Orange Ave. 11th Floor Suite 1100 Orlando, FL 32801.<br>• (407)-919-6232.',
-    'en': '481 Calle Ing. Fernando Calder Ortiz, San Juan, 00918, Puerto Rico.<br>• (787)-961-5550.<br>• (787)-961-5553.<br><br>3400 W. Stonegate Blvd. #103-3130 Airlington Heights, IL 60005.<br>• (833)-786-6398.<br><br>20 North Orange Ave. 11th Floor Suite 1100 Orlando, FL 32801.<br>• (407)-919-6232.'
+    'es': (local == "pr") ? '481 Calle Ing. Fernando Calder Ortiz, San Juan, 00918, Puerto Rico.<br>• (787)-961-5550.<br>• (787)-961-5553.<br>' : (local == "illinois")? "3400 W. Stonegate Blvd. #103-3130 Airlington Heights, IL 60005.<br>• (833)-786-6398.<br>" : '20 North Orange Ave. 11th Floor Suite 1100 Orlando, FL 32801.<br>• (407)-919-6232.<br>',
+    'en': (local == "pr") ? '481 Calle Ing. Fernando Calder Ortiz, San Juan, 00918, Puerto Rico.<br>• (787)-961-5550.<br>• (787)-961-5553.<br>':  (local == "illinois")? '3400 W. Stonegate Blvd. #103-3130 Airlington Heights, IL 60005.<br>• (833)-786-6398.<br>' : '20 North Orange Ave. 11th Floor Suite 1100 Orlando, FL 32801.<br>• (407)-919-6232.<br>'
   },
   {
     'es': 'E-mail:<br>info@worldsolarpro.com',

@@ -24,6 +24,10 @@ var MenuLang = [
     'en': 'Opportunity'
   },
   {
+    'es': 'Tienda',
+    'en': 'Shop'
+  },
+  {
     'es': 'Iniciar sesión',
     'en': 'Log In'
   }

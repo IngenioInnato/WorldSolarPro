@@ -32,12 +32,12 @@ const HeaderText = [
   //   'en': 'Operational Director'
   // },
   {
-    'es': 'Directora de Ventas de Florida, US',
-    'en': 'Florida Sales Director'
+    'es': 'Directora de Ventas, US',
+    'en': 'US Regional Sales Director'
   },
   {
-    'es': 'DIRECTOR DE VENTAS de Florida, US',
-    'en': 'Florida Sales Director'
+    'es': 'DIRECTOR DE VENTAS, US',
+    'en': 'US Regional Sales Director'
   },
   {
     'es': 'DIRECTORA DE VENTAS de ILLINOIS, US',
@@ -64,7 +64,7 @@ const HeaderText = [
     'en': 'Team League'
   },
   {
-    'es': 'GERENTE DE VENTAS SAN JUAN, PR',
+    'es': 'DIRECTOR DE VENTAS, PR',
     'en': 'PR SALES DIRECTOR'
   },
 ];

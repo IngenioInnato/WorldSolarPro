@@ -103,9 +103,6 @@
   <meta property="twitter:description" content="Somos una empresa fundada por ingenieros eléctricos y auditores energéticos hace más de una década atrás con el fin de proveer los sistemas solares.">
   <meta property="twitter:image" content="./resources/img/logo/logo-meta.png">
   <style>
-    .h-100 {
-      height: 100vh;
-    }
     
     .nav-item-2 a {
       color: var(--black) !important;
@@ -154,6 +151,69 @@
     .menu-toggle .bar{
       background-color: #000 !important;
     }
+    header {
+      background: url(./resources/img/site/oportunidad/banner-header.webp) no-repeat center / cover;
+      margin-top: 15vh;
+      height: 100vh;
+    }
+    .no-webp header {
+      background: url(./resources/img/site/oportunidad/banner-header.jpg) no-repeat center / cover;
+    }
+    @media (max-width: 1199.98px){  
+      header {
+        background-position: top;
+        background-size: contain;
+        height: 90vh;
+
+      }
+    }
+    @media (max-width: 575.98px) {  
+      header {
+        height: 40vh;
+      }
+    }
+    #S1 {
+      margin: 3rem 0;
+    }
+    #S2 {
+      display: flex;
+      padding: 0 3rem;
+      justify-content: space-around;
+      margin: 0 0 5rem 0;
+    }
+    .S2__item {
+      width: 450px;
+      height: 450px;
+      cursor: pointer;
+    }
+    @media (max-width: 1199.98px){  
+      #S2{
+        padding: 0 1rem;
+      }  
+      .S2__item {
+        width: 300px;
+        height: 300px;
+      } 
+    }
+
+    @media (max-width: 575.98px) {  
+      .S2__item {
+        width: 150px;
+        height: 150px;
+      }    
+    }
+    .S2__item--1{
+      background: url(./resources/img/site/oportunidad/img-1.webp) no-repeat center / cover;
+    }
+    .no-webp .S2__item--1{
+      background: url(./resources/img/site/oportunidad/img-1.jpg) no-repeat center / cover;
+    } 
+    .S2__item--2 {
+      background: url(./resources/img/site/oportunidad/img-2.webp) no-repeat center / cover;
+    }
+    .no-webp .S2__item--1{
+      background: url(./resources/img/site/oportunidad/img-2.jpg) no-repeat center / cover;
+    } 
   </style>
 </head>
 
@@ -200,13 +260,22 @@
     </div>
   </nav>
   <!-- === -->
+  <!-- Header -->
+  <header></header>
+  <!-- ====== -->
   <!-- Sección 1 -->
-  <header class="h-100 d-flex flex-column justify-content-center align-items-center">
+  <section id="S1"  class="h-100 d-flex flex-column justify-content-center align-items-center">
     <div class="S1__item p-3 text-light bg-blue text-center p-5 text-center">
       <h1 class="counter-1 pb-0 text-white" name="text"></h1>
       <a href="https://web.worldsolarprous.com/mioficina/aut/register" class="btn-outline-wsp w-50 text-center d-inline-block text-white"> <span name="text"></span> <span class="chvron-rigth"></span></a>
     </div>
-  </header>
+  </section>
+  <!-- Sección 2 -->
+  <section id="S2">
+    <div class="S2__item S2__item--1"></div>
+    <div class="S2__item S2__item--2"></div>
+  </section>
+  <!-- ========= -->
   <!-- ========= -->
   <!-- FOOTER -->
   <footer class="to-blue">

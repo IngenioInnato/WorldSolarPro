@@ -110,7 +110,7 @@ nav {
 .menu-toggle .bar{
   width: 25px;
   height: 3px;
-  background-color: var(--white);
+  background-color: var(--black);
   margin: 5px auto;
   -webkit-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
@@ -146,7 +146,7 @@ nav {
                          "nav-item nav-item nav-item"
                          "rrss     rrss rrss";
     grid-template-columns: 1fr 1fr 1fr; 
-    background-color: var(--blue);
+    background-color: var(--white);
     height: auto;
     border-bottom: solid 3px var(--gray);
   }
@@ -174,13 +174,13 @@ nav {
             flex-direction: column;
     align-content: center;
   }
-  .nav-item-2 > a{
+  .nav-item-2 > a {
     margin: 0.3rem 0;
-    padding: 0.5rem;
-    color: var(--black) !important;
-    background:var(--white);
+    padding: .5rem;
+    background: var(--blue);
+    border-radius: 999rem;
     text-align: center;
-  }
+}
   .nav-item-3{
     grid-area: rrss;
   }
@@ -206,6 +206,14 @@ nav {
   .fb, .ig, .tw, .flag{
     width: 10vw;
     height: 8vh;
+  }
+  .nav-item-2 a {
+    color: var(--white) !important;
+  }
+  
+  .flag {
+    filter: invert(100);
+    -webkit-filter: invert(100) !important;
   }
 }
 @media (max-width: 991.98px) {  

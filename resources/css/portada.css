@@ -34,6 +34,17 @@
   text-align: center;
   text-shadow: var(--black) 5px 5px 10px;
 }
+.S1__buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.S1__buttons > a{
+  width: 100%;
+}
+.S1__buttons > a:nth-child(1){
+  margin-right: 3rem !important;
+}
 /* ================ */
 /* Sección 2 SUCURSALES */
 #S2{
@@ -134,7 +145,7 @@
   -webkit-box-flex: 0;
           flex: 0 0 80%;
 }
-#S4 .btn-wsp:hover{
+#S4 .btn-wsp:hover, #S1 .btn-wsp:hover, button:hover{
   color: var(--white) !important;
   text-shadow: 5px 5px 5px var(--black);
 }

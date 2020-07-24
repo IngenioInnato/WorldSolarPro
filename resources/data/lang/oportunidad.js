@@ -22,14 +22,98 @@ addLang(TitleText);
 // Menu
 addLang(MenuLang);
 // Seccion 1
-const S1 = [{
-  'es': 'Conviértete en un consultor energético',
-  'en': 'Become an energy consultant',
-}, {
-  'es': 'Únete ahora <i class="chvron-rigth"></i>',
-  'en': 'Join Now <i class="chvron-rigth"></i>',
-}];
+const S1 = [
+  {
+    'es': 'Prepárate',
+    'en': 'Stand Out',
+  }, 
+  {
+    'es': '¡Alcanza tus metas!',
+    'en': ' We want to help you become prosperous.',
+  },
+  {
+    'es': 'Únete ahora',
+    'en': 'Join Now',
+  }
+];
+
 addLang(S1);
+// Sección 2
+const S2 = [
+  {
+    'es': 'Consultoría Energética Innovadora',
+    'en': 'Innovative Energy Consultancy',
+  },
+  {
+    'es': 'Estamos a la vanguardia con las últimas tecnologías del mercado.',
+    'en': 'We are at the forefront with the latest technologies on the market.'
+  },
+  {
+    'es': 'Entrenamiento de excelencia',
+    'en': 'Best Trainers',
+  },
+  {
+    'es': 'Entrenamiento diario y orientación  de expertos consultores energéticos.',
+    'en': 'Daily training from top energy consultants and experts to guide you on your path process.'
+  },
+];
+addLang(S2);
+// Seccion 1
+const S3 = [
+  {
+    'es': '¿Qué estás esperando?',
+    'en': 'What are you waiting for?',
+  }, 
+  {
+    'es': '¡Decidete ahora!',
+    'en': 'Go for it',
+  },
+  {
+    'es': 'Únete',
+    'en': 'Join Now',
+  }
+];
+addLang(S3);
+// S4
+const S4 = [
+  {
+    'es': 'Grandiosas Comisiones',
+    'en': 'Awesome comissions',
+  },
+  {
+    'es': 'Obtén hasta el 70% de las ganancias de la empresa',
+    'en': "WSP US Affiliates can earn up to 70% of the company's profit",
+  },
+]
+addLang(S4);
+// Sección 5
+const S5 = [
+  {
+    'es': 'Paso 1',
+    'en': 'Step 1',
+  },
+  {
+    'es': 'Únete ahora.',
+    'en': 'JOIN NOW.',
+  },
+  {
+    'es': 'Paso 2',
+    'en': 'Step 2',
+  },
+  {
+    'es': 'Selecciona tu membresia.',
+    'en': 'CHOOSE YOUR MEMBERSHIP.',
+  },
+  {
+    'es': 'Paso 3',
+    'en': '',
+  },
+  {
+    'es': 'Comienza a entrenarte.',
+    'en': 'START YOUR TRAINING.',
+  },
+];
+addLang(S5);
 // Footer
 addLang(FooterLang);
 var html = document.querySelector('html');

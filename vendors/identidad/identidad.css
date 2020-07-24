@@ -217,7 +217,7 @@ button {
 .btn-outline-wsp {
   display: inline-block;
   margin: 0 0 0.5rem 0 !important;
-  width: 50%;
+  width: 100%;
   height: auto;
   padding: 1rem;
   background-color: transparent;

@@ -39,12 +39,19 @@
   justify-content: space-between;
   width: 90%;
 }
+@media (max-width: 767.98px) {  
+  .S1__buttons {
+    flex-direction: column;
+  }
+}
+
+.S1__buttons
 .S1__buttons > a{
   width: 100%;
 }
-.S1__buttons > a:nth-child(1){
+/* .S1__buttons > a:nth-child(1){
   margin-right: 3rem !important;
-}
+} */
 /* ================ */
 /* Sección 2 SUCURSALES */
 #S2{

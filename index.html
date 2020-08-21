@@ -11,11 +11,22 @@
     window.zESettings = {
       webWidget: {
         color: {
+          theme: '#0067A3',
           launcherText: '#FFF',
           header: '#FFF'
         }
       }
     };
+    zE('webWidget', 'prefill', {
+      name: {
+        value: 'Miguel Ángel',
+        readOnly: true
+      },
+      email: {
+        value: 'miguel.pena@worldsolarpro.com',
+        readOnly: true // optional
+      },
+    });
   </script>
   <!-- End of  Zendesk Widget script -->
   <!-- Global site tag (gtag.js) - Google Analytics -->

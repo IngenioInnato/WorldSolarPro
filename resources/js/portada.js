@@ -13,30 +13,45 @@ function getData(){
   };
   return data;
 }
-function getCoverData(){
-  var data = getData();
+function getCoverData(data){
   var string = (`Nombre: ${data.name} | Email: ${data.email} | Número telefónico: ${data.number} | Dirección: ${data.address} | País: ${data.country} | Factura de luz: ${data.average}`);
   return string;
 }
 form.addEventListener('submit', e => {
   e.preventDefault();
+  // let data = getData();
+  // btnQ.disabled = true;
+  // form.innerHTML = '<h2 class="text-light text-center p-3 bg-orange">Wait a moment please...<h2>';
   // Email.send({
-  //   Host : "smtp.gmail.com",
-  //   Username : "worldsolarpropr@gmail.com",
-  //   Password : "puertorico2017",
-  //   To : 'miguelangel1074.gc@gmail.com',
-  //   From : "worldsolarpropr@gmail.com",
-  //   Subject : "Datos de clientes",
-  //   Body : send()
+  //   SecureToken: "8a9ce791-d13b-44b0-8824-258b13a28660",
+  //   To: 'worldsolarpropr@gmail.com',
+  //   From: "leads@worldsolarprous.com",
+  //   Subject: "Datos para tax credit",
+  //   Body: `
+  //   <h1>Datos dados por el usuario</h1>
+  //   <p>Nombre: ${data.name}. <br>
+  //   Teléfono: ${data.number}. <br>
+  //   Email: ${data.email}. <br>
+  //   Dirección: ${data.address}. <br>
+  //   Ciudad: ${data.country}. <br>
+  //   Average: ${data.average}. <br>
+  //   </p>
+  //   `
   // }).then(
-  //   message => alert(message)
+  //   message => {
+  //     console.log("Mensaje Enviado Correctamente " + message)
+  //     form.innerHTML = '<h2 class="text-light text-center p-3 bg-orange">THANKS FOR SUBMIT<h2>';
+  //   }
+  // ).catch(
+  //   message => console.log("Error: " + message)
   // );
-  e.preventDefault();
-  var data = getCoverData();
-  console.log(data);
-  if( btnFlag.dataset.lang == 'es'){
-    footerForm.innerHTML = '<h2 class="text-light text-center p-3 bg-orange">GRACIAS POR ENVIAR SU MENSAJE<h2>';
-  } else{
-    footerForm.innerHTML = '<h2 class="text-light text-center p-3 bg-orange">THANKS FOR SUBMIT<h2>';
-  }
+  // let dataRes = getCoverData(data);
+  // console.log(dataRes);
+  // if( btnFlag.dataset.lang == 'es'){
+  //   footerForm.innerHTML = '<h2 class="text-light text-center p-3 bg-orange">GRACIAS POR ENVIAR SU MENSAJE<h2>';
+  // } else{
+  //   footerForm.innerHTML = '<h2 class="text-light text-center p-3 bg-orange">THANKS FOR SUBMIT<h2>';
+  // }
+  form.innerHTML = '<h2 class="text-light text-center p-3 bg-orange">THANKS FOR SUBMIT<h2>';
+
 });

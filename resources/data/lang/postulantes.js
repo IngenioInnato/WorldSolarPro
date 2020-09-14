@@ -12,56 +12,70 @@ if (userLang.indexOf('_') !== -1) userLang = userLang.split('_')[0];
 // ============================
 const TitleText = [
   {
-    'es': 'CONTACTO | WORLD SOLAR PRO US',
-    'en': 'CONTACT | WORLD SOLAR PRO US'
+    'es': 'POSTULANTES | WORLD SOLAR PRO US',
+    'en': 'APPLICANTS | WORLD SOLAR PRO US'
   }
-  // Title
 ];  
+// Title
+addLang(TitleText);
 
-addLang(TitleText); 
 // Menu
 addLang(MenuLang);  
-
-// Header
+// HEADER
 const HeaderText = [
   {
-    'es': 'LET THE SUN PAY YOUR BILLS',
-    'en': 'LET THE SUN PAY YOUR BILLS'
+    'es':'Postulantes',
+    'en':'Applicants'
   }
 ];
-addLang(HeaderText);
-// Sección dos formulario
-const S2Text = [
+addLang(HeaderText);  
+
+// Sección 1
+const S1 = [
   {
-    'es': '¡Contáctanos!',
-    'en': 'Contact us!'
+    'es': 'World Solar Pro US busca reclutar candidatos bilingües inglés-español competentes, comprometidos, motivados, entusiastas para trabajar como consultor / gerente enérgico con al menos un año de experiencia en el área de ventas, disposición para asistir a sesiones de capacitación, con auto propio. y teléfono inteligente ¡Tenemos sucursales en Florida, Chicago y Massachusetts!',
+    'en': 'World Solar Pro US is seeking to recruit competent, committed, self motivated , enthusiastic and bilingual English-Spanish candidates to work as an energetic consultant / manager with at least one year of experience in sales area, willingness to attend training sessions, with own car and smart phone.We have branches in Florida, Chicago and Massachusetts!'
+  }
+];
+addLang(S1);
+
+// Sección 2
+const S2 = [
+  {
+    'es': 'Ven y Únete a nuestra familia World Solar Pro',
+    'en': 'Come and join our World Solar Pro family'
   },
   {
     'es': 'Nombre',
     'en': 'Name'
   },
   {
-    'es': 'Apellido',
-    'en': 'Last Name'
+    'es': 'Teléfono',
+    'en': 'Phone'
   },
   {
     'es': 'Email',
     'en': 'Email'
   },
   {
-    'es': 'Ciudad',
-    'en': 'City'
+    'es': 'Dirección',
+    'en': 'Address'
   },
   {
-    'es': 'Número Telefónico',
-    'en': 'Phone Number'
-  },
-  {
-    'es': 'ENVIAR',
-    'en': 'SEND'
+    'es': 'Enviar',
+    'en': 'Send'
   }
-];
-addLang(S2Text);
+]
+addLang(S2);
+// Sección 3
+const S3 = [
+  {
+    'es': '¿Qué esperas? ¡Vamos por más!',
+    'en': '¿Qué esperas? ¡Vamos por más!'
+  }
+]
+addLang(S3);
+
 // Footer
 addLang(FooterLang);
 var html = document.querySelector('html');

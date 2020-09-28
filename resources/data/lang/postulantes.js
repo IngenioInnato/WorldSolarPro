@@ -24,8 +24,8 @@ addLang(MenuLang);
 // HEADER
 const HeaderText = [
   {
-    'es':'Postulantes',
-    'en':'Applicants'
+    'es':'¿Cansado de estar en el mismo sitio y tener los resultados constantemente?',
+    'en':'Tired of being in the same place and having the results constantly?'
   }
 ];
 addLang(HeaderText);  

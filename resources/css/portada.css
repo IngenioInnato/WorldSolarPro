@@ -154,7 +154,7 @@
 }
 #S4 .btn-wsp:hover, #S1 .btn-wsp:hover, button:hover{
   color: var(--white) !important;
-  text-shadow: 5px 5px 5px var(--black);
+  /* text-shadow: 5px 5px 5px var(--black); */
 }
 /* ==================== */
 

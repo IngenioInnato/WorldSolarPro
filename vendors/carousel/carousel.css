@@ -41,7 +41,7 @@
           justify-content: center;
   -webkit-box-align: center;
           align-items: center;
-  height: 250px;
+  height: auto;
   -webkit-transition: -webkit-transform 1s ease;
   transition: -webkit-transform 1s ease;
   transition: transform 1s ease;

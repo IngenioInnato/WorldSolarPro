@@ -116,25 +116,71 @@ const S3Text = [{
     'es': 'Envia tu CV a:',
     'en': 'Send us your resume to:'
   },
-  {
-    'es': 'Illinois: careeril@worldsolarpro.com',
-    'en': 'Illinois: careeril@worldsolarpro.com '
-  },
-  {
-    'es': 'Florida: careerfl@worldsolarpro.com',
-    'en': 'Florida: careerfl@worldsolarpro.com'
-  },
-  {
-    'es': 'Puerto Rico: reclutamiento@worldsolarpro.com',
-    'en': 'Puerto Rico: reclutamiento@worldsolarpro.com'
-  },
-  {
-    'es': 'Thank you so much and we will be contacting you soon!',
-    'en': 'Thank you so much and we will be contacting you soon!'
-  }
+  // {
+  //   'es': 'Illinois: careeril@worldsolarpro.com',
+  //   'en': 'Illinois: careeril@worldsolarpro.com '
+  // },
+  // {
+  //   'es': 'Florida: careerfl@worldsolarpro.com',
+  //   'en': 'Florida: careerfl@worldsolarpro.com'
+  // },
+  // {
+  //   'es': 'Puerto Rico: reclutamiento@worldsolarpro.com',
+  //   'en': 'Puerto Rico: reclutamiento@worldsolarpro.com'
+  // },
+  // {
+  //   'es': 'Thank you so much and we will be contacting you soon!',
+  //   'en': 'Thank you so much and we will be contacting you soon!'
+  // }
 ];
+let S3TextPr = {
+  'es': 'Puerto Rico: reclutamiento@worldsolarpro.com',
+  'en': 'Puerto Rico: reclutamiento@worldsolarpro.com'
+}, S3TextIl = {
+  'es': 'Illinois: careeril@worldsolarpro.com',
+  'en': 'Illinois: careeril@worldsolarpro.com '
+}, S3TextFl =   {
+  'es': 'Florida: careerfl@worldsolarpro.com',
+  'en': 'Florida: careerfl@worldsolarpro.com'
+};
+(local == "pr") ? S3Text.push(S3TextPr) : (local == "illinois") ? S3Text.push(S3TextIl) : S3Text.push(S3TextFl);
+S3Text.push({
+  'es': '¡MUCHAS GRACIAS Y NOS CONTACTAREMOS PRONTO!',
+  'en': 'Thank you so much and we will be contacting you soon!'
+});
 addLang(S3Text);
-
+// Sección 6 Testimonios
+const S6Text = [
+  {
+    'es': 'Testimonios',
+    'en': 'Testimonies'
+  },
+  {
+    'es': 'Me siento muy contenta porque luego de una semana recibí  aproximadamente $2000 por haber ingresado al área de consultoría energética con World Solar Pro.',
+    'en': 'I feel very happy because after a week I received approximately $2000 for having entered the energy consulting area with World Solar Pro.'
+  },
+  {
+    'es': '– NANCY MALDONADO',
+    'en': '– NANCY MALDONADO'
+  },
+  {
+    'es': 'Trabajar desde casa era mi ilusión y con World Solar Pro US este sueño se hizo realidad. Cada semana recibo un promedio de $33000 en 6 horas y tres cierres por mi desempeño como consultora energética.',
+    'en': 'Working from home was my dream and with World Solar Pro US this dream came true. Each week I received an average of $ 33,000 in 6 hours and three closings for my performance as an energy consultant.'
+  },
+  {
+    'es': '– JOSÉ MARCANO',
+    'en': '– JOSÉ MARCANO'
+  },
+  {
+    'es': 'Estuve buscando un empleo para trabajar remoto y World Solar Pro US me brindó la oportunidad de comenzar la carrera de consultoría energética con la cual hago casi $18000 en un día!',
+    'en': 'I was looking for a job to work remotely and World Solar Pro US gave me the opportunity to start a career in energy consulting with which I make almost $ 18,000 in one day!'
+  },
+  {
+    'es': '- DIOSBELI CARDONA',
+    'en': '- DIOSBELI CARDONA'
+  },
+];
+addLang(S6Text);
 addLang(FooterLang);
 var html = document.querySelector('html');
 var textItem = document.querySelectorAll('[name="text"]');

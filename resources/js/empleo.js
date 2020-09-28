@@ -2,7 +2,8 @@ observerSection.disconnect();
 var carouselheader = document.querySelector('.carousel--header');
 var carousel = new Carousel(carouselheader, true, false, [1, 1, 1, 4, 4]);
 var formS2 = document.querySelector('.S2__form');
-
+var carouselTestimonios = document.querySelector('.carousel--testimonios');
+var carousel = new Carousel(carouselTestimonios, true, false, [1,1,1,1,1]);
 function getS2Data(){
   var dataS2 = {
     'name':    document.getElementById('e-1').value,

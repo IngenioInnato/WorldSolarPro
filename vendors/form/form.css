@@ -73,23 +73,24 @@ body {
   width: 100%;
 }
 .input__field--wsp {
-	position: absolute;
-	z-index: 100;
-	padding: 1.8vw 0.75vw 0;
-	width: 100%;
-	background: transparent;
-	color: var(--blue);
-	font-size: 0.85em;
+  position: absolute;
+  z-index: 100;
+  padding: 1.2rem 0.6rem 0;
+  width: 100%;
+  background: 0 0;
+  color: var(--blue);
+  font-size: .85em;
 }
 .input__label--wsp {
 	width: 100%;
 	height: 100%;
 	background: var(--white);
-	text-align: left;
+  text-align: left;
+  border-radius: 100px;
 }
 .input__label-content--wsp {
-  padding: 1.3vw;
-  top: 0  ;
+  padding: 1.05rem;
+  top: 0;
 	-webkit-transform-origin: 0% 50%;
 	transform-origin: 0% 50%;
 	-webkit-transition: -webkit-transform 0.3s, color 0.3s;
@@ -108,7 +109,8 @@ body {
 	height: 90%;
 	border: 0px solid transparent;
 	-webkit-transition: border-width 0.3s, border-color 0.3s;
-	transition: border-width 0.3s, border-color 0.3s;
+  transition: border-width 0.3s, border-color 0.3s;
+  border-radius: 50px / 70px;
 }
 .input__field--wsp:focus + .input__label--wsp::before,
 .input--filled .input__label--wsp::before {

@@ -63,10 +63,10 @@ const HeaderText = [
     'es': 'Team League',
     'en': 'Team League'
   },
-  {
-    'es': 'DIRECTOR DE VENTAS, PR',
-    'en': 'PR SALES DIRECTOR'
-  },
+  // {
+  //   'es': 'DIRECTOR DE VENTAS, PR',
+  //   'en': 'PR SALES DIRECTOR'
+  // },
 ];
 addLang(HeaderText)
 
@@ -85,20 +85,16 @@ const S2Text = [{
     'en': 'Name'
   },
   {
-    'es': 'Apellido',
-    'en': 'Last Name'
+    'es': 'Teléfono',
+    'en': 'Phone'
   },
   {
     'es': 'Email',
     'en': 'Email'
   },
   {
-    'es': 'Ciudad',
-    'en': 'City'
-  },
-  {
-    'es': 'Número Telefónico',
-    'en': 'Phone Number'
+    'es': 'Dirección',
+    'en': 'Address'
   },
   {
     'es': 'ENVIAR',
@@ -156,24 +152,24 @@ const S6Text = [
     'en': 'Testimonies'
   },
   {
-    'es': 'Me siento muy contenta porque luego de una semana recibí  aproximadamente $2000 por haber ingresado al área de consultoría energética con World Solar Pro.',
-    'en': 'I feel very happy because after a week I received approximately $2000 for having entered the energy consulting area with World Solar Pro.'
+    'es': 'Me siento muy contenta porque luego de una semana recibí  aproximadamente $2,000 por haber ingresado al área de consultoría energética con World Solar Pro.',
+    'en': 'I feel very happy because after a week I received approximately $2,000 for having entered the energy consulting area with World Solar Pro.'
   },
   {
     'es': '– NANCY MALDONADO',
     'en': '– NANCY MALDONADO'
   },
   {
-    'es': 'Trabajar desde casa era mi ilusión y con World Solar Pro US este sueño se hizo realidad. Cada semana recibo un promedio de $33000 en 6 horas y tres cierres por mi desempeño como consultora energética.',
-    'en': 'Working from home was my dream and with World Solar Pro US this dream came true. Each week I received an average of $ 33,000 in 6 hours and three closings for my performance as an energy consultant.'
+    'es': 'Trabajar desde casa era mi ilusión y con World Solar Pro US este sueño se hizo realidad. Cada semana recibo un promedio de $33,000 en 6 horas y tres cierres por mi desempeño como consultora energética.',
+    'en': 'Working from home was my dream and with World Solar Pro US this dream came true. Each week I received an average of $33,000 in 6 hours and three closings for my performance as an energy consultant.'
   },
   {
     'es': '– JOSÉ MARCANO',
     'en': '– JOSÉ MARCANO'
   },
   {
-    'es': 'Estuve buscando un empleo para trabajar remoto y World Solar Pro US me brindó la oportunidad de comenzar la carrera de consultoría energética con la cual hago casi $18000 en un día!',
-    'en': 'I was looking for a job to work remotely and World Solar Pro US gave me the opportunity to start a career in energy consulting with which I make almost $ 18,000 in one day!'
+    'es': 'Estuve buscando un empleo para trabajar remoto y World Solar Pro US me brindó la oportunidad de comenzar la carrera de consultoría energética con la cual hago casi $18,000 en un día!',
+    'en': 'I was looking for a job to work remotely and World Solar Pro US gave me the opportunity to start a career in energy consulting with which I make almost $18,000 in one day!'
   },
   {
     'es': '- DIOSBELI CARDONA',

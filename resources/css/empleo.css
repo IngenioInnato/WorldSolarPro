@@ -50,7 +50,12 @@ header .carousel__item {
 .persona__description {
   color: var(--white);
   padding: 10px 20px;
+  border-radius: 20px;
   background: rgba(248, 142, 42, 0.8);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 

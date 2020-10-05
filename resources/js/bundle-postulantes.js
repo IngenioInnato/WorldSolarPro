@@ -48,6 +48,26 @@ function formToJson(a) {
   let x = JSON.stringify(object);
   return JSON.parse(x);
 }
+function sendEmailUser(a) {
+  let e = formToJson(a);
+  Email.send({
+    SecureToken: "8a9ce791-d13b-44b0-8824-258b13a28660",
+    To: e.Email,
+    From: "leads@worldsolarprous.com",
+    Subject: "Email de prueba",
+    Body: `
+    <p>Mensaje de prueba</p>
+    <img src="https://worldsolarprous.com/resources/img/email/crea-tu-propia-empresa.jpg">
+    `
+  }).then(
+    message => {
+        console.log("Mensaje Enviado Correctamente " + message)
+        console.log(e)
+      }
+    ).catch(
+      message => console.log("Error: " + message)
+    );
+}
 function sendEmail(a) {
   let e = formToJson(a);
   Email.send({
@@ -86,6 +106,7 @@ formEl.addEventListener('submit', e => {
   .then(response => {
     console.log('Success!', response);
     sendEmail(form);
+    sendEmailUser(form);
     formEl.innerHTML = "";
     message.innerHTML = btnFlag.dataset.lang == "es" ? 'Sus datos fueron guardados correctamente.' : 'Your data was saved correctly.';
     // setTimeout(() => {

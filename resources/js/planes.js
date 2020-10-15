@@ -20,10 +20,15 @@ switch (local) {
     prEl.forEach(el => el.remove());
     var carousel = createCarousel();
     break;
-  case 'florida':
-    plansLocation.innerHTML = 'Florida';
-    prEl.forEach(el => el.remove());
-    var carousel = createCarousel();
+    case 'florida':
+      plansLocation.innerHTML = 'Florida';
+      prEl.forEach(el => el.remove());
+      var carousel = createCarousel();
+    break;
+    case 'georgia':
+      plansLocation.innerHTML = 'Georgia';
+      prEl.forEach(el => el.remove());
+      var carousel = createCarousel();
     break;
   default:
     window.location.href = './';

@@ -57,7 +57,11 @@ const S2Text = [
   {
     'es': 'Illinois',
     'en': 'Illinois'
-  }
+  },
+  {
+    'es': 'Georgia',
+    'en': 'Georgia'
+  },
 ];
 addLang(S2Text);
 

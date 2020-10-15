@@ -1,7 +1,7 @@
 const FooterLang = [
   {
-    'es': (local == "pr") ? '481 Calle Ing. Fernando Calder Ortiz, San Juan, 00918, Puerto Rico.<br>• (787)-961-5550.<br>• (787)-961-5553.<br>' : (local == "illinois")? "3400 W. Stonegate Blvd. #103-3130 Airlington Heights, IL 60005.<br>• (833)-786-6398.<br>" : '20 North Orange Ave. 11th Floor Suite 1100 Orlando, FL 32801.<br>• (407)-919-6232.<br>',
-    'en': (local == "pr") ? '481 Calle Ing. Fernando Calder Ortiz, San Juan, 00918, Puerto Rico.<br>• (787)-961-5550.<br>• (787)-961-5553.<br>':  (local == "illinois")? '3400 W. Stonegate Blvd. #103-3130 Airlington Heights, IL 60005.<br>• (833)-786-6398.<br>' : '20 North Orange Ave. 11th Floor Suite 1100 Orlando, FL 32801.<br>• (407)-919-6232.<br>'
+    'es': (local == "pr") ? '481 Calle Ing. Fernando Calder Ortiz, San Juan, 00918, Puerto Rico.<br>• (787)-961-5550.<br>• (787)-961-5553.<br>' : (local == "illinois")? "3400 W. Stonegate Blvd. #103-3130 Airlington Heights, IL 60005.<br>• (833)-786-6398.<br>" :(local == "georgia")? "WeWork 1155 Perimeter Center West.<br>• (404) 448-27-95.<br>": '20 North Orange Ave. 11th Floor Suite 1100 Orlando, FL 32801.<br>• (407)-919-6232.<br>',
+    'en': (local == "pr") ? '481 Calle Ing. Fernando Calder Ortiz, San Juan, 00918, Puerto Rico.<br>• (787)-961-5550.<br>• (787)-961-5553.<br>':  (local == "illinois")? '3400 W. Stonegate Blvd. #103-3130 Airlington Heights, IL 60005.<br>• (833)-786-6398.<br>' :(local == "georgia")? "1155 Perimeter Center W, Atlanta, GA 30338.<br>• (404) 448-27-95.<br>": '20 North Orange Ave. 11th Floor Suite 1100 Orlando, FL 32801.<br>• (407)-919-6232.<br>'
   },
   {
     'es': 'E-mail:<br>info@worldsolarpro.com',

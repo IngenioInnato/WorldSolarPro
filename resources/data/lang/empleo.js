@@ -63,10 +63,18 @@ const HeaderText = [
     'es': 'Team League',
     'en': 'Team League'
   },
-  // {
-  //   'es': 'DIRECTOR DE VENTAS, PR',
-  //   'en': 'PR SALES DIRECTOR'
-  // },
+  {
+    'es': 'Gerente de Distrito, PR',
+    'en': 'District manager, PR'
+  },
+  {
+    'es': 'Gerente de Distrito, PR',
+    'en': 'District manager, PR'
+  },
+  {
+    'es': 'Director de Ventas, Georgia',
+    'en': 'Sales Director, Georgia'
+  }
 ];
 addLang(HeaderText)
 
@@ -138,8 +146,11 @@ let S3TextPr = {
 }, S3TextFl =   {
   'es': 'Florida: careerfl@worldsolarpro.com',
   'en': 'Florida: careerfl@worldsolarpro.com'
+}, S3TextG =   {
+  'es': 'Georgia: careerfl@worldsolarpro.com',
+  'en': 'Georgia: careerfl@worldsolarpro.com'
 };
-(local == "pr") ? S3Text.push(S3TextPr) : (local == "illinois") ? S3Text.push(S3TextIl) : S3Text.push(S3TextFl);
+(local == "pr") ? S3Text.push(S3TextPr) : (local == "illinois") ? S3Text.push(S3TextIl) : (local == "georgia") ? S3Text.push(S3TextG): S3Text.push(S3TextFl);
 S3Text.push({
   'es': '¡MUCHAS GRACIAS Y NOS CONTACTAREMOS PRONTO!',
   'en': 'Thank you so much and we will be contacting you soon!'

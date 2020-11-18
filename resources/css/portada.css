@@ -39,9 +39,21 @@
   justify-content: space-between;
   width: 90%;
 }
-@media (max-width: 767.98px) {  
+.S1__buttons--1 {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+.S1__buttons--1 > .btn-wsp {
+  width: auto;
+  padding: 1rem 3rem;
+}
+@media (max-width: 991.98px) {  
   .S1__buttons {
     flex-direction: column;
+  }
+  .S1__buttons--1 > .btn-wsp {
+    width: 100%;
   }
 }
 

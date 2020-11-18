@@ -104,7 +104,15 @@ header .carousel__item:nth-child(8) {
 }
 
 header .carousel__item:nth-child(9) {
-  background: url('../img/site/empleo/equipo/bryan.webp') center top no-repeat;
+  background: url('../img/site/empleo/equipo/miguel.webp') center top no-repeat;
+}
+
+header .carousel__item:nth-child(10) {
+  background: url('../img/site/empleo/equipo/miguel.webp') center top no-repeat;
+}
+
+header .carousel__item:nth-child(11) {
+  background: url('../img/site/empleo/equipo/ernesto.webp') center top no-repeat;
 }
 
 header .no-webp .carousel__item:nth-child(2) {
@@ -141,7 +149,14 @@ header .no-webp .carousel__item:nth-child(8) {
 }
 
 header .no-webp .carousel__item:nth-child(9) {
-  background: url('../img/site/empleo/equipo/bryan.jpg') center top no-repeat;
+  background: url('../img/site/empleo/equipo/miguel.jpg') center top no-repeat;
+}
+header .no-webp .carousel__item:nth-child(10) {
+  background: url('../img/site/empleo/equipo/miguel.jpg') center top no-repeat;
+}
+
+header .no-webp .carousel__item:nth-child(11) {
+  background: url('../img/site/empleo/equipo/ernesto.jpg') center top no-repeat;
 }
 
 

@@ -107,11 +107,11 @@ header .carousel__item:nth-child(9) {
   background: url('../img/site/empleo/equipo/miguel.webp') center top no-repeat;
 }
 
-header .carousel__item:nth-child(10) {
+/* header .carousel__item:nth-child(10) {
   background: url('../img/site/empleo/equipo/miguel.webp') center top no-repeat;
-}
+} */
 
-header .carousel__item:nth-child(11) {
+header .carousel__item:nth-child(10) {
   background: url('../img/site/empleo/equipo/ernesto.webp') center top no-repeat;
 }
 
@@ -151,11 +151,11 @@ header .no-webp .carousel__item:nth-child(8) {
 header .no-webp .carousel__item:nth-child(9) {
   background: url('../img/site/empleo/equipo/miguel.jpg') center top no-repeat;
 }
-header .no-webp .carousel__item:nth-child(10) {
+/* header .no-webp .carousel__item:nth-child(10) {
   background: url('../img/site/empleo/equipo/miguel.jpg') center top no-repeat;
-}
+} */
 
-header .no-webp .carousel__item:nth-child(11) {
+header .no-webp .carousel__item:nth-child(10) {
   background: url('../img/site/empleo/equipo/ernesto.jpg') center top no-repeat;
 }
 
@@ -207,7 +207,12 @@ header .control__next {
 
 .S2__form {
   -webkit-box-flex: 0;
-  flex: 0 0 80%;
+  flex: 0 0 50%;
+}
+@media (max-width: 991.98px) { 
+  .S2__form {
+    flex: 0 0 80%;
+  }
 }
 
 .S2__form .btn-wsp:hover {

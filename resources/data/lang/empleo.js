@@ -67,10 +67,10 @@ const HeaderText = [
     'es': 'Gerente de Distrito, PR',
     'en': 'District manager, PR'
   },
-  {
-    'es': 'Gerente de Distrito, PR',
-    'en': 'District manager, PR'
-  },
+  // {
+  //   'es': 'Gerente de Distrito, PR',
+  //   'en': 'District manager, PR'
+  // },
   {
     'es': 'Director de Ventas, Georgia',
     'en': 'Sales Director, Georgia'
@@ -85,8 +85,8 @@ const S1Text = [{
 }];
 
 const S2Text = [{
-    'es': '¡Forma Parte de Nuestro Equipo!',
-    'en': 'Join Our Team !'
+    'es': '¡Forma Parte de Nuestra Familia!',
+    'en': 'Join Our Family !'
   },
   {
     'es': 'Nombre',
@@ -113,8 +113,8 @@ addLang(S2Text);
 
 // Sección 3 Información
 const S3Text = [{
-    'es': 'Siempre nos encontramos evaluando personal nuevo para nuestra empresa, la cual ya se encuentra en los mercados de Puerto Rico y en los estados de Florida e Illinois. Por tal razón, si reside en cualquiera de estas jurisdicciones o en las cercanías de, por favor someta su resume actualizado con todas sus experiencias de trabajo, incluyendo las certificaciones relacionadas a la industria solar, como por ejemplo de electricista, eficiencia energética, ingeniería, diseño y de instalador solar.',
-    'en': 'We are always considering new personnel for our company, which is already operating in the markets of Puerto Rico and the states of Florida and Illinois. For this reason, if you reside within or nearby any of these jurisdictions, please submit your updated resume with all of your past job experiences, including solar industry-related certifications such as electrician, energy efficiency, engineering, design and solar installer for example.'
+    'es': '☑️ Industria con un 300% de crecimiento anual.<br>☑️ Puerto Rico/ penetración de un 2.5% para un tope de 100% al 2050.<br>☑️ $15K a $24K en ingresos fijos.<br>☑️ Bonos de $500 por cada dos ventas.<br>☑️ Obtén tu franquicia de World Solar Pro y sé tu propio jefe.<br>☑️ Promedio $70K - $90K al ano en ingresos.<br>☑️ Más de 1 millón de hogares esperan ser instalados en Puerto Rico.<br>☑️ Promedio de comisiones por hogar de $1500.<br>☑️ Pagos semanales.<br>☑️ Oportunidad de crecimiento.<br>☑️ Entrenamiento y seminarios.',
+    'en': '☑️ Industry with 300% annual growth.<br>☑️ Puerto Rico / penetration of 2.5% for a cap of 100% by 2050.<br>☑️ $ 15K to $ 24K in fixed income.<br>☑️ Bonuses of $ 500 for every two sales.<br>☑️ Get your World Solar Pro franchise and be your own boss.<br>☑️ Average $ 70K - $ 90K per year in income.<br>☑️ More than 1 million homes are waiting to be installed in Puerto Rico.<br>☑️ Average commissions per household of $ 1500.<br>☑️ Weekly payments.<br>☑️ Growth opportunity.<br>☑️ Training and seminars.'
   },
   {
     'es': 'Envia tu CV a:',
@@ -151,10 +151,10 @@ let S3TextPr = {
   'en': 'Georgia: careerfl@worldsolarpro.com'
 };
 (local == "pr") ? S3Text.push(S3TextPr) : (local == "illinois") ? S3Text.push(S3TextIl) : (local == "georgia") ? S3Text.push(S3TextG): S3Text.push(S3TextFl);
-S3Text.push({
-  'es': '¡MUCHAS GRACIAS Y NOS CONTACTAREMOS PRONTO!',
-  'en': 'Thank you so much and we will be contacting you soon!'
-});
+// S3Text.push({
+//   'es': '¡MUCHAS GRACIAS Y NOS CONTACTAREMOS PRONTO!',
+//   'en': 'Thank you so much and we will be contacting you soon!'
+// });
 addLang(S3Text);
 // Sección 6 Testimonios
 const S6Text = [

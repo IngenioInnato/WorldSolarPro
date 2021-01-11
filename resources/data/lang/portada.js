@@ -26,8 +26,8 @@ addLang(TitleText);
 // Seccion 1 Slogan
 const S1Text = [
   {
-    'es': 'LET THE SUN PAY YOUR BILLS',
-    'en': 'LET THE SUN PAY YOUR BILLS',
+    'es': "World Solar Pro is proud to be part of your new year's resolutions. Let's find the hidden opportunities in each day.",
+    'en': "World Solar Pro is proud to be part of your new year's resolutions. Let's find the hidden opportunities in each day.",
   },
   {
     'es': 'Oportunidad',

@@ -26,8 +26,8 @@ addLang(TitleText);
 // Seccion 1 Slogan
 const S1Text = [
   {
-    'es': "World Solar Pro is proud to be part of your new year's resolutions. Let's find the hidden opportunities in each day.",
-    'en': "World Solar Pro is proud to be part of your new year's resolutions. Let's find the hidden opportunities in each day.",
+    'es': "In World Solar Pro US we  care about  the planet. Let's heal the world. There is no other planet. Be part of the change to green energy.",
+    'en': "In World Solar Pro US we  care about  the planet. Let's heal the world. There is no other planet. Be part of the change to green energy.",
   },
   {
     'es': 'Oportunidad',

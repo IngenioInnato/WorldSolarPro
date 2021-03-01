@@ -26,8 +26,8 @@ addLang(TitleText);
 // Seccion 1 Slogan
 const S1Text = [
   {
-    'es': "In World Solar Pro US we  care about  the planet. Let's heal the world. There is no other planet. Be part of the change to green energy.",
-    'en': "In World Solar Pro US we  care about  the planet. Let's heal the world. There is no other planet. Be part of the change to green energy.",
+    'es': "Try your luck and find your pot of gold. Welcome to the $500 bonus for 5 successful and completed closings",
+    'en': "Try your luck and find your pot of gold. Welcome to the $500 bonus for 5 successful and completed closings",
   },
   {
     'es': 'Oportunidad',

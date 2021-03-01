@@ -18,13 +18,13 @@
   -webkit-box-align: center;
           align-items: center;
   /* background: url('../img/site/portada/panel-movement.webp') center no-repeat, url('../img/site/portada/panel-movement.jpg') center no-repeat; */
-  background: url('../img/site/portada/banner-febrero-2021.webp') no-repeat center / cover;
+  background: url('../img/site/portada/banner-marzo-2021.webp') no-repeat center / cover;
   background-size: cover;
   padding: 2rem;
 }
 .no-webp #S1{
   /* background: url('../img/site/portada/panel-movement.gif') center no-repeat, url('../img/site/portada/panel-movement.jpg') center no-repeat; */
-  background: url('../img/site/portada/banner-febrero-2021.jpg') no-repeat center / cover;
+  background: url('../img/site/portada/banner-marzo-2021.jpg') no-repeat center / cover;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -174,10 +174,10 @@
   -webkit-box-flex: 0;
           flex: 0 0 80%;
 }
-#S4 .btn-wsp:hover, #S1 .btn-wsp:hover, button:hover{
+/* #S4 .btn-wsp:hover, #S1 .btn-wsp:hover, button:hover{
   color: var(--white) !important;
-  /* text-shadow: 5px 5px 5px var(--black); */
-}
+  text-shadow: 5px 5px 5px var(--black);
+} */
 /* ==================== */
 
 /* Seccion 5 Testimonios */

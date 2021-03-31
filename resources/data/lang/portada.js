@@ -26,8 +26,8 @@ addLang(TitleText);
 // Seccion 1 Slogan
 const S1Text = [
   {
-    'es': "Try your luck and find your pot of gold. Welcome to the $500 bonus for 5 successful and completed closings",
-    'en': "Try your luck and find your pot of gold. Welcome to the $500 bonus for 5 successful and completed closings",
+    'es': "Let's go green and make our Earth a beautiful and healthy place to live",
+    'en': "Let's go green and make our Earth a beautiful and healthy place to live",
   },
   {
     'es': 'Oportunidad',

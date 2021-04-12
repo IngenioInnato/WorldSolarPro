@@ -33,8 +33,32 @@ addLang(HeaderText);
 // Sección 1
 const S1 = [
   {
-    'es': 'World Solar Pro US busca reclutar candidatos bilingües inglés-español competentes, comprometidos, motivados, entusiastas para trabajar como consultor / gerente enérgico con al menos un año de experiencia en el área de ventas, disposición para asistir a sesiones de capacitación, con auto propio. y teléfono inteligente ¡Tenemos sucursales en Florida, Chicago y Massachusetts!',
-    'en': 'World Solar Pro US is seeking to recruit competent, committed, self motivated , enthusiastic and bilingual English-Spanish candidates to work as an energetic consultant / manager with at least one year of experience in sales area, willingness to attend training sessions, with own car and smart phone.We have branches in Florida, Chicago and Massachusetts!'
+    'es': `World Solar Pro US está buscando  candidatos bilingües inglés-español competentes, comprometidos, motivados, entusiastas para trabajar como consultor / gerente energético ¡Tenemos sucursales en Florida, Illinois y Georgia!<br><br>
+    Beneficios:<br>
+    ☑️ Entrenamiento con un sistema efectivo.<br>
+    ☑️ Ganancias de $3000 a $5000 por cierre.<br>
+    <br><br>
+    Requisitos:<br>  
+    ☑️ 1 año de experiencia en ventas.<br> 
+    ☑️ Disponer de un Smart Phone.<br>
+    ☑️ Carro propio<br>
+    ☑️ Buena disposición.<br> 
+    ☑️ Disponible para entrenamiento inmediato.<br><br> 
+     Tel: 407 564 37 71/ 787 547 7252`,
+    'en': `World Solar Pro US is seeking to recruit competent, committed, self motivated , enthusiastic and bilingual English-Spanish candidates to work as an energetic consultant / manager.We have branches in Florida, Illinois and Georgia!
+    <br><br>
+
+    Benefits:<br>
+    ☑️ Effective training system.<br>
+    ☑️ Earnings of $3000 to $5000 per closing.<br><br>
+    
+    Requirements:  <br>
+    ☑️ 1 year of sales experience.<br> 
+    ☑️ Have a Smart Phone. <br>
+    ☑️ Own car. <br>
+    ☑️ Willingness to work. <br>
+    ☑️ Available for immediate training.<br> <br>
+     Tel: 407 564 37 71/ 787 547 7252`
   }
 ];
 addLang(S1);

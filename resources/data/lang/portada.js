@@ -26,8 +26,8 @@ addLang(TitleText);
 // Seccion 1 Slogan
 const S1Text = [
   {
-    'es': "Let's go green and make our Earth a beautiful and healthy place to live",
-    'en': "Let's go green and make our Earth a beautiful and healthy place to live",
+    'es': "We celebrate Mother's Month by giving the gift of energetic tranquility",
+    'en': "We celebrate Mother's Month by giving the gift of energetic tranquility",
   },
   {
     'es': 'Oportunidad',

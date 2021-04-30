@@ -18,13 +18,13 @@
   -webkit-box-align: center;
           align-items: center;
   /* background: url('../img/site/portada/panel-movement.webp') center no-repeat, url('../img/site/portada/panel-movement.jpg') center no-repeat; */
-  background: url('../img/site/portada/banner-abril-2021.webp') no-repeat 4% 0% / cover;
+  background: url('../img/site/portada/banner-mayo-2021.webp') no-repeat 4% 0% / cover;
   background-size: cover;
   padding: 2rem;
 }
 .no-webp #S1{
   /* background: url('../img/site/portada/panel-movement.gif') center no-repeat, url('../img/site/portada/panel-movement.jpg') center no-repeat; */
-  background: url('../img/site/portada/banner-abril-2021.jpg') no-repeat 4% 0% / cover;
+  background: url('../img/site/portada/banner-mayo-2021.jpg') no-repeat 4% 0% / cover;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

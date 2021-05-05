@@ -89,7 +89,7 @@ const FooterLang = [
   },
   {
     'es': 'WORLD SOLAR PRO US',
-    'en': 'World Solar Pro '
+    'en': 'World Solar Pro US'
   },
   {
     'es': 'Derechos de Autor ©',

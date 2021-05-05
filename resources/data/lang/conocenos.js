@@ -34,8 +34,8 @@ addLang(HeaderText);
 // Sección 1 ¿Quiénes somos?
 const S1Text = [
   {
-    'es': '<span class="text-primary" style="font-size: inherit;">World Solar Pro</span> es una empresa fundada por ingenieros eléctricos y auditores energéticos hace más de una década atrás con el fin de proveer los sistemas solares y renovables más modernos, trayéndolos, instalándolos y ofreciendo el mantenimiento y servicio óptimo.',
-    'en': '<span class="text-primary" style="font-size: inherit;">World Solar Pro</span> is an enterprise that was founded by electric engineers and energy auditors over a decade ago with the ultimate goal of providing the most advanced solar and renewable energy systems, bringing, installing and offering the optimal maintenance and service.'
+    'es': '<span class="text-primary" style="font-size: inherit;">World Solar Pro US</span> es una empresa fundada por ingenieros eléctricos y auditores energéticos hace más de una década atrás con el fin de proveer los sistemas solares y renovables más modernos, trayéndolos, instalándolos y ofreciendo el mantenimiento y servicio óptimo.',
+    'en': '<span class="text-primary" style="font-size: inherit;">World Solar Pro US</span> is an enterprise that was founded by electric engineers and energy auditors over a decade ago with the ultimate goal of providing the most advanced solar and renewable energy systems, bringing, installing and offering the optimal maintenance and service.'
   }
 ];
 addLang(S1Text);
@@ -71,8 +71,8 @@ addLang(S4Text);
 // Sección 5 Aliados
 const S5Text = [
   {
-    'es': '10 aliados y socios de negocio que han agilizado el crecimiento y la penetración de mercado en corto tiempo, haciendo de World Solar Pro la empresa diversa que se adapta a sus necesidades energéticas.',
-    'en': '10 allies and business partners that have accelerated growth and market penetration in a short period of time, making World Solar Pro the diverse enterprise that adapts to your energy needs.'
+    'es': '10 aliados y socios de negocio que han agilizado el crecimiento y la penetración de mercado en corto tiempo, haciendo de World Solar Pro US la empresa diversa que se adapta a sus necesidades energéticas.',
+    'en': '10 allies and business partners that have accelerated growth and market penetration in a short period of time, making World Solar Pro US the diverse enterprise that adapts to your energy needs.'
   }
 ];
 addLang(S5Text);

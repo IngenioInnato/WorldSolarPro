@@ -66,8 +66,8 @@ addLang(S1);
 // Sección 2
 const S2 = [
   {
-    'es': 'Ven y Únete a nuestra familia World Solar Pro',
-    'en': 'Come and join our World Solar Pro family'
+    'es': 'Ven y Únete a nuestra familia World Solar Pro US',
+    'en': 'Come and join our World Solar Pro US family'
   },
   {
     'es': 'Nombre',

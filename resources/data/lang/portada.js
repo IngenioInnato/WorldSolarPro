@@ -26,8 +26,8 @@ addLang(TitleText);
 // Seccion 1 Slogan
 const S1Text = [
   {
-    'es': "We celebrate Mother's Month by giving the gift of energetic tranquility",
-    'en': "We celebrate Mother's Month by giving the gift of energetic tranquility",
+    'es': "remembering ang honoring our heroes<br>Memorial Day",
+    'en': "remembering ang honoring our heroes<br>Memorial Day",
   },
   {
     'es': 'Oportunidad',

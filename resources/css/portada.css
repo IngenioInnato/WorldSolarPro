@@ -12,15 +12,18 @@
 #S1 {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-          flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   -webkit-box-align: center;
-          align-items: center;
-  /* background: url('../img/site/portada/panel-movement.webp') center no-repeat, url('../img/site/portada/panel-movement.jpg') center no-repeat; */
-  background: url('../img/site/portada/banner-mayo-2021.webp') no-repeat 4% 0% / cover;
+  align-items: center;
+  background: url(../img/site/portada/banner-mayo-2021.jpg) no-repeat 4% 100% /cover;
   background-size: cover;
   padding: 2rem;
+  clip-path: circle(179vh at 50% -80vh);
+  height: 100vh;
+  background-attachment: fixed;
+  /* background: url('../img/site/portada/panel-movement.webp') center no-repeat, url('../img/site/portada/panel-movement.jpg') center no-repeat; */
 }
 .no-webp #S1{
   /* background: url('../img/site/portada/panel-movement.gif') center no-repeat, url('../img/site/portada/panel-movement.jpg') center no-repeat; */

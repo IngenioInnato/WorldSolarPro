@@ -26,8 +26,8 @@ addLang(TitleText);
 // Seccion 1 Slogan
 const S1Text = [
   {
-    'es': "remembering ang honoring our heroes<br>Memorial Day",
-    'en': "remembering ang honoring our heroes<br>Memorial Day",
+    'es': "Let's celebrate environment day by giving solar energy as a present",
+    'en': "Let's celebrate environment day by giving solar energy as a present",
   },
   {
     'es': 'Oportunidad',

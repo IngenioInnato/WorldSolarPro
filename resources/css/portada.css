@@ -17,7 +17,7 @@
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
-  background: url(../img/site/portada/banner-mayo-2021.jpg) no-repeat 4% 100% /cover;
+  background: url(../img/site/portada/banner-junio-2021.jpg) no-repeat 4% 100% /cover;
   background-size: cover;
   padding: 2rem;
   clip-path: circle(179vh at 50% -80vh);
@@ -27,7 +27,7 @@
 }
 .no-webp #S1{
   /* background: url('../img/site/portada/panel-movement.gif') center no-repeat, url('../img/site/portada/panel-movement.jpg') center no-repeat; */
-  background: url('../img/site/portada/banner-mayo-2021.jpg') no-repeat 4% 0% / cover;
+  background: url('../img/site/portada/banner-junio-2021.jpg') no-repeat 4% 0% / cover;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

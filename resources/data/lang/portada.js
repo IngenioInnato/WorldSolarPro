@@ -26,8 +26,8 @@ addLang(TitleText);
 // Seccion 1 Slogan
 const S1Text = [
   {
-    'es': "Let's celebrate environment day by giving solar energy as a present",
-    'en': "Let's celebrate environment day by giving solar energy as a present",
+    'es': "Welcome August 2021",
+    'en': "Welcome August 2021",
   },
   {
     'es': 'Oportunidad',

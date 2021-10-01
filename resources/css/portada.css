@@ -17,18 +17,20 @@
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
-  background: url(../img/site/portada/banner-agosto-2021.webp) no-repeat 0 30% /cover;
+  background: url(../img/site/portada/banner-octubre-2021.webp) no-repeat center /cover;
   background-size: cover;
   padding: 2rem;
-  clip-path: circle(179vh at 50% -80vh);
+  clip-path: circle(197vh at 50% -90vh);
   height: 100vh;
   background-attachment: fixed;
   /* background: url('../img/site/portada/panel-movement.webp') center no-repeat, url('../img/site/portada/panel-movement.jpg') center no-repeat; */
 }
 .no-webp #S1{
   /* background: url('../img/site/portada/panel-movement.gif') center no-repeat, url('../img/site/portada/panel-movement.jpg') center no-repeat; */
-  background: url('../img/site/portada/banner-agosto-2021.jpg') no-repeat 0 30% / cover;
+  background: url('../img/site/portada/banner-octubre-2021.jpg');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -59,6 +61,10 @@
   }
   .S1__buttons--1 > .btn-wsp {
     width: 100%;
+  }
+  #S1 {
+    clip-path: circle(240vh at 50% -90vh);
+    height: 150vh;
   }
 }
 

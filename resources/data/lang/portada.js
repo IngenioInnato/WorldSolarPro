@@ -26,17 +26,17 @@ addLang(TitleText);
 // Seccion 1 Slogan
 const S1Text = [
   {
-    'es': "Welcome August 2021",
-    'en': "Welcome August 2021",
+    es: "At World Solar Pro we celebrate World Habitat Day and reduce our carbon footprint",
+    en: "At World Solar Pro we celebrate World Habitat Day and reduce our carbon footprint",
   },
   {
-    'es': 'Oportunidad',
-    'en': 'Opportunity',
+    es: "Oportunidad",
+    en: "Opportunity",
   },
   {
-    'es': 'Iniciar sesión',
-    'en': 'Log in',
-  }
+    es: "Iniciar sesión",
+    en: "Log in",
+  },
 ];
 addLang(S1Text);
 

@@ -26,8 +26,8 @@ addLang(TitleText);
 // Seccion 1 Slogan
 const S1Text = [
   {
-    es: "At World Solar Pro we celebrate World Habitat Day and reduce our carbon footprint",
-    en: "At World Solar Pro we celebrate World Habitat Day and reduce our carbon footprint",
+    es: "Let's celebrate the arrival of the  year 2022 and The Three Kings with renewable energy",
+    en: "Let's celebrate the arrival of the  year 2022 and The Three Kings with renewable energy",
   },
   {
     es: "Oportunidad",

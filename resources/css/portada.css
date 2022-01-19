@@ -17,17 +17,17 @@
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
-  background: url(../img/site/portada/banner-enero-2022.webp) no-repeat center /cover;
+  background: url(../img/site/portada/banner-2021.webp) no-repeat center /cover;
   background-size: cover;
   padding: 2rem;
-  clip-path: circle(197vh at 50% -90vh);
-  height: 100vh;
+  clip-path: circle(210vh at 50% -90vh);
+  height: 120vh;
   background-attachment: fixed;
   /* background: url('../img/site/portada/panel-movement.webp') center no-repeat, url('../img/site/portada/panel-movement.jpg') center no-repeat; */
 }
 .no-webp #S1{
   /* background: url('../img/site/portada/panel-movement.gif') center no-repeat, url('../img/site/portada/panel-movement.jpg') center no-repeat; */
-  background: url('../img/site/portada/banner-enero-2022.png');
+  background: url('../img/site/portada/banner-2021.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

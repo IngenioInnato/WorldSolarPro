@@ -29,15 +29,13 @@ var S1Text = [{
 }, {
   'es': `<strong>I. World Solar Pro US</strong> <br><br><br><br>
 
-  World Solar Pro US es una empresa de energía renovable que se especializa en la venta, instalación y mantenimiento de equipos generadores de energía solar renovable para dueños de hogar y negocios.<br><br>
-  
-  Como una empresa de responsabilidad limitada registrada en el Estado Libre Asociado de Puerto Rico, World Solar Pro US, LLC. Se encuentra bajo la dirección de su socio mayoritario, la Sr. Francisco Hernández.<br><br>
+  World Solar Pro US, es una empresa de energía renovable que se especializa en la consultoría de sistemas solares para dueños de hogares y negocios, como una empresa de responsabilidad limitada registrada en USA.<br><br>
   
    
   
   <strong>II. Definiciones</strong><br><br><br><br>
   
-  Aplicabilidad de Acuerdo – Todos los empelados e interacciones en redes sociales, páginas de internet o sub-páginas de World Solar Pro US están automáticamente sujetas a su análisis por cumplimiento y aplicación del acuerdo presente.<br><br>
+  Aplicabilidad de Acuerdo – Todos los empleados e interacciones en redes sociales, páginas de internet o sub-páginas de World Solar Pro US están automáticamente sujetas a su análisis por cumplimiento y aplicación del acuerdo presente.<br><br>
   
   Términos de Servicio – El siguiente es un acuerdo legal entre el usuario y World Solar Pro US y su personal.<br><br>
   
@@ -58,9 +56,9 @@ var S1Text = [{
   
    
   
-  <strong>IV. Información de Identificación Personal (PII, por sus siglas en inglés)</strong><br><br><br><br>
+  <strong>IV. Información de Identificación Personal (PII), por sus siglas en inglés</strong><br><br><br><br>
   
-  Toda la información de identificación personal (PII) recolectada, ya sean primer nombre, apellidos, correos electrónicos y/o direcciones se almacenarán de una manera segura por World Solar Pro US, LLC.<br><br>
+  Toda la información de identificación personal de la empresa y sus integrantes recolectada, ya sean primer nombre, apellidos, correos electrónicos y/o direcciones se almacenarán de una manera segura por World Solar Pro US.<br><br>
   
   La información demográfica será canalizada internamente de manera exclusiva y no se compartirá, se comunicará o divulgará en ninguna forma o parcialmente a terceros.<br><br>
   
@@ -68,74 +66,72 @@ var S1Text = [{
   
   <strong> V. Política de Privacidad</strong><br><br><br><br>
   
-  World Solar Pro US, LLC implementa y regularmente mantiene procedimientos razonables y adecuados para la protección de información personal en cumplimiento con las leyes aplicables.<br><br><br><br>
+  World Solar Pro US implementa y regularmente mantiene procedimientos razonables y adecuados para la protección de información personal en cumplimiento con las leyes aplicables.<br><br><br><br>
   
    
   
   <strong>VI. Términos & Condiciones</strong><br><br>
   
-  World Solar Pro US diligentemente opera su propia página electrónica, cuentas de redes sociales, y marca y materiales de mercadeo de manera protectora cuando se trata de la seguridad de PIIs, por sus siglas en inglés, y de información demográfica.<br><br>
+  World Solar Pro US diligentemente opera su propia página electrónica, cuentas de redes sociales, y marca y materiales de mercadeo de manera protectora cuando se trata de la seguridad de la empresa y sus integrantes y de información demográfica.<br><br>
   
-  De algún usuario no estar de acuerdo con las políticas, términos y condiciones encontrados aquí, el o ella deberá dar por terminada cualquier tipo de comunicación con World Solar Pro US inmediatamente.<br><br>
+  De algún usuario no estar de acuerdo con las políticas, términos y condiciones encontrados aquí, él o ella deberá dar por terminada cualquier tipo de comunicación con World Solar Pro US inmediatamente.<br><br>
   
    
   
   <strong>VII. Jurisdicción</strong><br><br>
   
-  Cualquier violación como consecuencia de actividades ilegales de “hackeo”, hurto o diseminación de data almacenada a través de las plataformas digitales de World Solar Pro US serán castigadas por la ley, siendo procesadas y enjuiciadas bajo el marco legal del Estado Libre Asociado de Puerto Rico.`,
+  Cualquier violación como consecuencia de actividades ilegales de “hackeo”, hurto o diseminación de data almacenada a través de las plataformas digitales de World Solar Pro US serán castigadas por la ley, siendo procesadas y enjuiciadas bajo el marco legal de USA.`,
   'en': `<strong>I. World Solar Pro US</strong><br><br>
 
-  World Solar Pro US is a renewable energy company that specializes in the sale, installation and maintenance of renewable solar energy generating equipment for home and business owners.<br><br>
-  
-  As a limited liability company registered in the Commonwealth of Puerto Rico, World Solar Pro US, LLC. It is under the direction of its majority partner, Mr. Francisco Hernández.
+  World Solar Pro US, a renewable energy company specializing in solar system consulting for home and business owners, is a US registered limited liability company.
   <br><br>
    
   
   <strong>II. Definitions<strong><br><br>
   
-  Applicability of Agreement - All employees and interactions on social networks, Internet pages or sub-pages of World Solar Pro US are automatically subject to analysis by compliance and application of this agreement.<br><br>
+  Enforceability of Agreement - All employees and interactions on social media, websites or sub-pages of World Solar Pro US are automatically subject to your analysis for compliance and enforcement of this agreement.<br><br>
   
   Terms of Service - The following is a legal agreement between the user and World Solar Pro US and its staff.<br><br>
   
-  Use - By using or interacting with the World Solar Pro US Facebook page, the user indicates that he has read and understood the terms of use and privacy policies set forth herein, giving his consent to adhere to all the terms and conditions of the agreement.<br><br>
+  Use - By using or interacting with the World Solar Pro US Facebook page, the user indicates that he/she has read and understood the terms of use and privacy policies set forth herein, consenting to adhere to all terms and conditions of the agreement.<br><br>
   
   <strong>III. Use of Facebook Platforms & Social Networks<strong><br><br>
   
   The official World Solar Pro US Facebook page will be used exclusively for marketing purposes.<br><br>
   
-  Any information acquired or supplied that serves as sources for prospects through the pages will only be used by the company.<br><br>
+  Any information acquired or provided that serves as sources for leads through the pages will only be used by the company.<br><br>
   
-  The act of harassing or "trolling" is prohibited in the accounts of the pages, sub-pages or any other media tool used by the company.
+  The act of harassment or "trolling" is prohibited on the accounts of pages, sub-pages or any other media tools used by the company.
   <br><br>
-  The use of suggestive sexual language or explicit material is prohibited on the website, on social media accounts or in any other medium used for marketing purposes.<br><br>
+  The use of sexually suggestive language or explicit material is prohibited on the website, social media accounts or any other media used for marketing purposes.<br><br>
   
-  The use of foul language, demeaning expressions, aggressiveness or suggestive language with racial and discriminatory tones is prohibited through digital and printed platforms.<br><br>
+  The use of foul language, denigrating expressions, aggressiveness or suggestive language with racial and discriminatory tones is prohibited through digital and printed platforms.<br><br>
    
   
   <strong>IV. Personally Identifiable Information (PII)<strong><br><br>
   
-  All collected Personally Identifiable Information (PII), be it first name, last name, emails and / or addresses will be securely stored by World Solar Pro US, LLC.<br><br>
+  All collected Personally Identifiable Information (PII), be it first name, last name, emails and / or addresses will be securely stored by World Solar Pro US.<br><br>
   
-  Demographic information will be channeled internally exclusively and will not be shared, communicated or disclosed in any way or partially to third parties.<br><br>
+  Demographic information will be channeled internally on an exclusive basis and will not be shared, communicated or disclosed in any form or in part to third parties.<br><br>
    
   
   <strong>V. Privacy Policy<strong><br><br>
   
-  World Solar Pro US, LLC implements and regularly maintains reasonable and adequate procedures for the protection of personal information in compliance with applicable laws.<br><br>
+  World Solar Pro US implements and regularly maintains reasonable and appropriate procedures for the protection of personal information in compliance with applicable laws.<br><br>
   
    
   
   <strong>Terms & Conditions<strong><br><br>
   
-  World Solar Pro US diligently operates its own website, social media accounts, and brand and marketing materials in a protective manner when it comes to the security of PIIs, and demographic information.<br><br>
+  World Solar Pro US diligently operates its own website, social media accounts, and brand and marketing materials in a protective manner when it comes to the security of the company and its constituents and demographic information.<br><br>
   
-  If any user does not agree with the policies, terms and conditions found here, he or she must terminate any communication with World Solar Pro US immediately.<br><br>
+  If any user does not agree with the policies, terms and conditions found here, he or she should terminate any communication with World Solar Pro US immediately.<br><br>
   
    
   
   <strong>VII. Jurisdiction<strong><br><br>
   
-  Any violation as a consequence of illegal activities of "hacking", theft or dissemination of data stored through the World Solar Pro US digital platforms will be punished by law, being prosecuted and prosecuted under the legal framework of the Commonwealth of Puerto Rico.`
+  Any violation as a consequence of illegal hacking, theft or dissemination of data stored through World Solar Pro US digital platforms will be punishable by law and prosecuted under the legal framework of the USA.`
 }]
 addLang(S1Text);
 // Footer

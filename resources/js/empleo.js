@@ -54,7 +54,7 @@ function sendEmailUser(a) {
     ¡Conviértete en un consultor de energía certificado y genera miles de dólares!<br><br><br><br>
     
     Departamento de Administración<br>
-    World Solar Pro US LLC<br>
+    World Solar Pro US<br>
     www.worldsolarprous.com<br>
     </p>
     <img src="https://worldsolarprous.com/resources/img/logo/wsp-dark-us.png" style="width: 200px;height: auto;">

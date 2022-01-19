@@ -26,9 +26,13 @@ const HeaderText = [
   {
     'es': 'LET THE SUN PAY YOUR BILLS',
     'en': 'LET THE SUN PAY YOUR BILLS'
-  }
+  },
+  {
+    'es': 'LET THE SUN PAY YOUR BILLS',
+    'en': 'LET THE SUN PAY YOUR BILLS'
+  },
 ];
-for(i=1; i <= 2; i++) HeaderText.push(HeaderText[0]);
+// for(i=1; i <= 2; i++) HeaderText.push(HeaderText[0]);
 addLang(HeaderText);
 
 // Sección 1 ¿Quiénes somos?
@@ -43,8 +47,8 @@ addLang(S1Text);
 // Sección 2 Misión Visión
 const S2Text = [
   {
-    'es': '<span class="text-primary" style="font-size: inherit;">Visión: </span>Sistemáticamente ofrecer el mejor valor para nuestros clientes en cuanto a productos de calidad instalados de energía renovable trata, complementando los mismos con un servicio y mantenimiento impecable que aumenten nuestro impacto en los mercados de Puerto Rico y Estados Unidos.',
-    'en': '<span class="text-primary" style="font-size: inherit;">Vision: </span>To systematically offer our customers the greatest value in terms of the renewable energy equipment that is installed, complementing these with an impeccable service and maintenance that increases our impact in the Puerto Rican and U.S. markets.'
+    'es': '<span class="text-primary" style="font-size: inherit;">Visión: </span>Sistemáticamente ofrecer el mejor valor para nuestros clientes en cuanto a productos de calidad instalados de energía renovable trata, complementando los mismos con un servicio y mantenimiento impecable que aumenten nuestro impacto en los mercados de Estados Unidos.',
+    'en': '<span class="text-primary" style="font-size: inherit;">Vision: </span>To systematically offer our customers the greatest value in terms of the renewable energy equipment that is installed, complementing these with an impeccable service and maintenance that increases our impact in the U.S. markets.'
   },
   {
     'es': '<span class="text-secondary" style="font-size: inherit;">Misión: </span>Rejuvenecer el planeta Tierra por medio del ofrecimiento, instalación y mantenimiento de equipos de energía renovable y paneles fotovoltaicos (PV, por sus siglas en inglés), impactando todos los estratos sociales y reduciendo las huellas de carbono de millones de familias.',

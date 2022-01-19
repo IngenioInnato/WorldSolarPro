@@ -19,10 +19,10 @@
     background-position-y: 20%;
   }
   
-  .carousel--header .carousel__item:nth-child(4){
+  /* .carousel--header .carousel__item:nth-child(4){
     background: url('../img/site/conocenos/oficinas/puerto-rico-banner.webp') center no-repeat;
     background-size: cover;
-  }
+  } */
 
   .no-webp .carousel--header .carousel__item:nth-child(2) {
     background: url('../img/site/conocenos/oficinas/illinois-banner.jpg') center no-repeat;
@@ -40,13 +40,13 @@
     -o-background-size: cover;
   }
   
-  .no-webp .carousel--header .carousel__item:nth-child(4){
+  /* .no-webp .carousel--header .carousel__item:nth-child(4){
     background: url('../img/site/conocenos/oficinas/puerto-rico-banner.jpg') center no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-  }
+  } */
   
   .carousel--header h1{
     color:var(--white);

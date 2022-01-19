@@ -26,8 +26,8 @@ addLang(TitleText);
 // Seccion 1 Slogan
 const S1Text = [
   {
-    es: "Let's celebrate the arrival of the  year 2022 and The Three Kings with renewable energy",
-    en: "Let's celebrate the arrival of the  year 2022 and The Three Kings with renewable energy",
+    es: "We welcome 2022 motivated to provide quality of life and well-being to many families. Let the sun pay your bills",
+    en: "We welcome 2022 motivated to provide quality of life and well-being to many families. Let the sun pay your bills",
   },
   {
     es: "Oportunidad",
@@ -36,6 +36,14 @@ const S1Text = [
   {
     es: "Iniciar sesión",
     en: "Log in",
+  },,
+  {
+    es: "Citarme",
+    en: "Quote me",
+  },,
+  {
+    es: "Rectificación de Crédito",
+    en: "Credit Rectification",
   },
 ];
 addLang(S1Text);
@@ -49,10 +57,6 @@ const S2Text = [
   {
     'es': 'Florida',
     'en': 'Florida'
-  },
-  {
-    'es': 'Puerto Rico',
-    'en': 'Puerto Rico'
   },
   {
     'es': 'Illinois',
@@ -125,8 +129,8 @@ const S6Text = [
     'en': 'I’m extremely happy with my new solar system with batteries, although I’m much more grateful for my installers because they keep me up to date in terms of the maintenance that is needed for my equipment to last.'
   },
   {
-    'es': '– Odalie Colón, San Juan, PR',
-    'en': '– Odalie Colón, San Juan, PR'
+    'es': '– María Gaitan, Georgia',
+    'en': '– María Gaitan, Georgia'
   },
   {
     'es': 'Conocer los equipos que son necesarios para hacer la instalación solar una realidad y retener el apoyo de mis técnicos y consultores, quienes me ayudaron a llenar el papeleo necesario para recibir mi crédito contributivo completo, hizo del proceso uno mucho menos riguroso.',

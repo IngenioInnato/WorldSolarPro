@@ -21,3 +21,4 @@ footer{display:grid;gap:2vw;padding:2vw;grid-template-columns:repeat(4,1fr);grid
 /* Políticas */
 .nav-item-2>a{color:var(--black)}strong{font-weight:700;font-size:var(--font-h4)}.flag{filter:brightness(0)}.menu-toggle .bar{background-color:var(--black)}
 /* ========= */
+nav{background: var(--white);}

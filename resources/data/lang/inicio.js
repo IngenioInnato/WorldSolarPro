@@ -52,8 +52,8 @@ const S3Text =[
     'en': 'Economic Benefits of Solar Energy'
   },
   {
-    'es': '¡Ahorros indiscutibles! Con sobre 30,000 clientes satisfechos entre Puerto Rico, Florida e Illinois, con cada uno de ellos ahorrándose desde un 30% por ciento de su factura de luz en adelante.',
-    'en': 'Incomparable savings! With over 30,000 satisfied clients between Puerto Rico, Florida and Illinois, with every single one saving from 30% percent onwards in their utility bill.'
+    'es': '¡Ahorros indiscutibles! Con sobre 30,000 clientes satisfechos entre Georgia, Florida e Illinois, con cada uno de ellos ahorrándose desde un 30% por ciento de su factura de luz en adelante.',
+    'en': 'Incomparable savings! With over 30,000 satisfied clients between Georgia, Florida and Illinois, with every single one saving from 30% percent onwards in their utility bill.'
   },
   {
     'es': '¡No más aumentos en su factura eléctrica! Por medio de la instalación de un sistema solar PV renovable puede planificar efectivamente su presupuesto y no sufrirá de más aumentos repentinos por el resto de su vida.',

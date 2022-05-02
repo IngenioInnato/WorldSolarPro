@@ -1,15 +1,21 @@
 var lang = [];
 // Añadir idioma
-function addLang(el){
-  el.forEach(elm => lang.push(elm)); return true;
+function addLang(el) {
+  el.forEach((elm) => lang.push(elm));
+  return true;
 }
 // =============
 
 // Obtener idioma del navegador
-let idioma = window.navigator.languages ? window.navigator.languages[0] : null;idioma = idioma || window.navigator.language || window.navigator.browserLanguage || window.navigator.userLanguage;
+let idioma = window.navigator.languages ? window.navigator.languages[0] : null;
+idioma =
+  idioma ||
+  window.navigator.language ||
+  window.navigator.browserLanguage ||
+  window.navigator.userLanguage;
 let userLang = idioma;
-if (userLang.indexOf('-') !== -1) userLang = userLang.split('-')[0];
-if (userLang.indexOf('_') !== -1) userLang = userLang.split('_')[0];
+if (userLang.indexOf("-") !== -1) userLang = userLang.split("-")[0];
+if (userLang.indexOf("_") !== -1) userLang = userLang.split("_")[0];
 // ============================
 
 // addLang(HeaderLang);
@@ -17,17 +23,17 @@ if (userLang.indexOf('_') !== -1) userLang = userLang.split('_')[0];
 // Título
 const TitleText = [
   {
-    'es': 'PORTADA | WORLD SOLAR PRO US',
-    'en': 'COVER | WORLD SOLAR PRO US'
-  }
-];  
+    es: "PORTADA | WORLD SOLAR PRO US",
+    en: "COVER | WORLD SOLAR PRO US",
+  },
+];
 addLang(TitleText);
 
 // Seccion 1 Slogan
 const S1Text = [
   {
-    es: "We welcome 2022 motivated to provide quality of life and well-being to many families. Let the sun pay your bills",
-    en: "We welcome 2022 motivated to provide quality of life and well-being to many families. Let the sun pay your bills",
+    es: "Let's celebrate mother's day with the gift of solar energy",
+    en: "Let's celebrate mother's day with the gift of solar energy",
   },
   {
     es: "Oportunidad",
@@ -36,11 +42,13 @@ const S1Text = [
   {
     es: "Iniciar sesión",
     en: "Log in",
-  },,
+  },
+  ,
   {
     es: "Citarme",
     en: "Quote me",
-  },,
+  },
+  ,
   {
     es: "Rectificación de Crédito",
     en: "Credit Rectification",
@@ -51,20 +59,20 @@ addLang(S1Text);
 // Sección 2 Sucursales
 const S2Text = [
   {
-    'es': 'Elige tu ciudad',
-    'en': 'Choose your city'
+    es: "Elige tu ciudad",
+    en: "Choose your city",
   },
   {
-    'es': 'Florida',
-    'en': 'Florida'
+    es: "Florida",
+    en: "Florida",
   },
   {
-    'es': 'Illinois',
-    'en': 'Illinois'
+    es: "Illinois",
+    en: "Illinois",
   },
   {
-    'es': 'Georgia',
-    'en': 'Georgia'
+    es: "Georgia",
+    en: "Georgia",
   },
 ];
 addLang(S2Text);
@@ -72,111 +80,107 @@ addLang(S2Text);
 // Sección 3 Cards
 const S3Text = [
   {
-    'es': '¡Estás a punto de tomar la mejor decisión!',
-    'en': 'You are about to make best decision ever!'
+    es: "¡Estás a punto de tomar la mejor decisión!",
+    en: "You are about to make best decision ever!",
   },
   {
-    'es': '¡Ahorre dinero, salve el planeta!',
-    'en': 'Save money, save the planet!'
-  }
+    es: "¡Ahorre dinero, salve el planeta!",
+    en: "Save money, save the planet!",
+  },
 ];
 addLang(S3Text);
 
-// Sección 4 Form 
+// Sección 4 Form
 const S4Text = [
   {
-    'es': '¿Cómo saber si usted cualifica?',
-    'en': 'How do you know if you qualify for the solar tax credit?'
+    es: "¿Cómo saber si usted cualifica?",
+    en: "How do you know if you qualify for the solar tax credit?",
   },
   {
-    'es': 'Nombre y Apellido*',
-    'en': 'Name and last name*'
+    es: "Nombre y Apellido*",
+    en: "Name and last name*",
   },
   {
-    'es': 'Email*',
-    'en': 'Email*'
+    es: "Email*",
+    en: "Email*",
   },
   {
-    'es': 'Número telefónico(con código de área)*',
-    'en': 'Telephone number (with area code)*'
+    es: "Número telefónico(con código de área)*",
+    en: "Telephone number (with area code)*",
   },
   {
-    'es': 'Dirección*',
-    'en': 'Address*'
+    es: "Dirección*",
+    en: "Address*",
   },
   {
-    'es': 'Ciudad*',
-    'en': 'Country*'
+    es: "Ciudad*",
+    en: "Country*",
   },
   {
-    'es': 'Promedio de pago de luz mensual*',
-    'en': 'Average monthly electricity payment*'
+    es: "Promedio de pago de luz mensual*",
+    en: "Average monthly electricity payment*",
   },
   {
-    'es': 'ENVIAR DATOS',
-    'en': 'SEND INFO'
+    es: "ENVIAR DATOS",
+    en: "SEND INFO",
   },
 ];
-addLang(S4Text)
+addLang(S4Text);
 // Sección 6 Testimonios
 const S6Text = [
   {
-    'es': 'Testimonios',
-    'en': 'Testimonies'
+    es: "Testimonios",
+    en: "Testimonies",
   },
   {
-    'es': 'Estoy muy contenta con mi sistema solar con baterías nuevo, pero más me agrada que mis instaladores me mantienen al tanto del mantenimiento que tengo que hacerle para que los equipos me duren más.',
-    'en': 'I’m extremely happy with my new solar system with batteries, although I’m much more grateful for my installers because they keep me up to date in terms of the maintenance that is needed for my equipment to last.'
+    es: "Estoy muy contenta con mi sistema solar con baterías nuevo, pero más me agrada que mis instaladores me mantienen al tanto del mantenimiento que tengo que hacerle para que los equipos me duren más.",
+    en: "I’m extremely happy with my new solar system with batteries, although I’m much more grateful for my installers because they keep me up to date in terms of the maintenance that is needed for my equipment to last.",
   },
   {
-    'es': '– María Gaitan, Georgia',
-    'en': '– María Gaitan, Georgia'
+    es: "– María Gaitan, Georgia",
+    en: "– María Gaitan, Georgia",
   },
   {
-    'es': 'Conocer los equipos que son necesarios para hacer la instalación solar una realidad y retener el apoyo de mis técnicos y consultores, quienes me ayudaron a llenar el papeleo necesario para recibir mi crédito contributivo completo, hizo del proceso uno mucho menos riguroso.',
-    'en': 'Getting to know all of the equipment necessary to make my solar installation a reality and having the support of my technician/consultant, who helped me out in filing all of the paper work necessary to receive my tax break in full made the process much less rigorous.'
+    es: "Conocer los equipos que son necesarios para hacer la instalación solar una realidad y retener el apoyo de mis técnicos y consultores, quienes me ayudaron a llenar el papeleo necesario para recibir mi crédito contributivo completo, hizo del proceso uno mucho menos riguroso.",
+    en: "Getting to know all of the equipment necessary to make my solar installation a reality and having the support of my technician/consultant, who helped me out in filing all of the paper work necessary to receive my tax break in full made the process much less rigorous.",
   },
   {
-    'es': '– Rupert Weber, Libertyville, IL',
-    'en': '– Rupert Weber, Libertyville, IL'
+    es: "– Rupert Weber, Libertyville, IL",
+    en: "– Rupert Weber, Libertyville, IL",
   },
   {
-    'es': 'El proceso con World Solar fue sumamente sencillo, identificamos justo la cantidad de energía que necesitaba de acuerdo a mi auditoría solar y luego pasamos a la fase de identificar cuáles eran los equipos que más me convenían de acuerdo a sus garantías.',
-    'en': 'The process with World Solar Pro US was extremely simple, as we identified just the right amount of energy that I needed according to my solar audit, subsequently going to the phase of identifying the most convenient equipment according to their warranty packages.'
+    es: "El proceso con World Solar fue sumamente sencillo, identificamos justo la cantidad de energía que necesitaba de acuerdo a mi auditoría solar y luego pasamos a la fase de identificar cuáles eran los equipos que más me convenían de acuerdo a sus garantías.",
+    en: "The process with World Solar Pro US was extremely simple, as we identified just the right amount of energy that I needed according to my solar audit, subsequently going to the phase of identifying the most convenient equipment according to their warranty packages.",
   },
   {
-    'es': '- José Reyes, Orlando FL',
-    'en': '- José Reyes, Orlando FL'
-  }
+    es: "- José Reyes, Orlando FL",
+    en: "- José Reyes, Orlando FL",
+  },
 ];
 addLang(S6Text);
 
 // Ejecutar añadimiento de textos
-// var btnFlag = document.getElementById('flag'); 
-var html = document.querySelector('html');
+// var btnFlag = document.getElementById('flag');
+var html = document.querySelector("html");
 var textItem = document.querySelectorAll('[name="text"]');
 
-
-if(userLang == 'es'){
+if (userLang == "es") {
   // textItem.forEach((el, i) => el.innerHTML = lang[i].es);
   // html.setAttribute('lang', 'es');
-  textItem.forEach((el, i) => el.innerHTML = lang[i].en);
-  html.setAttribute('lang', 'en');
-}
-else if (userLang == 'en'){
-  textItem.forEach((el, i) => el.innerHTML = lang[i].en);
-  html.setAttribute('lang', 'en');
-}
-
-else{ 
-  textItem.forEach((el, i) => el.innerHTML = lang[i].en);
-  html.setAttribute('lang', 'en');
+  textItem.forEach((el, i) => (el.innerHTML = lang[i].en));
+  html.setAttribute("lang", "en");
+} else if (userLang == "en") {
+  textItem.forEach((el, i) => (el.innerHTML = lang[i].en));
+  html.setAttribute("lang", "en");
+} else {
+  textItem.forEach((el, i) => (el.innerHTML = lang[i].en));
+  html.setAttribute("lang", "en");
 }
 
-// btnFlag.addEventListener('click',function(){   
+// btnFlag.addEventListener('click',function(){
 //   var status = btnFlag.dataset.lang;
 //   btn = btnFlag.querySelector('.flag')
-//   if(status === 'es'){                                    
+//   if(status === 'es'){
 //     textItem.forEach((el, i) => el.innerHTML = lang[i].en);
 //     btnFlag.dataset.lang = 'en';
 //     btn.classList.replace('flag-en', 'flag-es');
